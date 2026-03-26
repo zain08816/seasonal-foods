@@ -357,6 +357,92 @@
 
     { "food_id": 90, "availability": "light", "months": [9], "notes": "Early bear season (bow)." },
     { "food_id": 90, "availability": "peak", "months": [10, 11, 12], "notes": "Peak bear hunting season." },
-    { "food_id": 90, "availability": "moderate", "months": [1], "notes": "Late season in some states." }
+    { "food_id": 90, "availability": "moderate", "months": [1], "notes": "Late season in some states." },
+
+    { "food_id": 91, "availability": "light", "months": [9], "notes": "Early American persimmons before frost." },
+    { "food_id": 91, "availability": "peak", "months": [10, 11], "notes": "American persimmons ripen after frost." },
+    { "food_id": 91, "availability": "moderate", "months": [12], "notes": "Late persimmon availability." },
+
+    { "food_id": 92, "availability": "light", "months": [8], "notes": "Early pawpaw ripening." },
+    { "food_id": 92, "availability": "peak", "months": [9, 10], "notes": "Wild pawpaw season in eastern forests." },
+    { "food_id": 92, "availability": "moderate", "months": [11], "notes": "Late pawpaw availability." },
+
+    { "food_id": 100, "availability": "light", "months": [7], "notes": "Early elderberry ripening." },
+    { "food_id": 100, "availability": "peak", "months": [8, 9], "notes": "Wild elderberry harvest." },
+    { "food_id": 100, "availability": "moderate", "months": [10], "notes": "Late elderberry availability." },
+
+    { "food_id": 101, "availability": "light", "months": [5], "notes": "Early gooseberry season." },
+    { "food_id": 101, "availability": "peak", "months": [6, 7], "notes": "Northern berry season." },
+    { "food_id": 101, "availability": "moderate", "months": [8], "notes": "Late gooseberry harvest." },
+
+    { "food_id": 102, "availability": "light", "months": [6], "notes": "Early apricots." },
+    { "food_id": 102, "availability": "peak", "months": [7], "notes": "Limited Northeast growing." },
+    { "food_id": 102, "availability": "moderate", "months": [8], "notes": "Late apricot availability." },
+
+    { "food_id": 109, "availability": "light", "months": [3, 10], "notes": "Early spring and late fall plantings." },
+    { "food_id": 109, "availability": "moderate", "months": [4, 9], "notes": "Good cool-weather growth." },
+    { "food_id": 109, "availability": "peak", "months": [5, 6], "notes": "Peak cool-weather green." },
+
+    { "food_id": 112, "availability": "light", "months": [5], "notes": "Early kohlrabi." },
+    { "food_id": 112, "availability": "moderate", "months": [6], "notes": "Good kohlrabi growth." },
+    { "food_id": 112, "availability": "peak", "months": [7, 8, 9], "notes": "Good Northeast brassica." },
+
+    { "food_id": 113, "availability": "light", "months": [8], "notes": "Early rutabaga harvest." },
+    { "food_id": 113, "availability": "peak", "months": [10, 11, 12], "notes": "Cold-hardy root vegetable peak." },
+    { "food_id": 113, "availability": "moderate", "months": [1, 2], "notes": "Stored rutabaga available." },
+
+    { "food_id": 114, "availability": "light", "months": [9], "notes": "Early sunchoke digging." },
+    { "food_id": 114, "availability": "peak", "months": [10, 11], "notes": "Native tuber peak harvest." },
+    { "food_id": 114, "availability": "moderate", "months": [12, 1, 2], "notes": "Overwintered sunchokes available." },
+
+    { "food_id": 115, "availability": "light", "months": [3], "notes": "Earliest fiddleheads emerging." },
+    { "food_id": 115, "availability": "peak", "months": [4, 5], "notes": "Classic Northeast forage." },
+    { "food_id": 115, "availability": "moderate", "months": [6], "notes": "Late fiddlehead availability." },
+
+    { "food_id": 116, "availability": "light", "months": [3], "notes": "Earliest ramps emerging." },
+    { "food_id": 116, "availability": "peak", "months": [4, 5], "notes": "Appalachian spring forage." },
+    { "food_id": 116, "availability": "moderate", "months": [6], "notes": "Late ramp availability." },
+
+    { "food_id": 118, "availability": "light", "months": [4, 10], "notes": "Early spring and fall plantings." },
+    { "food_id": 118, "availability": "moderate", "months": [5, 9], "notes": "Good cool weather growth." },
+    { "food_id": 118, "availability": "peak", "months": [6, 7], "notes": "Cool weather crop peak." },
+
+    { "food_id": 119, "availability": "light", "months": [4], "notes": "Early snap pea growth." },
+    { "food_id": 119, "availability": "peak", "months": [5, 6], "notes": "Spring harvest." },
+    { "food_id": 119, "availability": "moderate", "months": [7], "notes": "Late snap pea availability." },
+
+    { "food_id": 122, "availability": "light", "months": [4], "notes": "Early tarragon growth." },
+    { "food_id": 122, "availability": "peak", "months": [5, 6, 7, 8], "notes": "Grows well in temperate NE." },
+    { "food_id": 122, "availability": "moderate", "months": [9, 10], "notes": "Late season tarragon." },
+
+    { "food_id": 125, "availability": "light", "months": [3], "notes": "Very early spring emergence." },
+    { "food_id": 125, "availability": "peak", "months": [4, 5, 6], "notes": "Very early spring perennial." },
+    { "food_id": 125, "availability": "moderate", "months": [7, 8, 9], "notes": "Summer sorrel availability." },
+
+    { "food_id": 126, "availability": "light", "months": [5], "notes": "Early marjoram growth." },
+    { "food_id": 126, "availability": "peak", "months": [6, 7, 8], "notes": "Summer herb." },
+    { "food_id": 126, "availability": "moderate", "months": [9], "notes": "Late marjoram harvest." },
+
+    { "food_id": 129, "availability": "light", "months": [7], "notes": "Early lobster mushroom finds." },
+    { "food_id": 129, "availability": "peak", "months": [8, 9], "notes": "NE forest fungus." },
+    { "food_id": 129, "availability": "moderate", "months": [10], "notes": "Late lobster mushroom season." },
+
+    { "food_id": 132, "availability": "light", "months": [3, 11], "notes": "Early and late season logs." },
+    { "food_id": 132, "availability": "moderate", "months": [4, 5, 6, 7, 8, 9, 10], "notes": "Log-cultivated shiitake." },
+
+    { "food_id": 134, "availability": "light", "months": [5, 10], "notes": "Early and late wood ear season." },
+    { "food_id": 134, "availability": "moderate", "months": [6, 7, 8, 9], "notes": "On dead hardwood." },
+
+    { "food_id": 148, "availability": "light", "months": [4], "notes": "Early molting season." },
+    { "food_id": 148, "availability": "peak", "months": [5, 6], "notes": "Mid-Atlantic molting season." },
+    { "food_id": 148, "availability": "moderate", "months": [7, 8], "notes": "Late soft-shell availability." },
+
+    { "food_id": 150, "availability": "light", "months": [6, 10], "notes": "Early and late offshore catches." },
+    { "food_id": 150, "availability": "moderate", "months": [7, 9], "notes": "Good swordfish availability." },
+    { "food_id": 150, "availability": "peak", "months": [8], "notes": "Offshore summer catches." },
+
+    { "food_id": 159, "availability": "light", "months": [9], "notes": "Early woodcock season." },
+    { "food_id": 159, "availability": "peak", "months": [10, 11], "notes": "Eastern upland bird." },
+    { "food_id": 159, "availability": "moderate", "months": [12], "notes": "Late woodcock season." }
   ]
 }

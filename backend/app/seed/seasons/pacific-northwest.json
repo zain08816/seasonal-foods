@@ -2,11 +2,11 @@
   "availability_templates": [
     {
       "food_id": 1,
-      "availability": "light",
+      "availability": "peak",
       "months": [
-        4
+        6
       ],
-      "notes": "Early season berries."
+      "notes": "Prime harvest time for fresh strawberries."
     },
     {
       "food_id": 1,
@@ -18,19 +18,19 @@
     },
     {
       "food_id": 1,
-      "availability": "peak",
+      "availability": "light",
       "months": [
-        6
+        4
       ],
-      "notes": "Prime harvest time for fresh strawberries."
+      "notes": "Early season berries."
     },
     {
       "food_id": 2,
-      "availability": "light",
+      "availability": "peak",
       "months": [
-        6
+        8
       ],
-      "notes": "Early berry availability."
+      "notes": "Midsummer blueberry peak."
     },
     {
       "food_id": 2,
@@ -42,19 +42,19 @@
     },
     {
       "food_id": 2,
-      "availability": "peak",
-      "months": [
-        8
-      ],
-      "notes": "Midsummer blueberry peak."
-    },
-    {
-      "food_id": 3,
       "availability": "light",
       "months": [
         6
       ],
-      "notes": "Starting to ripen in early summer."
+      "notes": "Early berry availability."
+    },
+    {
+      "food_id": 3,
+      "availability": "peak",
+      "months": [
+        8
+      ],
+      "notes": "Best flavor and sweetness."
     },
     {
       "food_id": 3,
@@ -66,11 +66,20 @@
     },
     {
       "food_id": 3,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "Starting to ripen in early summer."
+    },
+    {
+      "food_id": 4,
       "availability": "peak",
       "months": [
-        8
+        9,
+        10
       ],
-      "notes": "Best flavor and sweetness."
+      "notes": "Peak apple quality and volume."
     },
     {
       "food_id": 4,
@@ -78,25 +87,24 @@
       "months": [
         8
       ],
-      "notes": "Early fall picking begins."
+      "notes": "Early WA/OR apples."
     },
     {
       "food_id": 4,
-      "availability": "moderate",
+      "availability": "light",
       "months": [
-        9,
-        10
-      ],
-      "notes": "Main apple season window."
-    },
-    {
-      "food_id": 4,
-      "availability": "peak",
-      "months": [
-        10,
         11
       ],
-      "notes": "Crisp peak harvest."
+      "notes": "Late storage varieties."
+    },
+    {
+      "food_id": 5,
+      "availability": "peak",
+      "months": [
+        8,
+        9
+      ],
+      "notes": "Peak Northwest pear harvest."
     },
     {
       "food_id": 5,
@@ -104,41 +112,15 @@
       "months": [
         7
       ],
-      "notes": "Early pears."
+      "notes": "Early pears (OR Hood River etc.)."
     },
     {
       "food_id": 5,
-      "availability": "moderate",
-      "months": [
-        8,
-        9
-      ],
-      "notes": "Solid mid-to-late summer into fall."
-    },
-    {
-      "food_id": 5,
-      "availability": "peak",
-      "months": [
-        9,
-        10
-      ],
-      "notes": "Best texture and sweetness."
-    },
-    {
-      "food_id": 6,
       "availability": "light",
       "months": [
-        5
+        10
       ],
-      "notes": "Cherry season is ramping up."
-    },
-    {
-      "food_id": 6,
-      "availability": "moderate",
-      "months": [
-        6
-      ],
-      "notes": "Steady supply."
+      "notes": "Late varieties and storage."
     },
     {
       "food_id": 6,
@@ -147,15 +129,31 @@
         6,
         7
       ],
-      "notes": "Summer peak for fresh cherries."
+      "notes": "Peak Northwest cherry season."
+    },
+    {
+      "food_id": 6,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early sweet cherries (warm OR / transition)."
+    },
+    {
+      "food_id": 6,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Late varieties."
     },
     {
       "food_id": 7,
-      "availability": "light",
+      "availability": "peak",
       "months": [
-        3
+        5
       ],
-      "notes": "Cool spring beginnings."
+      "notes": "Asparagus peak availability."
     },
     {
       "food_id": 7,
@@ -167,20 +165,19 @@
     },
     {
       "food_id": 7,
+      "availability": "light",
+      "months": [
+        3
+      ],
+      "notes": "Cool spring beginnings."
+    },
+    {
+      "food_id": 8,
       "availability": "peak",
       "months": [
         5
       ],
-      "notes": "Asparagus peak availability."
-    },
-    {
-      "food_id": 8,
-      "availability": "light",
-      "months": [
-        3,
-        7
-      ],
-      "notes": "Cool-weather start/end."
+      "notes": "Best tenderness."
     },
     {
       "food_id": 8,
@@ -193,20 +190,21 @@
     },
     {
       "food_id": 8,
-      "availability": "peak",
+      "availability": "light",
       "months": [
-        5
+        3,
+        7
       ],
-      "notes": "Best tenderness."
+      "notes": "Cool-weather start/end."
     },
     {
       "food_id": 9,
-      "availability": "light",
+      "availability": "peak",
       "months": [
-        2,
-        8
+        4,
+        5
       ],
-      "notes": "Limited early/late supply."
+      "notes": "Crisp, flavorful peak."
     },
     {
       "food_id": 9,
@@ -219,28 +217,12 @@
     },
     {
       "food_id": 9,
-      "availability": "peak",
-      "months": [
-        4,
-        5
-      ],
-      "notes": "Crisp, flavorful peak."
-    },
-    {
-      "food_id": 10,
       "availability": "light",
       "months": [
-        10
+        2,
+        8
       ],
-      "notes": "Season is winding down."
-    },
-    {
-      "food_id": 10,
-      "availability": "moderate",
-      "months": [
-        6
-      ],
-      "notes": "Early-season tomatoes."
+      "notes": "Limited early/late supply."
     },
     {
       "food_id": 10,
@@ -253,21 +235,20 @@
       "notes": "Midsummer tomato peak."
     },
     {
-      "food_id": 11,
-      "availability": "light",
-      "months": [
-        9,
-        10
-      ],
-      "notes": "Late-season corn."
-    },
-    {
-      "food_id": 11,
+      "food_id": 10,
       "availability": "moderate",
       "months": [
         6
       ],
-      "notes": "Early corn availability."
+      "notes": "Early-season tomatoes."
+    },
+    {
+      "food_id": 10,
+      "availability": "light",
+      "months": [
+        10
+      ],
+      "notes": "Season is winding down."
     },
     {
       "food_id": 11,
@@ -279,22 +260,21 @@
       "notes": "Sweet corn peak."
     },
     {
-      "food_id": 12,
-      "availability": "light",
+      "food_id": 11,
+      "availability": "moderate",
       "months": [
         6
       ],
-      "notes": "Early peppers."
+      "notes": "Early corn availability."
     },
     {
-      "food_id": 12,
-      "availability": "moderate",
+      "food_id": 11,
+      "availability": "light",
       "months": [
-        7,
-        8,
-        9
+        9,
+        10
       ],
-      "notes": "Most peppers land in warm months."
+      "notes": "Late-season corn."
     },
     {
       "food_id": 12,
@@ -306,12 +286,28 @@
       "notes": "Peak ripeness."
     },
     {
-      "food_id": 13,
+      "food_id": 12,
+      "availability": "moderate",
+      "months": [
+        7
+      ],
+      "notes": "Most peppers land in warm months."
+    },
+    {
+      "food_id": 12,
       "availability": "light",
       "months": [
-        5
+        6
       ],
-      "notes": "Starting to ramp up."
+      "notes": "Early peppers."
+    },
+    {
+      "food_id": 13,
+      "availability": "peak",
+      "months": [
+        8
+      ],
+      "notes": "Best crunchy peak period."
     },
     {
       "food_id": 13,
@@ -325,28 +321,11 @@
     },
     {
       "food_id": 13,
-      "availability": "peak",
-      "months": [
-        8
-      ],
-      "notes": "Best crunchy peak period."
-    },
-    {
-      "food_id": 14,
       "availability": "light",
       "months": [
-        7
+        5
       ],
-      "notes": "Early florets."
-    },
-    {
-      "food_id": 14,
-      "availability": "moderate",
-      "months": [
-        8,
-        9
-      ],
-      "notes": "Strong late-summer availability."
+      "notes": "Starting to ramp up."
     },
     {
       "food_id": 14,
@@ -358,12 +337,29 @@
       "notes": "Fall broccoli peak."
     },
     {
-      "food_id": 15,
+      "food_id": 14,
+      "availability": "moderate",
+      "months": [
+        8
+      ],
+      "notes": "Strong late-summer availability."
+    },
+    {
+      "food_id": 14,
       "availability": "light",
       "months": [
-        5
+        7
       ],
-      "notes": "Early herb growth in spring."
+      "notes": "Early florets."
+    },
+    {
+      "food_id": 15,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Warm-weather basil peak."
     },
     {
       "food_id": 15,
@@ -376,29 +372,11 @@
     },
     {
       "food_id": 15,
-      "availability": "peak",
-      "months": [
-        7,
-        8
-      ],
-      "notes": "Warm-weather basil peak."
-    },
-    {
-      "food_id": 16,
       "availability": "light",
       "months": [
-        3
-      ],
-      "notes": "Cilantro appears as cool weather returns."
-    },
-    {
-      "food_id": 16,
-      "availability": "moderate",
-      "months": [
-        4,
         5
       ],
-      "notes": "Spring cilantro window."
+      "notes": "Early herb growth in spring."
     },
     {
       "food_id": 16,
@@ -410,13 +388,29 @@
       "notes": "Fresh, aromatic peak."
     },
     {
-      "food_id": 17,
+      "food_id": 16,
+      "availability": "moderate",
+      "months": [
+        4
+      ],
+      "notes": "Spring cilantro window."
+    },
+    {
+      "food_id": 16,
       "availability": "light",
       "months": [
-        2,
-        11
+        3
       ],
-      "notes": "Limited availability early/late."
+      "notes": "Cilantro appears as cool weather returns."
+    },
+    {
+      "food_id": 17,
+      "availability": "peak",
+      "months": [
+        5,
+        9
+      ],
+      "notes": "Peak parsley flavor windows."
     },
     {
       "food_id": 17,
@@ -431,28 +425,20 @@
     },
     {
       "food_id": 17,
-      "availability": "peak",
-      "months": [
-        5,
-        9
-      ],
-      "notes": "Peak parsley flavor windows."
-    },
-    {
-      "food_id": 18,
       "availability": "light",
       "months": [
-        3
+        2,
+        11
       ],
-      "notes": "Sometimes pops early with the thaw."
+      "notes": "Limited availability early/late."
     },
     {
       "food_id": 18,
-      "availability": "moderate",
+      "availability": "peak",
       "months": [
-        4
+        6
       ],
-      "notes": "Morel season ramps up."
+      "notes": "Moist springs boost morel abundance in Cascade rain shadows."
     },
     {
       "food_id": 18,
@@ -464,21 +450,12 @@
       "notes": "Peak spring morels."
     },
     {
-      "food_id": 19,
+      "food_id": 18,
       "availability": "light",
       "months": [
-        5
+        3
       ],
-      "notes": "Early chanterelles."
-    },
-    {
-      "food_id": 19,
-      "availability": "moderate",
-      "months": [
-        6,
-        7
-      ],
-      "notes": "Midsummer foraging window."
+      "notes": "Sometimes pops early with the thaw."
     },
     {
       "food_id": 19,
@@ -490,15 +467,37 @@
       "notes": "Chanterelle peak."
     },
     {
-      "food_id": 20,
+      "food_id": 19,
+      "availability": "peak",
+      "months": [
+        9
+      ],
+      "notes": "Chanterelles flush heavily after coastal summer moisture."
+    },
+    {
+      "food_id": 19,
+      "availability": "moderate",
+      "months": [
+        6
+      ],
+      "notes": "Midsummer foraging window."
+    },
+    {
+      "food_id": 19,
       "availability": "light",
       "months": [
-        2,
-        3,
-        10,
-        11
+        5
       ],
-      "notes": "Some early/late availability."
+      "notes": "Early chanterelles."
+    },
+    {
+      "food_id": 20,
+      "availability": "peak",
+      "months": [
+        5,
+        6
+      ],
+      "notes": "Warm-season oyster mushroom peak."
     },
     {
       "food_id": 20,
@@ -512,136 +511,51 @@
     },
     {
       "food_id": 20,
-      "availability": "peak",
-      "months": [
-        5,
-        6
-      ],
-      "notes": "Warm-season oyster mushroom peak."
-    },
-    {
-      "food_id": 21,
       "availability": "light",
       "months": [
-        5,
-        10
+        2,
+        3,
+        10,
+        11
       ],
-      "notes": "Lighter availability outside main season."
+      "notes": "Some early/late availability."
     },
     {
-      "food_id": 21,
-      "availability": "moderate",
+      "food_id": 24,
+      "availability": "peak",
       "months": [
+        1,
+        10,
         11,
         12
       ],
-      "notes": "Moderate coastal harvest."
+      "notes": "Primary fall/winter deer availability."
     },
     {
-      "food_id": 21,
-      "availability": "peak",
-      "months": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "notes": "Cold-season oyster availability."
-    },
-    {
-      "food_id": 22,
-      "availability": "light",
-      "months": [
-        4,
-        10
-      ],
-      "notes": "Shoulder-season bluefish."
-    },
-    {
-      "food_id": 22,
+      "food_id": 24,
       "availability": "moderate",
       "months": [
-        5,
+        2,
         9
-      ],
-      "notes": "Moderate summer landings."
-    },
-    {
-      "food_id": 22,
-      "availability": "peak",
-      "months": [
-        6,
-        7,
-        8
-      ],
-      "notes": "Warm-month peak for bluefish."
-    },
-    {
-      "food_id": 23,
-      "availability": "light",
-      "months": [
-        1,
-        7
-      ],
-      "notes": "Limited early/late."
-    },
-    {
-      "food_id": 23,
-      "availability": "moderate",
-      "months": [
-        2,
-        6
-      ],
-      "notes": "Good mid-season availability."
-    },
-    {
-      "food_id": 23,
-      "availability": "peak",
-      "months": [
-        3,
-        4,
-        5
-      ],
-      "notes": "Spring fluke peak."
-    },
-    {
-      "food_id": 24,
-      "availability": "light",
-      "months": [
-        8,
-        3
-      ],
-      "notes": "Cool-season start/end."
-    },
-    {
-      "food_id": 24,
-      "availability": "moderate",
-      "months": [
-        9,
-        2
       ],
       "notes": "Seasonal ramp."
     },
     {
       "food_id": 24,
-      "availability": "peak",
-      "months": [
-        10,
-        11,
-        12,
-        1
-      ],
-      "notes": "Primary fall/winter deer availability."
-    },
-    {
-      "food_id": 25,
       "availability": "light",
       "months": [
         3,
-        12,
-        9
+        8
       ],
-      "notes": "Shoulder seasons."
+      "notes": "Cool-season start/end."
+    },
+    {
+      "food_id": 25,
+      "availability": "peak",
+      "months": [
+        11
+      ],
+      "notes": "Peak late fall window."
     },
     {
       "food_id": 25,
@@ -655,49 +569,43 @@
     },
     {
       "food_id": 25,
-      "availability": "peak",
+      "availability": "light",
       "months": [
-        11
+        3,
+        9,
+        12
       ],
-      "notes": "Peak late fall window."
+      "notes": "Shoulder seasons."
     },
     {
       "food_id": 26,
-      "availability": "light",
+      "availability": "peak",
       "months": [
-        8,
-        4
+        1,
+        2,
+        10,
+        11,
+        12
       ],
-      "notes": "Cool-season hints."
+      "notes": "Best cool-season rabbit availability."
     },
     {
       "food_id": 26,
       "availability": "moderate",
       "months": [
-        9,
-        3
+        3,
+        9
       ],
       "notes": "Better cool-season coverage."
     },
     {
       "food_id": 26,
-      "availability": "peak",
-      "months": [
-        10,
-        11,
-        12,
-        1,
-        2
-      ],
-      "notes": "Best cool-season rabbit availability."
-    },
-    {
-      "food_id": 27,
       "availability": "light",
       "months": [
-        6
+        4,
+        8
       ],
-      "notes": "Early melons in warm years."
+      "notes": "Cool-season hints."
     },
     {
       "food_id": 27,
@@ -717,12 +625,12 @@
       "notes": "Late season melons."
     },
     {
-      "food_id": 28,
+      "food_id": 27,
       "availability": "light",
       "months": [
         6
       ],
-      "notes": "Early cantaloupe."
+      "notes": "Early melons in warm years."
     },
     {
       "food_id": 28,
@@ -742,12 +650,12 @@
       "notes": "Late season."
     },
     {
-      "food_id": 29,
+      "food_id": 28,
       "availability": "light",
       "months": [
-        5
+        6
       ],
-      "notes": "Early season berries."
+      "notes": "Early cantaloupe."
     },
     {
       "food_id": 29,
@@ -767,12 +675,12 @@
       "notes": "Fall-bearing varieties extend season."
     },
     {
-      "food_id": 30,
+      "food_id": 29,
       "availability": "light",
       "months": [
-        6
+        5
       ],
-      "notes": "Early berries."
+      "notes": "Early season berries."
     },
     {
       "food_id": 30,
@@ -792,12 +700,12 @@
       "notes": "Late wild blackberries."
     },
     {
-      "food_id": 31,
+      "food_id": 30,
       "availability": "light",
       "months": [
-        7
+        6
       ],
-      "notes": "Early plums."
+      "notes": "Early berries."
     },
     {
       "food_id": 31,
@@ -817,12 +725,12 @@
       "notes": "Late Italian prune plums."
     },
     {
-      "food_id": 32,
+      "food_id": 31,
       "availability": "light",
       "months": [
-        6
+        7
       ],
-      "notes": "Early nectarines."
+      "notes": "Early plums."
     },
     {
       "food_id": 32,
@@ -842,12 +750,12 @@
       "notes": "Late season."
     },
     {
-      "food_id": 33,
+      "food_id": 32,
       "availability": "light",
       "months": [
-        8
+        6
       ],
-      "notes": "Early cranberry bogs."
+      "notes": "Early nectarines."
     },
     {
       "food_id": 33,
@@ -867,12 +775,12 @@
       "notes": "Late harvest through Thanksgiving."
     },
     {
-      "food_id": 34,
+      "food_id": 33,
       "availability": "light",
       "months": [
-        7
+        8
       ],
-      "notes": "Early table grapes."
+      "notes": "Early cranberry bogs."
     },
     {
       "food_id": 34,
@@ -892,12 +800,12 @@
       "notes": "Late Concord grapes."
     },
     {
-      "food_id": 35,
+      "food_id": 34,
       "availability": "light",
       "months": [
-        3
+        7
       ],
-      "notes": "Very early rhubarb."
+      "notes": "Early table grapes."
     },
     {
       "food_id": 35,
@@ -917,12 +825,12 @@
       "notes": "Late spring stalks."
     },
     {
-      "food_id": 36,
-      "availability": "moderate",
+      "food_id": 35,
+      "availability": "light",
       "months": [
-        8
+        3
       ],
-      "notes": "Early figs."
+      "notes": "Very early rhubarb."
     },
     {
       "food_id": 36,
@@ -934,6 +842,14 @@
     },
     {
       "food_id": 36,
+      "availability": "moderate",
+      "months": [
+        8
+      ],
+      "notes": "Early figs."
+    },
+    {
+      "food_id": 36,
       "availability": "light",
       "months": [
         10
@@ -942,11 +858,12 @@
     },
     {
       "food_id": 37,
-      "availability": "light",
+      "availability": "peak",
       "months": [
-        5
+        7,
+        8
       ],
-      "notes": "Early zucchini."
+      "notes": "Peak zucchini\u2014abundant!"
     },
     {
       "food_id": 37,
@@ -959,20 +876,20 @@
     },
     {
       "food_id": 37,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early zucchini."
+    },
+    {
+      "food_id": 38,
       "availability": "peak",
       "months": [
         7,
         8
       ],
-      "notes": "Peak zucchini—abundant!"
-    },
-    {
-      "food_id": 38,
-      "availability": "light",
-      "months": [
-        5
-      ],
-      "notes": "Early summer squash."
+      "notes": "Peak summer squash."
     },
     {
       "food_id": 38,
@@ -985,20 +902,11 @@
     },
     {
       "food_id": 38,
-      "availability": "peak",
-      "months": [
-        7,
-        8
-      ],
-      "notes": "Peak summer squash."
-    },
-    {
-      "food_id": 39,
       "availability": "light",
       "months": [
-        8
+        5
       ],
-      "notes": "Early hard squash."
+      "notes": "Early summer squash."
     },
     {
       "food_id": 39,
@@ -1014,18 +922,18 @@
       "food_id": 39,
       "availability": "moderate",
       "months": [
-        12,
-        1
+        1,
+        12
       ],
       "notes": "Stored squash available."
     },
     {
-      "food_id": 40,
+      "food_id": 39,
       "availability": "light",
       "months": [
         8
       ],
-      "notes": "Early pumpkins."
+      "notes": "Early hard squash."
     },
     {
       "food_id": 40,
@@ -1045,12 +953,12 @@
       "notes": "Post-Halloween cooking pumpkins."
     },
     {
-      "food_id": 41,
+      "food_id": 40,
       "availability": "light",
       "months": [
-        6
+        8
       ],
-      "notes": "Early eggplant."
+      "notes": "Early pumpkins."
     },
     {
       "food_id": 41,
@@ -1071,12 +979,12 @@
       "notes": "Late season."
     },
     {
-      "food_id": 42,
+      "food_id": 41,
       "availability": "light",
       "months": [
         6
       ],
-      "notes": "Early snap beans."
+      "notes": "Early eggplant."
     },
     {
       "food_id": 42,
@@ -1096,12 +1004,12 @@
       "notes": "Late season."
     },
     {
-      "food_id": 43,
+      "food_id": 42,
       "availability": "light",
       "months": [
-        3
+        6
       ],
-      "notes": "Very early peas."
+      "notes": "Early snap beans."
     },
     {
       "food_id": 43,
@@ -1122,12 +1030,12 @@
       "notes": "Early and late peas."
     },
     {
-      "food_id": 44,
+      "food_id": 43,
       "availability": "light",
       "months": [
-        5
+        3
       ],
-      "notes": "Spring beets."
+      "notes": "Very early peas."
     },
     {
       "food_id": 44,
@@ -1150,21 +1058,12 @@
       "notes": "Good availability."
     },
     {
-      "food_id": 45,
+      "food_id": 44,
       "availability": "light",
       "months": [
         5
       ],
-      "notes": "Early spring carrots."
-    },
-    {
-      "food_id": 45,
-      "availability": "moderate",
-      "months": [
-        6,
-        7
-      ],
-      "notes": "Good mid-season supply."
+      "notes": "Spring beets."
     },
     {
       "food_id": 45,
@@ -1177,12 +1076,21 @@
       "notes": "Peak fall carrot sweetness."
     },
     {
-      "food_id": 46,
+      "food_id": 45,
+      "availability": "moderate",
+      "months": [
+        6,
+        7
+      ],
+      "notes": "Good mid-season supply."
+    },
+    {
+      "food_id": 45,
       "availability": "light",
       "months": [
-        3
+        5
       ],
-      "notes": "Very early radishes."
+      "notes": "Early spring carrots."
     },
     {
       "food_id": 46,
@@ -1204,13 +1112,12 @@
       "notes": "Second season in fall."
     },
     {
-      "food_id": 47,
-      "availability": "moderate",
+      "food_id": 46,
+      "availability": "light",
       "months": [
-        5,
-        6
+        3
       ],
-      "notes": "Spring cabbage."
+      "notes": "Very early radishes."
     },
     {
       "food_id": 47,
@@ -1224,6 +1131,15 @@
     },
     {
       "food_id": 47,
+      "availability": "moderate",
+      "months": [
+        5,
+        6
+      ],
+      "notes": "Spring cabbage."
+    },
+    {
+      "food_id": 47,
       "availability": "light",
       "months": [
         7,
@@ -1233,11 +1149,13 @@
     },
     {
       "food_id": 48,
-      "availability": "light",
+      "availability": "peak",
       "months": [
-        4
+        9,
+        10,
+        11
       ],
-      "notes": "Early spring kale."
+      "notes": "Fall kale sweetened by frost."
     },
     {
       "food_id": 48,
@@ -1251,21 +1169,21 @@
     },
     {
       "food_id": 48,
-      "availability": "peak",
-      "months": [
-        9,
-        10,
-        11
-      ],
-      "notes": "Fall kale sweetened by frost."
-    },
-    {
-      "food_id": 49,
       "availability": "light",
       "months": [
         4
       ],
-      "notes": "Early chard."
+      "notes": "Early spring kale."
+    },
+    {
+      "food_id": 49,
+      "availability": "peak",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "notes": "Peak summer chard."
     },
     {
       "food_id": 49,
@@ -1279,22 +1197,11 @@
     },
     {
       "food_id": 49,
-      "availability": "peak",
+      "availability": "light",
       "months": [
-        6,
-        7,
-        8
+        4
       ],
-      "notes": "Peak summer chard."
-    },
-    {
-      "food_id": 50,
-      "availability": "moderate",
-      "months": [
-        5,
-        6
-      ],
-      "notes": "Spring cauliflower."
+      "notes": "Early chard."
     },
     {
       "food_id": 50,
@@ -1307,27 +1214,20 @@
     },
     {
       "food_id": 50,
+      "availability": "moderate",
+      "months": [
+        5,
+        6
+      ],
+      "notes": "Spring cauliflower."
+    },
+    {
+      "food_id": 50,
       "availability": "light",
       "months": [
         11
       ],
       "notes": "Late season."
-    },
-    {
-      "food_id": 51,
-      "availability": "light",
-      "months": [
-        6
-      ],
-      "notes": "New potatoes."
-    },
-    {
-      "food_id": 51,
-      "availability": "moderate",
-      "months": [
-        7
-      ],
-      "notes": "Harvest ramp-up."
     },
     {
       "food_id": 51,
@@ -1340,12 +1240,20 @@
       "notes": "Peak potato harvest."
     },
     {
-      "food_id": 52,
+      "food_id": 51,
+      "availability": "moderate",
+      "months": [
+        7
+      ],
+      "notes": "Harvest ramp-up."
+    },
+    {
+      "food_id": 51,
       "availability": "light",
       "months": [
-        8
+        6
       ],
-      "notes": "Early sweet potatoes."
+      "notes": "New potatoes."
     },
     {
       "food_id": 52,
@@ -1366,12 +1274,12 @@
       "notes": "Stored sweet potatoes."
     },
     {
-      "food_id": 53,
-      "availability": "moderate",
+      "food_id": 52,
+      "availability": "light",
       "months": [
-        6
+        8
       ],
-      "notes": "Spring onions."
+      "notes": "Early sweet potatoes."
     },
     {
       "food_id": 53,
@@ -1385,20 +1293,20 @@
     },
     {
       "food_id": 53,
+      "availability": "moderate",
+      "months": [
+        6
+      ],
+      "notes": "Spring onions."
+    },
+    {
+      "food_id": 53,
       "availability": "light",
       "months": [
         10,
         11
       ],
       "notes": "Storage onions."
-    },
-    {
-      "food_id": 54,
-      "availability": "light",
-      "months": [
-        5
-      ],
-      "notes": "Green garlic / scapes."
     },
     {
       "food_id": 54,
@@ -1420,12 +1328,22 @@
       "notes": "Cured garlic available."
     },
     {
-      "food_id": 55,
+      "food_id": 54,
       "availability": "light",
       "months": [
-        4
+        5
       ],
-      "notes": "Early leeks."
+      "notes": "Green garlic / scapes."
+    },
+    {
+      "food_id": 55,
+      "availability": "peak",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "notes": "Peak fall/winter leeks."
     },
     {
       "food_id": 55,
@@ -1439,22 +1357,11 @@
     },
     {
       "food_id": 55,
-      "availability": "peak",
+      "availability": "light",
       "months": [
-        9,
-        10,
-        11
+        4
       ],
-      "notes": "Peak fall/winter leeks."
-    },
-    {
-      "food_id": 56,
-      "availability": "moderate",
-      "months": [
-        4,
-        5
-      ],
-      "notes": "Spring turnips."
+      "notes": "Early leeks."
     },
     {
       "food_id": 56,
@@ -1467,6 +1374,15 @@
     },
     {
       "food_id": 56,
+      "availability": "moderate",
+      "months": [
+        4,
+        5
+      ],
+      "notes": "Spring turnips."
+    },
+    {
+      "food_id": 56,
       "availability": "light",
       "months": [
         6,
@@ -1476,21 +1392,13 @@
     },
     {
       "food_id": 57,
-      "availability": "light",
-      "months": [
-        9
-      ],
-      "notes": "Early fall parsnips."
-    },
-    {
-      "food_id": 57,
       "availability": "peak",
       "months": [
         10,
         11,
         12
       ],
-      "notes": "Peak parsnips—sweeter after frost."
+      "notes": "Peak parsnips\u2014sweeter after frost."
     },
     {
       "food_id": 57,
@@ -1503,12 +1411,12 @@
       "notes": "Overwintered parsnips."
     },
     {
-      "food_id": 58,
+      "food_id": 57,
       "availability": "light",
       "months": [
-        8
+        9
       ],
-      "notes": "Early Brussels sprouts."
+      "notes": "Early fall parsnips."
     },
     {
       "food_id": 58,
@@ -1529,12 +1437,12 @@
       "notes": "Good availability."
     },
     {
-      "food_id": 59,
-      "availability": "moderate",
+      "food_id": 58,
+      "availability": "light",
       "months": [
-        6
+        8
       ],
-      "notes": "Early celery."
+      "notes": "Early Brussels sprouts."
     },
     {
       "food_id": 59,
@@ -1548,19 +1456,19 @@
     },
     {
       "food_id": 59,
+      "availability": "moderate",
+      "months": [
+        6
+      ],
+      "notes": "Early celery."
+    },
+    {
+      "food_id": 59,
       "availability": "light",
       "months": [
         10
       ],
       "notes": "Late season."
-    },
-    {
-      "food_id": 60,
-      "availability": "light",
-      "months": [
-        4
-      ],
-      "notes": "Early dill."
     },
     {
       "food_id": 60,
@@ -1582,12 +1490,12 @@
       "notes": "Late season, going to seed."
     },
     {
-      "food_id": 61,
+      "food_id": 60,
       "availability": "light",
       "months": [
         4
       ],
-      "notes": "Early mint."
+      "notes": "Early dill."
     },
     {
       "food_id": 61,
@@ -1598,7 +1506,7 @@
         7,
         8
       ],
-      "notes": "Peak mint—grows vigorously."
+      "notes": "Peak mint\u2014grows vigorously."
     },
     {
       "food_id": 61,
@@ -1608,6 +1516,14 @@
         10
       ],
       "notes": "Late season mint."
+    },
+    {
+      "food_id": 61,
+      "availability": "light",
+      "months": [
+        4
+      ],
+      "notes": "Early mint."
     },
     {
       "food_id": 62,
@@ -1635,14 +1551,6 @@
     },
     {
       "food_id": 63,
-      "availability": "light",
-      "months": [
-        4
-      ],
-      "notes": "Early thyme."
-    },
-    {
-      "food_id": 63,
       "availability": "peak",
       "months": [
         5,
@@ -1662,12 +1570,12 @@
       "notes": "Late season."
     },
     {
-      "food_id": 64,
+      "food_id": 63,
       "availability": "light",
       "months": [
         4
       ],
-      "notes": "Early sage."
+      "notes": "Early thyme."
     },
     {
       "food_id": 64,
@@ -1691,12 +1599,12 @@
       "notes": "Sage holds up well into fall."
     },
     {
-      "food_id": 65,
+      "food_id": 64,
       "availability": "light",
       "months": [
-        3
+        4
       ],
-      "notes": "Very early spring chives."
+      "notes": "Early sage."
     },
     {
       "food_id": 65,
@@ -1720,12 +1628,12 @@
       "notes": "Available through growing season."
     },
     {
-      "food_id": 66,
+      "food_id": 65,
       "availability": "light",
       "months": [
-        5
+        3
       ],
-      "notes": "Early oregano."
+      "notes": "Very early spring chives."
     },
     {
       "food_id": 66,
@@ -1735,7 +1643,7 @@
         7,
         8
       ],
-      "notes": "Peak oregano—best flavor in heat."
+      "notes": "Peak oregano\u2014best flavor in heat."
     },
     {
       "food_id": 66,
@@ -1747,12 +1655,12 @@
       "notes": "Late season."
     },
     {
-      "food_id": 67,
+      "food_id": 66,
       "availability": "light",
       "months": [
-        8
+        5
       ],
-      "notes": "Early maitake sightings."
+      "notes": "Early oregano."
     },
     {
       "food_id": 67,
@@ -1772,12 +1680,21 @@
       "notes": "Late season before hard frost."
     },
     {
-      "food_id": 68,
+      "food_id": 67,
       "availability": "light",
       "months": [
-        5
+        8
       ],
-      "notes": "Early shelf fungi."
+      "notes": "Early maitake sightings."
+    },
+    {
+      "food_id": 68,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Peak chicken of the woods."
     },
     {
       "food_id": 68,
@@ -1790,20 +1707,11 @@
     },
     {
       "food_id": 68,
-      "availability": "peak",
-      "months": [
-        7,
-        8
-      ],
-      "notes": "Peak chicken of the woods."
-    },
-    {
-      "food_id": 69,
       "availability": "light",
       "months": [
-        7
+        5
       ],
-      "notes": "Early lion's mane."
+      "notes": "Early shelf fungi."
     },
     {
       "food_id": 69,
@@ -1824,12 +1732,12 @@
       "notes": "Late season."
     },
     {
-      "food_id": 70,
+      "food_id": 69,
       "availability": "light",
       "months": [
-        6
+        7
       ],
-      "notes": "Early black trumpets."
+      "notes": "Early lion's mane."
     },
     {
       "food_id": 70,
@@ -1849,12 +1757,12 @@
       "notes": "Late season."
     },
     {
-      "food_id": 71,
+      "food_id": 70,
       "availability": "light",
       "months": [
-        7
+        6
       ],
-      "notes": "Early porcini."
+      "notes": "Early black trumpets."
     },
     {
       "food_id": 71,
@@ -1874,12 +1782,12 @@
       "notes": "Late season."
     },
     {
-      "food_id": 72,
-      "availability": "moderate",
+      "food_id": 71,
+      "availability": "light",
       "months": [
         7
       ],
-      "notes": "Early puffballs."
+      "notes": "Early porcini."
     },
     {
       "food_id": 72,
@@ -1892,394 +1800,19 @@
     },
     {
       "food_id": 72,
+      "availability": "moderate",
+      "months": [
+        7
+      ],
+      "notes": "Early puffballs."
+    },
+    {
+      "food_id": 72,
       "availability": "light",
       "months": [
         10
       ],
       "notes": "Late finds."
-    },
-    {
-      "food_id": 73,
-      "availability": "light",
-      "months": [
-        4,
-        10
-      ],
-      "notes": "Shoulder season."
-    },
-    {
-      "food_id": 73,
-      "availability": "moderate",
-      "months": [
-        5,
-        9
-      ],
-      "notes": "Good availability."
-    },
-    {
-      "food_id": 73,
-      "availability": "peak",
-      "months": [
-        6,
-        7,
-        8
-      ],
-      "notes": "Peak summer blue crab."
-    },
-    {
-      "food_id": 74,
-      "availability": "light",
-      "months": [
-        5,
-        10
-      ],
-      "notes": "Shoulder season."
-    },
-    {
-      "food_id": 74,
-      "availability": "moderate",
-      "months": [
-        6,
-        9
-      ],
-      "notes": "Good availability."
-    },
-    {
-      "food_id": 74,
-      "availability": "peak",
-      "months": [
-        7,
-        8
-      ],
-      "notes": "Peak summer lobster—soft-shell season."
-    },
-    {
-      "food_id": 75,
-      "availability": "light",
-      "months": [
-        5,
-        6
-      ],
-      "notes": "Spring clams."
-    },
-    {
-      "food_id": 75,
-      "availability": "moderate",
-      "months": [
-        7,
-        8
-      ],
-      "notes": "Summer supply."
-    },
-    {
-      "food_id": 75,
-      "availability": "peak",
-      "months": [
-        9,
-        10,
-        11,
-        12,
-        1,
-        2
-      ],
-      "notes": "Best in cooler months."
-    },
-    {
-      "food_id": 76,
-      "availability": "peak",
-      "months": [
-        11,
-        12,
-        1,
-        2,
-        3
-      ],
-      "notes": "Peak cold-water sea scallop season."
-    },
-    {
-      "food_id": 76,
-      "availability": "moderate",
-      "months": [
-        4,
-        10
-      ],
-      "notes": "Shoulder season."
-    },
-    {
-      "food_id": 76,
-      "availability": "light",
-      "months": [
-        5
-      ],
-      "notes": "Limited supply."
-    },
-    {
-      "food_id": 77,
-      "availability": "moderate",
-      "months": [
-        5,
-        6,
-        7,
-        8
-      ],
-      "notes": "Available year-round but summers are lighter."
-    },
-    {
-      "food_id": 77,
-      "availability": "peak",
-      "months": [
-        10,
-        11,
-        12,
-        1,
-        2,
-        3
-      ],
-      "notes": "Best in colder months."
-    },
-    {
-      "food_id": 77,
-      "availability": "light",
-      "months": [
-        4,
-        9
-      ],
-      "notes": "Transition months."
-    },
-    {
-      "food_id": 78,
-      "availability": "light",
-      "months": [
-        3,
-        11
-      ],
-      "notes": "Shoulder season."
-    },
-    {
-      "food_id": 78,
-      "availability": "moderate",
-      "months": [
-        4,
-        10
-      ],
-      "notes": "Spring and fall runs."
-    },
-    {
-      "food_id": 78,
-      "availability": "peak",
-      "months": [
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
-      "notes": "Peak striped bass migration."
-    },
-    {
-      "food_id": 79,
-      "availability": "moderate",
-      "months": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "notes": "Winter/spring flounder."
-    },
-    {
-      "food_id": 79,
-      "availability": "peak",
-      "months": [
-        5,
-        6,
-        7
-      ],
-      "notes": "Peak summer flounder."
-    },
-    {
-      "food_id": 79,
-      "availability": "light",
-      "months": [
-        8,
-        9,
-        10
-      ],
-      "notes": "Late season."
-    },
-    {
-      "food_id": 80,
-      "availability": "light",
-      "months": [
-        4
-      ],
-      "notes": "Early squid."
-    },
-    {
-      "food_id": 80,
-      "availability": "peak",
-      "months": [
-        5,
-        6,
-        7
-      ],
-      "notes": "Peak long-fin squid season."
-    },
-    {
-      "food_id": 80,
-      "availability": "moderate",
-      "months": [
-        8,
-        9
-      ],
-      "notes": "Late summer."
-    },
-    {
-      "food_id": 81,
-      "availability": "light",
-      "months": [
-        4,
-        10
-      ],
-      "notes": "Shoulder season."
-    },
-    {
-      "food_id": 81,
-      "availability": "moderate",
-      "months": [
-        5,
-        9
-      ],
-      "notes": "Spring and early fall."
-    },
-    {
-      "food_id": 81,
-      "availability": "peak",
-      "months": [
-        6,
-        7,
-        8
-      ],
-      "notes": "Peak summer black sea bass."
-    },
-    {
-      "food_id": 82,
-      "availability": "peak",
-      "months": [
-        11,
-        12,
-        1,
-        2,
-        3
-      ],
-      "notes": "Peak cold-water cod season."
-    },
-    {
-      "food_id": 82,
-      "availability": "moderate",
-      "months": [
-        4,
-        10
-      ],
-      "notes": "Shoulder season."
-    },
-    {
-      "food_id": 82,
-      "availability": "light",
-      "months": [
-        5,
-        9
-      ],
-      "notes": "Limited warm-weather supply."
-    },
-    {
-      "food_id": 83,
-      "availability": "moderate",
-      "months": [
-        4,
-        5
-      ],
-      "notes": "Spring tautog."
-    },
-    {
-      "food_id": 83,
-      "availability": "peak",
-      "months": [
-        10,
-        11
-      ],
-      "notes": "Peak fall tautog season."
-    },
-    {
-      "food_id": 83,
-      "availability": "light",
-      "months": [
-        6,
-        12
-      ],
-      "notes": "Limited supply."
-    },
-    {
-      "food_id": 84,
-      "availability": "peak",
-      "months": [
-        10,
-        11,
-        12
-      ],
-      "notes": "Peak bay scallop season."
-    },
-    {
-      "food_id": 84,
-      "availability": "moderate",
-      "months": [
-        1,
-        2
-      ],
-      "notes": "Late winter availability."
-    },
-    {
-      "food_id": 84,
-      "availability": "light",
-      "months": [
-        3
-      ],
-      "notes": "Season ending."
-    },
-    {
-      "food_id": 85,
-      "availability": "light",
-      "months": [
-        5,
-        10
-      ],
-      "notes": "Shoulder season."
-    },
-    {
-      "food_id": 85,
-      "availability": "moderate",
-      "months": [
-        6,
-        9
-      ],
-      "notes": "Good availability."
-    },
-    {
-      "food_id": 85,
-      "availability": "peak",
-      "months": [
-        7,
-        8
-      ],
-      "notes": "Peak offshore tuna."
-    },
-    {
-      "food_id": 86,
-      "availability": "light",
-      "months": [
-        9
-      ],
-      "notes": "Early waterfowl season."
     },
     {
       "food_id": 86,
@@ -2300,12 +1833,12 @@
       "notes": "Late season."
     },
     {
-      "food_id": 87,
+      "food_id": 86,
       "availability": "light",
       "months": [
         9
       ],
-      "notes": "Early season."
+      "notes": "Early waterfowl season."
     },
     {
       "food_id": 87,
@@ -2327,10 +1860,10 @@
       "notes": "Late winter season."
     },
     {
-      "food_id": 88,
+      "food_id": 87,
       "availability": "light",
       "months": [
-        8
+        9
       ],
       "notes": "Early season."
     },
@@ -2348,16 +1881,16 @@
       "food_id": 88,
       "availability": "moderate",
       "months": [
-        12,
-        1
+        1,
+        12
       ],
       "notes": "Late season."
     },
     {
-      "food_id": 89,
+      "food_id": 88,
       "availability": "light",
       "months": [
-        9
+        8
       ],
       "notes": "Early season."
     },
@@ -2379,12 +1912,12 @@
       "notes": "Late season."
     },
     {
-      "food_id": 90,
+      "food_id": 89,
       "availability": "light",
       "months": [
         9
       ],
-      "notes": "Early bear season (bow)."
+      "notes": "Early season."
     },
     {
       "food_id": 90,
@@ -2405,20 +1938,832 @@
       "notes": "Late season in some states."
     },
     {
-      "food_id": 18,
-      "availability": "peak",
-      "months": [
-        6
-      ],
-      "notes": "Moist springs boost morel abundance in Cascade rain shadows."
-    },
-    {
-      "food_id": 19,
-      "availability": "peak",
+      "food_id": 90,
+      "availability": "light",
       "months": [
         9
       ],
-      "notes": "Chanterelles flush heavily after coastal summer moisture."
+      "notes": "Early bear season (bow)."
+    },
+    {
+      "food_id": 99,
+      "availability": "peak",
+      "months": [
+        8,
+        9
+      ],
+      "notes": "Peak huckleberry harvest in mountain meadows."
+    },
+    {
+      "food_id": 99,
+      "availability": "moderate",
+      "months": [
+        10
+      ],
+      "notes": "Late-season huckleberries at lower elevations."
+    },
+    {
+      "food_id": 99,
+      "availability": "light",
+      "months": [
+        7
+      ],
+      "notes": "Wild mountain huckleberries starting to ripen."
+    },
+    {
+      "food_id": 100,
+      "availability": "peak",
+      "months": [
+        8,
+        9
+      ],
+      "notes": "Peak wild elderberry foraging."
+    },
+    {
+      "food_id": 100,
+      "availability": "moderate",
+      "months": [
+        10
+      ],
+      "notes": "Late-season elderberries."
+    },
+    {
+      "food_id": 100,
+      "availability": "light",
+      "months": [
+        7
+      ],
+      "notes": "Early elderberries appearing."
+    },
+    {
+      "food_id": 101,
+      "availability": "peak",
+      "months": [
+        6,
+        7
+      ],
+      "notes": "Peak gooseberry season."
+    },
+    {
+      "food_id": 101,
+      "availability": "moderate",
+      "months": [
+        8
+      ],
+      "notes": "Late-season gooseberries."
+    },
+    {
+      "food_id": 101,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early gooseberries in cool PNW climate."
+    },
+    {
+      "food_id": 102,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Peak apricot harvest in eastern growing regions."
+    },
+    {
+      "food_id": 102,
+      "availability": "moderate",
+      "months": [
+        9
+      ],
+      "notes": "Late-season apricots."
+    },
+    {
+      "food_id": 102,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "Early apricots from eastern WA/OR."
+    },
+    {
+      "food_id": 109,
+      "availability": "peak",
+      "months": [
+        5,
+        6
+      ],
+      "notes": "Peak arugula\u2014mild PNW springs ideal."
+    },
+    {
+      "food_id": 109,
+      "availability": "moderate",
+      "months": [
+        4,
+        9
+      ],
+      "notes": "Good spring and fall arugula supply."
+    },
+    {
+      "food_id": 109,
+      "availability": "light",
+      "months": [
+        3,
+        10
+      ],
+      "notes": "Cool-weather arugula in early spring and late fall."
+    },
+    {
+      "food_id": 110,
+      "availability": "peak",
+      "months": [
+        8,
+        9
+      ],
+      "notes": "Peak fennel harvest in mild PNW climate."
+    },
+    {
+      "food_id": 110,
+      "availability": "moderate",
+      "months": [
+        7,
+        10
+      ],
+      "notes": "Steady fennel supply."
+    },
+    {
+      "food_id": 110,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "Early fennel bulbs."
+    },
+    {
+      "food_id": 112,
+      "availability": "peak",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "notes": "Peak kohlrabi\u2014thrives in PNW cool summers."
+    },
+    {
+      "food_id": 112,
+      "availability": "moderate",
+      "months": [
+        9
+      ],
+      "notes": "Late-season kohlrabi."
+    },
+    {
+      "food_id": 112,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early kohlrabi."
+    },
+    {
+      "food_id": 113,
+      "availability": "peak",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "notes": "Peak rutabaga harvest\u2014hardy root crop."
+    },
+    {
+      "food_id": 113,
+      "availability": "moderate",
+      "months": [
+        1,
+        12
+      ],
+      "notes": "Stored rutabaga through winter."
+    },
+    {
+      "food_id": 113,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Early rutabaga."
+    },
+    {
+      "food_id": 114,
+      "availability": "peak",
+      "months": [
+        10,
+        11
+      ],
+      "notes": "Peak sunchoke harvest\u2014native tuber."
+    },
+    {
+      "food_id": 114,
+      "availability": "moderate",
+      "months": [
+        1,
+        12
+      ],
+      "notes": "Overwintered sunchokes."
+    },
+    {
+      "food_id": 114,
+      "availability": "light",
+      "months": [
+        9
+      ],
+      "notes": "Early sunchoke digging."
+    },
+    {
+      "food_id": 115,
+      "availability": "light",
+      "months": [4],
+      "notes": "Early fiddleheads (ostrich fern) in wet lowlands."
+    },
+    {
+      "food_id": 115,
+      "availability": "peak",
+      "months": [4, 5],
+      "notes": "Peak Pacific Northwest fiddlehead season."
+    },
+    {
+      "food_id": 115,
+      "availability": "moderate",
+      "months": [6],
+      "notes": "Late coiled fronds; harvest responsibly."
+    },
+    {
+      "food_id": 118,
+      "availability": "peak",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "notes": "Peak bok choy in PNW cool weather."
+    },
+    {
+      "food_id": 118,
+      "availability": "moderate",
+      "months": [
+        4,
+        9
+      ],
+      "notes": "Good bok choy availability."
+    },
+    {
+      "food_id": 118,
+      "availability": "light",
+      "months": [
+        3,
+        10
+      ],
+      "notes": "Cool-weather bok choy in early spring and late fall."
+    },
+    {
+      "food_id": 119,
+      "availability": "peak",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "notes": "Peak snap pea season\u2014PNW cool springs ideal."
+    },
+    {
+      "food_id": 119,
+      "availability": "moderate",
+      "months": [
+        7
+      ],
+      "notes": "Late-season snap peas."
+    },
+    {
+      "food_id": 119,
+      "availability": "light",
+      "months": [
+        3
+      ],
+      "notes": "Early snap peas starting."
+    },
+    {
+      "food_id": 122,
+      "availability": "peak",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "notes": "Peak tarragon season."
+    },
+    {
+      "food_id": 122,
+      "availability": "moderate",
+      "months": [
+        9
+      ],
+      "notes": "Late-season tarragon."
+    },
+    {
+      "food_id": 122,
+      "availability": "light",
+      "months": [
+        4
+      ],
+      "notes": "Early tarragon growth."
+    },
+    {
+      "food_id": 123,
+      "availability": "peak",
+      "months": [
+        6,
+        7
+      ],
+      "notes": "Peak lavender\u2014PNW lavender farms in full bloom."
+    },
+    {
+      "food_id": 123,
+      "availability": "moderate",
+      "months": [
+        8
+      ],
+      "notes": "Late-season lavender."
+    },
+    {
+      "food_id": 123,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early lavender buds."
+    },
+    {
+      "food_id": 125,
+      "availability": "peak",
+      "months": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "notes": "Peak sorrel\u2014early spring perennial."
+    },
+    {
+      "food_id": 125,
+      "availability": "moderate",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Summer sorrel, bolts in heat."
+    },
+    {
+      "food_id": 125,
+      "availability": "light",
+      "months": [
+        2
+      ],
+      "notes": "Very early sorrel emergence."
+    },
+    {
+      "food_id": 126,
+      "availability": "peak",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "notes": "Peak marjoram harvest."
+    },
+    {
+      "food_id": 126,
+      "availability": "moderate",
+      "months": [
+        9
+      ],
+      "notes": "Late-season marjoram."
+    },
+    {
+      "food_id": 126,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early marjoram."
+    },
+    {
+      "food_id": 127,
+      "availability": "moderate",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "notes": "Evergreen bay laurel available year-round in mild PNW zones."
+    },
+    {
+      "food_id": 128,
+      "availability": "peak",
+      "months": [
+        10,
+        11
+      ],
+      "notes": "Peak matsutake season under conifers."
+    },
+    {
+      "food_id": 128,
+      "availability": "moderate",
+      "months": [
+        12
+      ],
+      "notes": "Late-season matsutake."
+    },
+    {
+      "food_id": 128,
+      "availability": "light",
+      "months": [
+        9
+      ],
+      "notes": "Early matsutake in PNW conifer forests."
+    },
+    {
+      "food_id": 129,
+      "availability": "peak",
+      "months": [
+        8,
+        9
+      ],
+      "notes": "Peak lobster mushroom foraging in Pacific NW forests."
+    },
+    {
+      "food_id": 129,
+      "availability": "moderate",
+      "months": [
+        10
+      ],
+      "notes": "Late-season lobster mushrooms."
+    },
+    {
+      "food_id": 129,
+      "availability": "light",
+      "months": [
+        7
+      ],
+      "notes": "Early lobster mushrooms appearing."
+    },
+    {
+      "food_id": 130,
+      "availability": "peak",
+      "months": [
+        11,
+        12
+      ],
+      "notes": "Peak hedgehog mushroom season."
+    },
+    {
+      "food_id": 130,
+      "availability": "moderate",
+      "months": [
+        1,
+        2
+      ],
+      "notes": "Winter hedgehog foraging continues."
+    },
+    {
+      "food_id": 130,
+      "availability": "light",
+      "months": [
+        10
+      ],
+      "notes": "Early hedgehog mushrooms."
+    },
+    {
+      "food_id": 132,
+      "availability": "moderate",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "notes": "Log-cultivated shiitake through growing season."
+    },
+    {
+      "food_id": 132,
+      "availability": "light",
+      "months": [
+        3,
+        11
+      ],
+      "notes": "Shoulder-season shiitake from log cultivation."
+    },
+    {
+      "food_id": 133,
+      "availability": "peak",
+      "months": [
+        1,
+        11,
+        12
+      ],
+      "notes": "Peak Oregon black truffle season in Douglas fir forests."
+    },
+    {
+      "food_id": 133,
+      "availability": "moderate",
+      "months": [
+        2,
+        3
+      ],
+      "notes": "Late-season truffle foraging."
+    },
+    {
+      "food_id": 133,
+      "availability": "light",
+      "months": [
+        10
+      ],
+      "notes": "Early Oregon black truffles."
+    },
+    {
+      "food_id": 134,
+      "availability": "moderate",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "notes": "Wood ear on dead hardwood through warm months."
+    },
+    {
+      "food_id": 134,
+      "availability": "light",
+      "months": [
+        4,
+        11
+      ],
+      "notes": "Shoulder-season wood ear finds."
+    },
+    {
+      "food_id": 135,
+      "availability": "peak",
+      "months": [
+        1,
+        2,
+        3,
+        12
+      ],
+      "notes": "Peak Dungeness crab season\u2014West Coast winter harvest."
+    },
+    {
+      "food_id": 135,
+      "availability": "moderate",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "notes": "Spring and early summer crab."
+    },
+    {
+      "food_id": 135,
+      "availability": "light",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Off-season Dungeness crab."
+    },
+    {
+      "food_id": 136,
+      "availability": "peak",
+      "months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "notes": "Peak Pacific salmon\u2014multiple runs through summer."
+    },
+    {
+      "food_id": 136,
+      "availability": "moderate",
+      "months": [
+        5,
+        10
+      ],
+      "notes": "Spring Chinook and late fall runs."
+    },
+    {
+      "food_id": 136,
+      "availability": "light",
+      "months": [
+        4,
+        11
+      ],
+      "notes": "Early and late salmon runs."
+    },
+    {
+      "food_id": 137,
+      "availability": "peak",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "notes": "Peak Pacific halibut season."
+    },
+    {
+      "food_id": 137,
+      "availability": "moderate",
+      "months": [
+        4,
+        9
+      ],
+      "notes": "Spring opening and fall halibut."
+    },
+    {
+      "food_id": 137,
+      "availability": "light",
+      "months": [
+        3,
+        10
+      ],
+      "notes": "Early and late halibut."
+    },
+    {
+      "food_id": 138,
+      "availability": "peak",
+      "months": [
+        5,
+        6
+      ],
+      "notes": "Peak spot prawn season\u2014short and intense."
+    },
+    {
+      "food_id": 138,
+      "availability": "moderate",
+      "months": [
+        7
+      ],
+      "notes": "Late spot prawns."
+    },
+    {
+      "food_id": 138,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Season winding down."
+    },
+    {
+      "food_id": 145,
+      "availability": "moderate",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "notes": "Trout available through season in mountain streams."
+    },
+    {
+      "food_id": 145,
+      "availability": "light",
+      "months": [
+        2,
+        11
+      ],
+      "notes": "Early and late-season trout."
+    },
+    {
+      "food_id": 149,
+      "availability": "peak",
+      "months": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "notes": "Peak razor clam season\u2014fall/winter digs."
+    },
+    {
+      "food_id": 149,
+      "availability": "moderate",
+      "months": [
+        4
+      ],
+      "notes": "Late spring razor clams."
+    },
+    {
+      "food_id": 149,
+      "availability": "light",
+      "months": [
+        9
+      ],
+      "notes": "Early razor clam digs."
+    },
+    {
+      "food_id": 151,
+      "availability": "peak",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "notes": "Peak elk hunting season in mountain areas."
+    },
+    {
+      "food_id": 151,
+      "availability": "moderate",
+      "months": [
+        12
+      ],
+      "notes": "Late-season elk."
+    },
+    {
+      "food_id": 151,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Early archery elk season."
+    },
+    {
+      "food_id": 155,
+      "availability": "peak",
+      "months": [
+        9,
+        10
+      ],
+      "notes": "Peak moose hunting in Alaska and Idaho."
+    },
+    {
+      "food_id": 155,
+      "availability": "moderate",
+      "months": [
+        11
+      ],
+      "notes": "Late-season moose."
+    },
+    {
+      "food_id": 155,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Early moose season."
+    },
+    {
+      "food_id": 162,
+      "availability": "peak",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "notes": "Peak Alaska caribou hunting season."
+    },
+    {
+      "food_id": 162,
+      "availability": "moderate",
+      "months": [
+        11
+      ],
+      "notes": "Late-season caribou."
+    },
+    {
+      "food_id": 162,
+      "availability": "light",
+      "months": [
+        7
+      ],
+      "notes": "Early caribou season."
     }
   ]
 }
