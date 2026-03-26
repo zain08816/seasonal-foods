@@ -1,0 +1,33 @@
+{
+  "region_groups": [
+    {
+      "id": 3,
+      "name": "South Central",
+      "slug": "south-central",
+      "description": "South-central plains and Gulf-adjacent hot-summer climates—major cattle, cotton, and energy cropping with distinct frost timing from the humid Southeast.",
+      "region_count": 2
+    }
+  ],
+  "regions": [
+    {
+      "id": 24,
+      "region_group_id": 3,
+      "name": "Texas",
+      "state_code": "TX",
+      "usda_zones": "6b-10a",
+      "latitude": 31.9686,
+      "longitude": -99.9018,
+      "description": "Texas spans arid west to humid east—citrus and winter greens in the south; melons, peppers, and pecans statewide; Panhandle and High Plains seasons run shorter."
+    },
+    {
+      "id": 25,
+      "region_group_id": 3,
+      "name": "Oklahoma",
+      "state_code": "OK",
+      "usda_zones": "6a-8b",
+      "latitude": 35.0078,
+      "longitude": -97.0929,
+      "description": "Oklahoma blends Southern Plains wheat and cattle country with growing specialty crops—peaches and watermelons peak in summer after a quick spring warm-up."
+    }
+  ]
+}

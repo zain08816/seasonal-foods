@@ -1,0 +1,33 @@
+{
+  "region_groups": [
+    {
+      "id": 7,
+      "name": "California & Hawaii",
+      "slug": "california-hawaii",
+      "description": "Pacific specialty-crop powerhouse and tropical Hawaii—year-round production in many lowland California zones and uniquely island crop calendars.",
+      "region_count": 2
+    }
+  ],
+  "regions": [
+    {
+      "id": 42,
+      "region_group_id": 7,
+      "name": "California",
+      "state_code": "CA",
+      "usda_zones": "5a-11b",
+      "latitude": 36.7783,
+      "longitude": -119.4179,
+      "description": "California grows a third of U.S. vegetables and two-thirds of fruits and nuts—Coastal, Central Valley, and desert districts each shift peak months for the same crop."
+    },
+    {
+      "id": 43,
+      "region_group_id": 7,
+      "name": "Hawaii",
+      "state_code": "HI",
+      "usda_zones": "9a-13a",
+      "latitude": 19.8987,
+      "longitude": -155.6659,
+      "description": "Hawaii’s tropics and microclimates yield coffee, macadamia, tropical fruit, and year-round warm-season produce—local calendars differ from every mainland region."
+    }
+  ]
+}

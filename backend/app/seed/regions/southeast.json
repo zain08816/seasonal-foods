@@ -1,0 +1,133 @@
+{
+  "region_groups": [
+    {
+      "id": 2,
+      "name": "Southeast",
+      "slug": "southeast",
+      "description": "The humid subtropical and mixed southeastern U.S., from the Mid-South through the Atlantic and Gulf coasts—long warm seasons, strong fruit and row-crop production.",
+      "region_count": 12
+    }
+  ],
+  "regions": [
+    {
+      "id": 12,
+      "region_group_id": 2,
+      "name": "Virginia",
+      "state_code": "VA",
+      "usda_zones": "6a-8a",
+      "latitude": 37.4316,
+      "longitude": -78.6569,
+      "description": "Virginia stretches from cool mountain west to mild Tidewater. Warm-season produce ripens earlier in coastal areas; apples and fall crops dominate western valleys."
+    },
+    {
+      "id": 13,
+      "region_group_id": 2,
+      "name": "West Virginia",
+      "state_code": "WV",
+      "usda_zones": "5a-7a",
+      "latitude": 38.6409,
+      "longitude": -80.6227,
+      "description": "West Virginia’s hills and elevation create a shorter warm season than neighbors, with strong apple, squash, and cool-weather vegetable traditions."
+    },
+    {
+      "id": 14,
+      "region_group_id": 2,
+      "name": "North Carolina",
+      "state_code": "NC",
+      "usda_zones": "6a-8a",
+      "latitude": 35.7596,
+      "longitude": -79.0193,
+      "description": "North Carolina spans cool highlands to subtropical coast—sweet potatoes, tobacco heritage, summer berries, and early spring produce vary sharply by zone."
+    },
+    {
+      "id": 15,
+      "region_group_id": 2,
+      "name": "South Carolina",
+      "state_code": "SC",
+      "usda_zones": "7a-9a",
+      "latitude": 33.8361,
+      "longitude": -81.1637,
+      "description": "South Carolina’s long growing season supports peaches, collards, summer vegetables, and coastal seafood with an early spring relative to the Northeast."
+    },
+    {
+      "id": 16,
+      "region_group_id": 2,
+      "name": "Georgia",
+      "state_code": "GA",
+      "usda_zones": "6b-9a",
+      "latitude": 32.1656,
+      "longitude": -82.9001,
+      "description": "Georgia leads in pecans and peanuts, with famous peaches and Vidalia onions; southern zones push warm-season crops earlier."
+    },
+    {
+      "id": 17,
+      "region_group_id": 2,
+      "name": "Florida",
+      "state_code": "FL",
+      "usda_zones": "8a-11b",
+      "latitude": 27.7663,
+      "longitude": -81.6868,
+      "description": "Florida’s mild winters and long humid summers create unique calendars—citrus, winter vegetables in the peninsula, and tropical fruit in the south."
+    },
+    {
+      "id": 18,
+      "region_group_id": 2,
+      "name": "Alabama",
+      "state_code": "AL",
+      "usda_zones": "7a-9a",
+      "latitude": 32.8067,
+      "longitude": -86.7911,
+      "description": "Alabama blends Gulf warmth and Appalachian foothills—watermelons, peanuts, sweet potatoes, and long summers for field crops."
+    },
+    {
+      "id": 19,
+      "region_group_id": 2,
+      "name": "Mississippi",
+      "state_code": "MS",
+      "usda_zones": "7b-9a",
+      "latitude": 32.3547,
+      "longitude": -89.3985,
+      "description": "Mississippi’s hot summers favor soybeans, catfish, sweet potatoes, and summer vegetables, with earlier harvests than northern states."
+    },
+    {
+      "id": 20,
+      "region_group_id": 2,
+      "name": "Tennessee",
+      "state_code": "TN",
+      "usda_zones": "6a-8a",
+      "latitude": 35.7478,
+      "longitude": -86.6923,
+      "description": "Tennessee runs from cool eastern mountains to warmer west—distinct berry and orchard belts with Middle Tennessee stone fruit."
+    },
+    {
+      "id": 21,
+      "region_group_id": 2,
+      "name": "Kentucky",
+      "state_code": "KY",
+      "usda_zones": "6a-7b",
+      "latitude": 37.8393,
+      "longitude": -84.27,
+      "description": "Kentucky balances row crops with burley tobacco heritage, cattle, and seasonal vegetables—spring arrives earlier than the upper Midwest."
+    },
+    {
+      "id": 22,
+      "region_group_id": 2,
+      "name": "Arkansas",
+      "state_code": "AR",
+      "usda_zones": "6b-8a",
+      "latitude": 34.7465,
+      "longitude": -92.2896,
+      "description": "Arkansas offers long summers for rice, soybeans, and truck crops; local markets highlight berries, watermelons, and fall sweet potatoes."
+    },
+    {
+      "id": 23,
+      "region_group_id": 2,
+      "name": "Louisiana",
+      "state_code": "LA",
+      "usda_zones": "8a-10a",
+      "latitude": 30.9843,
+      "longitude": -91.9623,
+      "description": "Louisiana’s long humid season supports rice, crawfish, sugarcane, and early spring greens—summer heat peaks vegetable harvest before northern neighbors."
+    }
+  ]
+}

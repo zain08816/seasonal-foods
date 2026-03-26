@@ -1,0 +1,252 @@
+{
+  "state_profiles": [
+    {
+      "nickname": "The Buckeye State",
+      "capital": "Columbus",
+      "top_crops": [
+        "Soybeans",
+        "Corn",
+        "Dairy",
+        "Hogs",
+        "Eggs",
+        "Tomatoes"
+      ],
+      "agricultural_highlights": "Ohio’s Maumee-to-Ohio River belt mixes industrial-scale grain with muck-soil vegetables near Lake Erie.",
+      "fun_facts": [
+        "Ohio ranks among the top states for Swiss cheese and other specialty dairy.",
+        "Heirloom tomato festivals highlight late-summer abundance."
+      ],
+      "resource_links": [
+        {
+          "label": "OSU Extension",
+          "url": "https://extension.osu.edu/"
+        },
+        {
+          "label": "Ohio Department of Agriculture",
+          "url": "https://agri.ohio.gov/"
+        },
+        {
+          "label": "Ohio Proud",
+          "url": "https://www.ohioproud.org/"
+        }
+      ],
+      "region_id": 26
+    },
+    {
+      "nickname": "The Hoosier State",
+      "capital": "Indianapolis",
+      "top_crops": [
+        "Corn",
+        "Soybeans",
+        "Hogs",
+        "Dairy",
+        "Tomatoes",
+        "Watermelons"
+      ],
+      "agricultural_highlights": "Indiana’s tile-drained fields support corn and soy rotation; southern valleys still produce signature melons and sweet corn.",
+      "fun_facts": [
+        "Indiana tomato production underpins major processing contracts each summer.",
+        "Pumpkin patches and apple orchards drive fall agritourism statewide."
+      ],
+      "resource_links": [
+        {
+          "label": "Purdue Extension",
+          "url": "https://extension.purdue.edu/"
+        },
+        {
+          "label": "Indiana State Department of Agriculture",
+          "url": "https://www.in.gov/isda/"
+        },
+        {
+          "label": "Indiana Grown",
+          "url": "https://www.indianagrown.org/"
+        }
+      ],
+      "region_id": 27
+    },
+    {
+      "nickname": "The Prairie State",
+      "capital": "Springfield",
+      "top_crops": [
+        "Corn",
+        "Soybeans",
+        "Hogs",
+        "Cattle",
+        "Pumpkins",
+        "Apples"
+      ],
+      "agricultural_highlights": "Illinois leads in soybeans and sits among top corn states—Farm Progress Show country mixes with Chicago-area vegetable producers.",
+      "fun_facts": [
+        "The Morton pumpkin festival celebrates Illinois’ claim on pie-grade processing squash.",
+        "Northern apple orchards mirror Great Lakes climate patterns."
+      ],
+      "resource_links": [
+        {
+          "label": "University of Illinois Extension",
+          "url": "https://extension.illinois.edu/"
+        },
+        {
+          "label": "Illinois Department of Agriculture",
+          "url": "https://www2.illinois.gov/sites/agr/Pages/default.aspx"
+        },
+        {
+          "label": "Illinois Farm Bureau",
+          "url": "https://www.ilfb.org/"
+        }
+      ],
+      "region_id": 28
+    },
+    {
+      "nickname": "The Great Lakes State",
+      "capital": "Lansing",
+      "top_crops": [
+        "Tart cherries",
+        "Blueberries",
+        "Apples",
+        "Dry beans",
+        "Sugar beets",
+        "Asparagus"
+      ],
+      "agricultural_highlights": "Michigan produces most of the nation’s tart cherries and leads blueberry acreage; lake effect lengthens orchard viability.",
+      "fun_facts": [
+        "Traverse City calls itself the Cherry Capital of the World.",
+        "Oceana County’s asparagus reaches early national markets."
+      ],
+      "resource_links": [
+        {
+          "label": "MSU Extension",
+          "url": "https://www.canr.msu.edu/outreach/"
+        },
+        {
+          "label": "Michigan Department of Agriculture",
+          "url": "https://www.michigan.gov/mda"
+        },
+        {
+          "label": "Michigan Ag Council",
+          "url": "https://www.michiganagcouncil.org/"
+        }
+      ],
+      "region_id": 29
+    },
+    {
+      "nickname": "America's Dairyland",
+      "capital": "Madison",
+      "top_crops": [
+        "Milk",
+        "Cheese",
+        "Cranberries",
+        "Potatoes",
+        "Maple syrup",
+        "Snap beans"
+      ],
+      "agricultural_highlights": "Wisconsin’s dairy complex pairs with massive cranberry marshes and seed potato certification programs.",
+      "fun_facts": [
+        "Wisconsin produces more cheese than any other state.",
+        "Wood County leads national cranberry production by value."
+      ],
+      "resource_links": [
+        {
+          "label": "UW–Madison Division of Extension",
+          "url": "https://extension.wisc.edu/"
+        },
+        {
+          "label": "Wisconsin DATCP",
+          "url": "https://datcp.wi.gov/"
+        }
+      ],
+      "region_id": 30
+    },
+    {
+      "nickname": "The North Star State",
+      "capital": "Saint Paul",
+      "top_crops": [
+        "Corn",
+        "Soybeans",
+        "Hogs",
+        "Sugar beets",
+        "Turkeys",
+        "Wild rice"
+      ],
+      "agricultural_highlights": "Minnesota’s Red River Valley grows sugar beets and small grains; controlled wild rice harvests support Ojibwe economies.",
+      "fun_facts": [
+        "Minnesota often leads U.S. turkey slaughter numbers.",
+        "Farmers’ market seasons concentrate into intense northern summers."
+      ],
+      "resource_links": [
+        {
+          "label": "University of Minnesota Extension",
+          "url": "https://extension.umn.edu/"
+        },
+        {
+          "label": "Minnesota Department of Agriculture",
+          "url": "https://www.mda.state.mn.us/"
+        },
+        {
+          "label": "Minnesota Grown",
+          "url": "https://minnesotagrown.com/"
+        }
+      ],
+      "region_id": 31
+    },
+    {
+      "nickname": "The Hawkeye State",
+      "capital": "Des Moines",
+      "top_crops": [
+        "Corn",
+        "Soybeans",
+        "Hogs",
+        "Eggs",
+        "Cattle",
+        "Turkeys"
+      ],
+      "agricultural_highlights": "Iowa’s deep soils make it the Corn Belt’s core, yet vibrant CSAs still layer vegetables onto the landscape.",
+      "fun_facts": [
+        "Iowa typically leads the nation in corn and soybean production combined.",
+        "Sweet corn at the state fair is a cultural institution."
+      ],
+      "resource_links": [
+        {
+          "label": "Iowa State Extension",
+          "url": "https://www.extension.iastate.edu/"
+        },
+        {
+          "label": "Iowa Department of Agriculture",
+          "url": "https://iowaagriculture.gov/"
+        }
+      ],
+      "region_id": 32
+    },
+    {
+      "nickname": "The Show Me State",
+      "capital": "Jefferson City",
+      "top_crops": [
+        "Soybeans",
+        "Corn",
+        "Cattle",
+        "Hogs",
+        "Cotton (bootheel)",
+        "Rice"
+      ],
+      "agricultural_highlights": "Missouri’s terraced Ozark pastures contrast with Mississippi Delta-style rice and cotton in the south.",
+      "fun_facts": [
+        "St. James claims the title Table Grape Capital of Missouri for Norton wine grapes.",
+        "Kansas City and St. Louis anchor large urban eat-local movements."
+      ],
+      "resource_links": [
+        {
+          "label": "MU Extension",
+          "url": "https://extension.missouri.edu/"
+        },
+        {
+          "label": "Missouri Department of Agriculture",
+          "url": "https://agriculture.mo.gov/"
+        },
+        {
+          "label": "Missouri Grown",
+          "url": "https://missourigrownusa.com/"
+        }
+      ],
+      "region_id": 33
+    }
+  ]
+}

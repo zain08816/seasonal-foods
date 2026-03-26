@@ -1,0 +1,83 @@
+{
+  "region_groups": [
+    {
+      "id": 8,
+      "name": "Mountain West",
+      "slug": "mountain-west",
+      "description": "Interior West and Southwest basins—high elevation, aridity, and rapid diurnal shifts shape short mountain summers and long-storing root crops.",
+      "region_count": 7
+    }
+  ],
+  "regions": [
+    {
+      "id": 44,
+      "region_group_id": 8,
+      "name": "Montana",
+      "state_code": "MT",
+      "usda_zones": "3b-6a",
+      "latitude": 46.8797,
+      "longitude": -110.3626,
+      "description": "Montana’s cold winters and dry summers favor wheat, barley, pulses, and summer farmers’ market produce on valley bottoms."
+    },
+    {
+      "id": 45,
+      "region_group_id": 8,
+      "name": "Wyoming",
+      "state_code": "WY",
+      "usda_zones": "3a-6a",
+      "latitude": 42.7475,
+      "longitude": -107.2085,
+      "description": "Wyoming agriculture centers on beef, hay, and sugar beets—garden produce peaks briefly at high altitude."
+    },
+    {
+      "id": 46,
+      "region_group_id": 8,
+      "name": "Colorado",
+      "state_code": "CO",
+      "usda_zones": "3b-7a",
+      "latitude": 39.0598,
+      "longitude": -105.3111,
+      "description": "Colorado melds high-country ranching with Front Range orchards, Palisade peaches, Olathe sweet corn, and greenhouse supply near cities."
+    },
+    {
+      "id": 47,
+      "region_group_id": 8,
+      "name": "New Mexico",
+      "state_code": "NM",
+      "usda_zones": "5b-9a",
+      "latitude": 34.5199,
+      "longitude": -105.8701,
+      "description": "New Mexico’s chiles, pecans, onions, and pinto beans reflect desert heat and Rio Grande irrigation—frost dates vary sharply by elevation."
+    },
+    {
+      "id": 48,
+      "region_group_id": 8,
+      "name": "Utah",
+      "state_code": "UT",
+      "usda_zones": "4a-9b",
+      "latitude": 39.321,
+      "longitude": -111.0937,
+      "description": "Utah’s mountain valleys grow tart cherries, apples, and summer squash; red-rock south pushes warmer-season crops."
+    },
+    {
+      "id": 49,
+      "region_group_id": 8,
+      "name": "Arizona",
+      "state_code": "AZ",
+      "usda_zones": "4b-10b",
+      "latitude": 33.7298,
+      "longitude": -111.4312,
+      "description": "Arizona combines high-desert cattle country with Yuma’s winter vegetable capital and central desert citrus and dates."
+    },
+    {
+      "id": 50,
+      "region_group_id": 8,
+      "name": "Nevada",
+      "state_code": "NV",
+      "usda_zones": "4a-10a",
+      "latitude": 38.3135,
+      "longitude": -117.0554,
+      "description": "Nevada is overwhelmingly arid—alfalfa, cattle, and greenhouse or high-desert growers supply local summer produce near urban centers."
+    }
+  ]
+}

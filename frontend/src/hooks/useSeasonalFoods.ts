@@ -8,12 +8,13 @@ export function useSeasonalFoods(params: {
   date?: string
   month?: number
   category?: CategorySlug
+  enabled?: boolean
 }) {
-  const { region, date, month, category } = params
+  const { region, date, month, category, enabled: enabledFlag = true } = params
 
   return useQuery({
     queryKey: ['seasonal', region, date ?? null, month ?? null, category ?? null],
-    enabled: Boolean(region) && (Boolean(date) || Boolean(month)),
+    enabled: enabledFlag && Boolean(region) && (Boolean(date) || Boolean(month)),
     queryFn: () =>
       api.seasonal({
         region,

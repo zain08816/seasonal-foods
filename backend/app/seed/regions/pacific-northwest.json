@@ -1,0 +1,53 @@
+{
+  "region_groups": [
+    {
+      "id": 6,
+      "name": "Pacific Northwest",
+      "slug": "pacific-northwest",
+      "description": "Maritime Pacific Northwest and Alaska—cool, wet winters, mild shoulder seasons, and world-class berries, tree fruit, apples, and seafood in coastal states.",
+      "region_count": 4
+    }
+  ],
+  "regions": [
+    {
+      "id": 38,
+      "region_group_id": 6,
+      "name": "Washington",
+      "state_code": "WA",
+      "usda_zones": "4b-9a",
+      "latitude": 47.4009,
+      "longitude": -121.4905,
+      "description": "Washington leads U.S. apples and sweet cherries; western valleys grow hops, wine grapes, and berries while east of the Cascades is drier orchard and grain country."
+    },
+    {
+      "id": 39,
+      "region_group_id": 6,
+      "name": "Oregon",
+      "state_code": "OR",
+      "usda_zones": "5b-9b",
+      "latitude": 43.9336,
+      "longitude": -120.5583,
+      "description": "Oregon’s Willamette Valley and Hood River grow berries, pears, hazelnuts, and specialty seed crops; coastlines favor cool-season greens."
+    },
+    {
+      "id": 40,
+      "region_group_id": 6,
+      "name": "Idaho",
+      "state_code": "ID",
+      "usda_zones": "5b-7b",
+      "latitude": 44.2405,
+      "longitude": -114.4788,
+      "description": "Idaho is famous for russet potatoes, but also produces sugar beets, barley, and summer row crops in irrigated southern valleys."
+    },
+    {
+      "id": 41,
+      "region_group_id": 6,
+      "name": "Alaska",
+      "state_code": "AK",
+      "usda_zones": "1a-8b",
+      "latitude": 64.2008,
+      "longitude": -149.4937,
+      "description": "Alaska’s growing season is intense but short—cool-season greens, brassicas, and greenhouse crops; wild berries and salmon anchor seasonal eating."
+    }
+  ]
+}

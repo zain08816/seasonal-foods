@@ -29,9 +29,9 @@ export default function StatePage() {
   const code = (stateCode ?? '').toUpperCase()
 
   const { data: categories } = useCategories()
-  const { data: region, isLoading: regionLoading } = useRegionDetail(code)
+  const { data: region, isLoading: regionLoading, isError: regionError } = useRegionDetail(code)
   const [dateISO, setDateISO] = useState(todayISO)
-  const seasonal = useSeasonalFoods({ region: code, date: dateISO })
+  const seasonal = useSeasonalFoods({ region: code, date: dateISO, enabled: !regionError })
 
   const [selectedCategory, setSelectedCategory] = useState<CategorySlug | 'all'>('all')
   const [activeFoodId, setActiveFoodId] = useState<number | undefined>(undefined)
@@ -58,12 +58,21 @@ export default function StatePage() {
       <main className="mx-auto max-w-5xl px-4 pb-12">
         <div className="mt-2 text-sm text-[#6B7280]">
           <Link to="/" className="text-[#40916C] hover:underline">
-            {region?.region_group?.name ?? 'Northeast'}
+            {region?.region_group?.name ?? 'Home'}
           </Link>
           <span className="mx-2">/</span>
           <span className="text-[#1A1A2E] font-semibold">{region?.name ?? code}</span>
         </div>
 
+        {regionError ? (
+          <div role="alert" className="mt-6 rounded-2xl border border-[#FECACA] bg-[#FEF2F2] p-5 text-sm text-[#991B1B]">
+            No region is configured for “{code}”.{' '}
+            <Link to="/" className="font-medium text-[#40916C] underline">
+              Return home
+            </Link>{' '}
+            to choose a supported state.
+          </div>
+        ) : (
         <div className="mt-4 grid grid-cols-1 md:grid-cols-[320px_1fr] gap-6 items-start">
           <div className="hidden md:block sticky top-4 self-start max-h-[calc(100vh-2rem)] overflow-y-auto">
             <div className="space-y-4">
@@ -133,6 +142,7 @@ export default function StatePage() {
             </div>
           </section>
         </div>
+        )}
       </main>
 
       <FoodDetailModal

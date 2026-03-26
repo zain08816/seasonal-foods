@@ -28,12 +28,21 @@ export default function HomePage() {
   const [activeFoodId, setActiveFoodId] = useState<number | undefined>(undefined)
 
   const regionByState = useMemo(() => {
-    const by: Record<string, { name: string; usda_zones: string; region_group_name: string }> = {}
+    const by: Record<
+      string,
+      {
+        name: string
+        usda_zones: string
+        region_group_name: string
+        region_group_slug: string
+      }
+    > = {}
     for (const r of regionsData?.regions ?? []) {
       by[r.state_code] = {
         name: r.name,
         usda_zones: r.usda_zones,
         region_group_name: r.region_group?.name ?? '',
+        region_group_slug: r.region_group?.slug ?? '',
       }
     }
     return by

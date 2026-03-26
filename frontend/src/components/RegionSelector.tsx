@@ -8,12 +8,18 @@ export default function RegionSelector(props: { valueStateCode: string; onChange
 
   const { data, isLoading, error } = useRegions()
 
-  const [groupSlug, setGroupSlug] = useState<string>('northeast')
+  const [macroSlug, setMacroSlug] = useState<string | null>(null)
 
   const stateCodeUpper = valueStateCode.toUpperCase()
 
   const regions = useMemo(() => data?.regions ?? [], [data?.regions])
   const regionGroups = useMemo(() => data?.regionGroups ?? [], [data?.regionGroups])
+
+  const regionGroupsSorted = useMemo(() => {
+    return [...regionGroups].sort((a, b) => a.name.localeCompare(b.name))
+  }, [regionGroups])
+
+  const defaultGroupSlug = regionGroupsSorted[0]?.slug ?? 'northeast'
 
   const stateToRegion = useMemo(() => {
     return regions.reduce<Record<string, RegionOut>>((acc, r) => {
@@ -24,7 +30,7 @@ export default function RegionSelector(props: { valueStateCode: string; onChange
 
   const activeRegion = stateToRegion[stateCodeUpper]
 
-  const inferredGroupSlug = activeRegion?.region_group.slug ?? groupSlug
+  const inferredGroupSlug = activeRegion?.region_group.slug ?? macroSlug ?? defaultGroupSlug
 
   const filteredStates = useMemo(() => {
     return regions.filter((r) => r.region_group.slug === inferredGroupSlug)
@@ -53,14 +59,14 @@ export default function RegionSelector(props: { valueStateCode: string; onChange
         <select
           value={inferredGroupSlug}
           onChange={(e) => {
-            setGroupSlug(e.target.value)
+            setMacroSlug(e.target.value)
             const first = regions.find((r) => r.region_group.slug === e.target.value)
             if (first) onChange(first.state_code)
           }}
           className="h-10 w-full rounded-full border border-[#E5E7EB] bg-white px-3 text-sm"
           aria-label="Select region group"
         >
-          {regionGroups.map((g) => (
+          {regionGroupsSorted.map((g) => (
             <option key={g.slug} value={g.slug}>
               {g.name}
             </option>

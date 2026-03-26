@@ -1,0 +1,53 @@
+{
+  "region_groups": [
+    {
+      "id": 5,
+      "name": "Great Plains",
+      "slug": "great-plains",
+      "description": "The northern and central Great Plains—wind-swept, lower rainfall, and shorter outdoor growing seasons outside irrigated pockets.",
+      "region_count": 4
+    }
+  ],
+  "regions": [
+    {
+      "id": 34,
+      "region_group_id": 5,
+      "name": "North Dakota",
+      "state_code": "ND",
+      "usda_zones": "3b-4b",
+      "latitude": 47.5515,
+      "longitude": -101.002,
+      "description": "North Dakota’s short frost-free window favors spring wheat, barley, beans, and sugar beets—local produce peaks sharply in late summer."
+    },
+    {
+      "id": 35,
+      "region_group_id": 5,
+      "name": "South Dakota",
+      "state_code": "SD",
+      "usda_zones": "4a-5b",
+      "latitude": 44.2998,
+      "longitude": -99.4388,
+      "description": "South Dakota blends prairie grain production with Black Hills orchards and summer sweet corn; season starts later than Corn Belt neighbors."
+    },
+    {
+      "id": 36,
+      "region_group_id": 5,
+      "name": "Nebraska",
+      "state_code": "NE",
+      "usda_zones": "4b-5b",
+      "latitude": 40.8136,
+      "longitude": -99.9018,
+      "description": "Nebraska’s Sandhills and Platte valley support corn, beef, and irrigated crops—garden harvest concentrates in mid-to-late summer."
+    },
+    {
+      "id": 37,
+      "region_group_id": 5,
+      "name": "Kansas",
+      "state_code": "KS",
+      "usda_zones": "5b-7a",
+      "latitude": 38.4937,
+      "longitude": -98.3804,
+      "description": "Kansas is wheat and grain sorghum country with surprising melon and sweet corn pockets; hot summers end dryland seasons quickly."
+    }
+  ]
+}

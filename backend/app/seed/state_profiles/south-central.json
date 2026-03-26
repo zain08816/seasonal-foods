@@ -1,0 +1,68 @@
+{
+  "state_profiles": [
+    {
+      "nickname": "The Lone Star State",
+      "capital": "Austin",
+      "top_crops": [
+        "Cattle",
+        "Cotton",
+        "Dairy",
+        "Wheat",
+        "Greenhouse/nursery",
+        "Citrus (south)"
+      ],
+      "agricultural_highlights": "Texas agriculture ranges from High Plains cotton to Rio Grande Valley citrus and winter vegetables—scale and diversity are unmatched in the lower 48.",
+      "fun_facts": [
+        "Texas leads the nation in cattle inventory year after year.",
+        "Winter spinach, onions, and leafy crops from South Texas feed national chains."
+      ],
+      "resource_links": [
+        {
+          "label": "Texas A&M AgriLife Extension",
+          "url": "https://agrilifeextension.tamu.edu/"
+        },
+        {
+          "label": "Texas Department of Agriculture",
+          "url": "https://www.texasagriculture.gov/"
+        },
+        {
+          "label": "GO TEXAN",
+          "url": "https://www.gotexan.org/"
+        }
+      ],
+      "region_id": 24
+    },
+    {
+      "nickname": "The Sooner State",
+      "capital": "Oklahoma City",
+      "top_crops": [
+        "Cattle",
+        "Wheat",
+        "Hogs",
+        "Poultry",
+        "Pecans",
+        "Cotton"
+      ],
+      "agricultural_highlights": "Oklahoma anchors Great Plains beef and winter wheat, with growing specialty melon and peach farms east of I-35.",
+      "fun_facts": [
+        "Pecan groves follow river corridors and remain culturally tied to holiday baking.",
+        "Watermelon festivals signal peak July–August harvests."
+      ],
+      "resource_links": [
+        {
+          "label": "Oklahoma State Extension",
+          "url": "https://extension.okstate.edu/"
+        },
+        {
+          "label": "Oklahoma Department of Agriculture",
+          "url": "https://ag.ok.gov/"
+        },
+        {
+          "label": "Made in Oklahoma",
+          "url": "https://www.okgrown.org/"
+        }
+      ],
+      "region_id": 25
+    }
+  ]
+}

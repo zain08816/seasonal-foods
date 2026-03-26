@@ -1,0 +1,60 @@
+{
+  "state_profiles": [
+    {
+      "nickname": "The Golden State",
+      "capital": "Sacramento",
+      "top_crops": [
+        "Almonds",
+        "Grapes",
+        "Lettuce",
+        "Strawberries",
+        "Tomatoes",
+        "Dairy"
+      ],
+      "agricultural_highlights": "California mixes permanent crops in the Central Valley with coastal vegetables—one county may peak months away from a neighbor.",
+      "fun_facts": [
+        "California grows almost all U.S. almonds and most leafy greens in winter.",
+        "Napa and Sonoma wines anchor a global brand."
+      ],
+      "resource_links": [
+        {
+          "label": "UC Agriculture & Natural Resources",
+          "url": "https://ucanr.edu/"
+        },
+        {
+          "label": "California Department of Food and Agriculture",
+          "url": "https://www.cdfa.ca.gov/"
+        }
+      ],
+      "region_id": 42
+    },
+    {
+      "nickname": "The Aloha State",
+      "capital": "Honolulu",
+      "top_crops": [
+        "Macadamia",
+        "Coffee",
+        "Tropical fruit",
+        "Flowers",
+        "Cattle",
+        "Lettuce (upcountry)"
+      ],
+      "agricultural_highlights": "Island supply chains favor diversified truck crops on windward slopes and seed production on Molokaʻi.",
+      "fun_facts": [
+        "Kona coffee remains one of the world’s priciest specialty origins when farmed at elevation.",
+        "Taro loʻi still anchor Native Hawaiian food sovereignty efforts."
+      ],
+      "resource_links": [
+        {
+          "label": "University of Hawaiʻi Extension",
+          "url": "https://www.ctahr.hawaii.edu/site/"
+        },
+        {
+          "label": "Hawaii Department of Agriculture",
+          "url": "http://hdoa.hawaii.gov/"
+        }
+      ],
+      "region_id": 43
+    }
+  ]
+}

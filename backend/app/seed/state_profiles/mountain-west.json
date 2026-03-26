@@ -1,0 +1,200 @@
+{
+  "state_profiles": [
+    {
+      "nickname": "The Treasure State",
+      "capital": "Helena",
+      "top_crops": [
+        "Wheat",
+        "Barley",
+        "Hay",
+        "Cattle",
+        "Dry peas",
+        "Lentils"
+      ],
+      "agricultural_highlights": "Montana’s northern tier is a pulse-crop innovator while eastern ranges support spring wheat and cattle drives.",
+      "fun_facts": [
+        "Montana rotations now include large lentil and chickpea acres for export.",
+        "Huckleberries remain a prized late-summer forage crop."
+      ],
+      "resource_links": [
+        {
+          "label": "Montana State University Extension",
+          "url": "https://montana.edu/extension/"
+        },
+        {
+          "label": "Montana Department of Agriculture",
+          "url": "https://agr.mt.gov/"
+        }
+      ],
+      "region_id": 44
+    },
+    {
+      "nickname": "The Equality State",
+      "capital": "Cheyenne",
+      "top_crops": [
+        "Beef cattle",
+        "Hay",
+        "Sugar beets",
+        "Barley",
+        "Sheep",
+        "Wool"
+      ],
+      "agricultural_highlights": "Wyoming agriculture is overwhelmingly extensive grazing with irrigated beet slices along major rivers.",
+      "fun_facts": [
+        "Wyoming ships more beef on the hoof than almost any state per capita.",
+        "High-altitude lettuce and root crops finish sweetest before first hard frost."
+      ],
+      "resource_links": [
+        {
+          "label": "University of Wyoming Extension",
+          "url": "https://www.uwyo.edu/uwyoextension/"
+        },
+        {
+          "label": "Wyoming Department of Agriculture",
+          "url": "https://wyagric.state.wy.us/"
+        }
+      ],
+      "region_id": 45
+    },
+    {
+      "nickname": "The Centennial State",
+      "capital": "Denver",
+      "top_crops": [
+        "Cattle",
+        "Corn",
+        "Hay",
+        "Greenhouse/nursery",
+        "Wheat",
+        "Peaches (west)"
+      ],
+      "agricultural_highlights": "Colorado blends Rocky Mountain ranching with specialty fruit on the Western Slope and rapid indoor ag near Denver.",
+      "fun_facts": [
+        "Palisade peaches owe sweetness to hot days and cool nights.",
+        "Craft malt from Colorado barley loops breweries back to farm fields."
+      ],
+      "resource_links": [
+        {
+          "label": "CSU Extension",
+          "url": "https://extension.colostate.edu/"
+        },
+        {
+          "label": "Colorado Department of Agriculture",
+          "url": "https://ag.colorado.gov/"
+        }
+      ],
+      "region_id": 46
+    },
+    {
+      "nickname": "The Land of Enchantment",
+      "capital": "Santa Fe",
+      "top_crops": [
+        "Chile peppers",
+        "Pecans",
+        "Hay",
+        "Onions",
+        "Cotton",
+        "Dairy"
+      ],
+      "agricultural_highlights": "New Mexico’s Hatch chile harvest is a sensory season—pecan orchards follow Rio Grande water rights.",
+      "fun_facts": [
+        "Hatch Valley chiles receive a protected reputation like wine appellations.",
+        "Navajo-Churro sheep tie heritage fiber to high-desert grazing."
+      ],
+      "resource_links": [
+        {
+          "label": "NMSU Cooperative Extension",
+          "url": "https://nmsuextension.org/"
+        },
+        {
+          "label": "New Mexico Department of Agriculture",
+          "url": "https://www.nmda.nmsu.edu/"
+        }
+      ],
+      "region_id": 47
+    },
+    {
+      "nickname": "The Beehive State",
+      "capital": "Salt Lake City",
+      "top_crops": [
+        "Hay",
+        "Cattle",
+        "Dairy",
+        "Cherries",
+        "Mink pelts",
+        "Barley"
+      ],
+      "agricultural_highlights": "Utah’s mountain valleys produce tart cherries and apples while desert ranches supply interstate beef.",
+      "fun_facts": [
+        "Brigham Young urged early settlers to plant fruit trees—orchards still ring many towns.",
+        "Great Salt Lake wetlands influence microclimates for specialty melons."
+      ],
+      "resource_links": [
+        {
+          "label": "USU Extension",
+          "url": "https://extension.usu.edu/"
+        },
+        {
+          "label": "Utah Department of Agriculture",
+          "url": "https://ag.utah.gov/"
+        }
+      ],
+      "region_id": 48
+    },
+    {
+      "nickname": "The Grand Canyon State",
+      "capital": "Phoenix",
+      "top_crops": [
+        "Lettuce",
+        "Dairy",
+        "Hay",
+        "Cotton",
+        "Citrus",
+        "Cattle"
+      ],
+      "agricultural_highlights": "Arizona’s vegetable belt flips the calendar—Yuma ships leafy greens while upland pecans mature in fall.",
+      "fun_facts": [
+        "Yuma County often plants the nation’s first winter lettuce after the Salinas gap.",
+        "Date palms in Bard produce a distinctly Southwestern harvest."
+      ],
+      "resource_links": [
+        {
+          "label": "UArizona Cooperative Extension",
+          "url": "https://extension.arizona.edu/"
+        },
+        {
+          "label": "Arizona Department of Agriculture",
+          "url": "https://agriculture.az.gov/"
+        }
+      ],
+      "region_id": 49
+    },
+    {
+      "nickname": "The Silver State",
+      "capital": "Carson City",
+      "top_crops": [
+        "Hay",
+        "Cattle",
+        "Onions",
+        "Alfalfa seed",
+        "Potatoes",
+        "Dairy"
+      ],
+      "agricultural_highlights": "Nevada irrigates desert valleys for alfalfa and exported hay—urban edges host hydroponic berries.",
+      "fun_facts": [
+        "Vegas resorts once drove unusual local greenhouse herb demand.",
+        "Great Basin drought sharply limits dryland cropping."
+      ],
+      "resource_links": [
+        {
+          "label": "University of Nevada, Reno Extension",
+          "url": "https://extension.unr.edu/"
+        },
+        {
+          "label": "Nevada Department of Agriculture",
+          "url": "https://agri.nv.gov/"
+        }
+      ],
+      "region_id": 50
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "state_profiles": [
+    {
+      "nickname": "The Commonwealth",
+      "capital": "Richmond",
+      "top_crops": [
+        "Apples",
+        "Peanuts",
+        "Tobacco",
+        "Wine grapes",
+        "Turkey",
+        "Soybeans"
+      ],
+      "agricultural_highlights": "Virginia pairs Piedmont horse country with strong poultry and row-crop sectors; eastern shore vegetables and Shenandoah orchards diversify local seasons.",
+      "fun_facts": [
+        "Virginia vies with surrounding states for No. 1 in U.S. apple production depending on the year.",
+        "Smithfield ham and Chesapeake oysters tie coastal Virginia to iconic seasonal foods."
+      ],
+      "resource_links": [
+        {
+          "label": "Virginia Cooperative Extension",
+          "url": "https://ext.vt.edu/"
+        },
+        {
+          "label": "Virginia Department of Agriculture",
+          "url": "https://www.vdacs.virginia.gov/"
+        },
+        {
+          "label": "Virginia Grown",
+          "url": "https://www.vdacs.virginia.gov/vagrown/"
+        }
+      ],
+      "region_id": 12
+    },
+    {
+      "nickname": "The Mountain State",
+      "capital": "Charleston",
+      "top_crops": [
+        "Apples",
+        "Broilers",
+        "Cattle",
+        "Hay",
+        "Maple syrup",
+        "Pumpkins"
+      ],
+      "agricultural_highlights": "West Virginia emphasizes livestock, forage, and hillside orchards—small farms keep strong direct-to-consumer markets.",
+      "fun_facts": [
+        "Ramp festivals each spring celebrate one of Appalachia’s most distinctive wild edibles.",
+        "Poultry remains one of the state’s largest agricultural commodities by value."
+      ],
+      "resource_links": [
+        {
+          "label": "WVU Extension",
+          "url": "https://extension.wvu.edu/"
+        },
+        {
+          "label": "WVDA",
+          "url": "https://agriculture.wv.gov/"
+        },
+        {
+          "label": "West Virginia Grown Program",
+          "url": "https://agriculture.wv.gov/divisions/marketinganddevelopment/Pages/West-Virginia-Grown-Program.aspx"
+        }
+      ],
+      "region_id": 13
+    },
+    {
+      "nickname": "The Tar Heel State",
+      "capital": "Raleigh",
+      "top_crops": [
+        "Sweet potatoes",
+        "Tobacco",
+        "Soybeans",
+        "Broilers",
+        "Christmas trees",
+        "Strawberries"
+      ],
+      "agricultural_highlights": "North Carolina leads U.S. sweet potato production and is a major broiler and hog state; the Research Triangle anchors innovation in plant breeding.",
+      "fun_facts": [
+        "North Carolina routinely harvests more sweet potatoes than any other state.",
+        "Peak blueberry and strawberry U-pick seasons draw tourists to coastal and piedmont farms."
+      ],
+      "resource_links": [
+        {
+          "label": "NC State Extension",
+          "url": "https://www.ces.ncsu.edu/"
+        },
+        {
+          "label": "NC Department of Agriculture",
+          "url": "https://www.ncagr.gov/"
+        },
+        {
+          "label": "Got To Be NC",
+          "url": "https://www.gottobenc.com/"
+        }
+      ],
+      "region_id": 14
+    },
+    {
+      "nickname": "The Palmetto State",
+      "capital": "Columbia",
+      "top_crops": [
+        "Broilers",
+        "Turkeys",
+        "Cotton",
+        "Peaches",
+        "Corn",
+        "Soybeans"
+      ],
+      "agricultural_highlights": "South Carolina’s poultry sector and historic peach industry define much of its farm economy, with long warm seasons for fresh-market vegetables.",
+      "fun_facts": [
+        "South Carolina markets itself as the largest fresh peach producer in the eastern U.S.",
+        "Low-country rice culture shaped regional cuisine long before today’s row crops."
+      ],
+      "resource_links": [
+        {
+          "label": "Clemson Cooperative Extension",
+          "url": "https://www.clemson.edu/extension/"
+        },
+        {
+          "label": "SCDA",
+          "url": "https://agriculture.sc.gov/"
+        },
+        {
+          "label": "Certified SC Grown",
+          "url": "https://www.certifiedscgrown.com/"
+        }
+      ],
+      "region_id": 15
+    },
+    {
+      "nickname": "The Peach State",
+      "capital": "Atlanta",
+      "top_crops": [
+        "Broilers",
+        "Cotton",
+        "Peanuts",
+        "Blueberries",
+        "Pecans",
+        "Peaches"
+      ],
+      "agricultural_highlights": "Georgia dominates U.S. poultry, peanuts, and pecans while blueberries rival traditional orchard crops; Vidalia onions mark an iconic spring harvest.",
+      "fun_facts": [
+        "Georgia is the largest peanut-producing state in the country.",
+        "Pecan orchards across south Georgia anchor fall harvest festivals."
+      ],
+      "resource_links": [
+        {
+          "label": "UGA Extension",
+          "url": "https://extension.uga.edu/"
+        },
+        {
+          "label": "Georgia Department of Agriculture",
+          "url": "https://agr.georgia.gov/"
+        },
+        {
+          "label": "Georgia Grown",
+          "url": "https://www.georgiagrown.com/"
+        }
+      ],
+      "region_id": 16
+    },
+    {
+      "nickname": "The Sunshine State",
+      "capital": "Tallahassee",
+      "top_crops": [
+        "Citrus",
+        "Sugar cane",
+        "Tomatoes (winter)",
+        "Strawberries",
+        "Bell peppers",
+        "Nursery plants"
+      ],
+      "agricultural_highlights": "Florida’s mild winters make it the nation’s winter vegetable garden—citrus belts shift south after freezes; tropical fruit thrives in south Florida.",
+      "fun_facts": [
+        "Florida produces the majority of U.S. orange juice oranges most years.",
+        "The Plant City area is famous for winter–spring strawberry harvests."
+      ],
+      "resource_links": [
+        {
+          "label": "UF IFAS Extension",
+          "url": "https://sfyl.ifas.ufl.edu/"
+        },
+        {
+          "label": "Florida Department of Agriculture",
+          "url": "https://www.fdacs.gov/"
+        },
+        {
+          "label": "Fresh From Florida",
+          "url": "https://www.fdacs.gov/Consumer-Resources/Products-Fresh-From-Florida"
+        }
+      ],
+      "region_id": 17
+    },
+    {
+      "nickname": "The Yellowhammer State",
+      "capital": "Montgomery",
+      "top_crops": [
+        "Broilers",
+        "Cattle",
+        "Peanuts",
+        "Cotton",
+        "Catfish",
+        "Hay"
+      ],
+      "agricultural_highlights": "Alabama couples intensive poultry houses with catfish ponds, cotton, and peanuts—summer vegetables flood roadside stands.",
+      "fun_facts": [
+        "Alabama remains one of the top broiler-producing states nationally.",
+        "Farm-raised catfish from west Alabama is a regional staple."
+      ],
+      "resource_links": [
+        {
+          "label": "Alabama A&M & Auburn Extension",
+          "url": "https://www.aces.edu/"
+        },
+        {
+          "label": "Alabama Department of Agriculture",
+          "url": "https://agi.alabama.gov/"
+        },
+        {
+          "label": "Alabama Farmers Federation",
+          "url": "https://alfafarmers.org/"
+        }
+      ],
+      "region_id": 18
+    },
+    {
+      "nickname": "The Magnolia State",
+      "capital": "Jackson",
+      "top_crops": [
+        "Broilers",
+        "Cotton",
+        "Soybeans",
+        "Catfish",
+        "Sweet potatoes",
+        "Rice"
+      ],
+      "agricultural_highlights": "Mississippi’s Delta is a powerhouse for row crops and aquaculture; sweet potatoes anchor fall storage crops.",
+      "fun_facts": [
+        "Mississippi ranks among the top states for farm-raised catfish.",
+        "Long summers push watermelon season earlier than northern markets."
+      ],
+      "resource_links": [
+        {
+          "label": "MSU Extension",
+          "url": "https://extension.msstate.edu/"
+        },
+        {
+          "label": "Mississippi Department of Agriculture",
+          "url": "https://www.mdac.ms.gov/"
+        },
+        {
+          "label": "Home Grown Mississippi",
+          "url": "https://www.mdac.ms.gov/bureaus/marketing/home-grown-mississippi/"
+        }
+      ],
+      "region_id": 19
+    },
+    {
+      "nickname": "The Volunteer State",
+      "capital": "Nashville",
+      "top_crops": [
+        "Cattle",
+        "Soybeans",
+        "Corn",
+        "Cotton",
+        "Tobacco",
+        "Dairy"
+      ],
+      "agricultural_highlights": "Tennessee spans productive row-crop valleys and rolling pasture—pick-your-own berries and peaches follow spring wheat and hay cycles.",
+      "fun_facts": [
+        "Middle Tennessee once styled itself the 'nursery capital' for ornamentals.",
+        "Whiskey-grade corn and heirloom vegetables thrive in small-batch farms."
+      ],
+      "resource_links": [
+        {
+          "label": "University of Tennessee Extension",
+          "url": "https://extension.tennessee.edu/"
+        },
+        {
+          "label": "Tennessee Department of Agriculture",
+          "url": "https://www.tn.gov/agriculture.html"
+        },
+        {
+          "label": "Pick Tennessee Products",
+          "url": "https://www.picktnproducts.org/"
+        }
+      ],
+      "region_id": 20
+    },
+    {
+      "nickname": "The Bluegrass State",
+      "capital": "Frankfort",
+      "top_crops": [
+        "Horses",
+        "Cattle",
+        "Soybeans",
+        "Corn",
+        "Tobacco",
+        "Poultry"
+      ],
+      "agricultural_highlights": "Kentucky’s limestone pastures define thoroughbred culture, while rolling cropland supports bourbon grains and a rebound in horticulture.",
+      "fun_facts": [
+        "Kentucky leads the nation in burley tobacco acreage historically tied to farm culture.",
+        "Small vegetable farms supply vibrant Louisville and Lexington farmers’ markets."
+      ],
+      "resource_links": [
+        {
+          "label": "University of Kentucky Extension",
+          "url": "https://extension.uky.edu/"
+        },
+        {
+          "label": "Kentucky Department of Agriculture",
+          "url": "https://www.kyagr.com/"
+        },
+        {
+          "label": "Kentucky Proud",
+          "url": "https://www.kyproud.com/"
+        }
+      ],
+      "region_id": 21
+    },
+    {
+      "nickname": "The Natural State",
+      "capital": "Little Rock",
+      "top_crops": [
+        "Rice",
+        "Soybeans",
+        "Cotton",
+        "Poultry",
+        "Cattle",
+        "Aquaculture"
+      ],
+      "agricultural_highlights": "Arkansas often tops U.S. rice production; row-crop counties transition into Ozark poultry and fruit enclaves.",
+      "fun_facts": [
+        "Stuttgart-area rice fields host famous duck-hunting habitat tied to wetland agriculture.",
+        "Watermelons from the Arkansas River Valley reach peak sweetness in high summer."
+      ],
+      "resource_links": [
+        {
+          "label": "University of Arkansas Extension",
+          "url": "https://www.uaex.uada.edu/"
+        },
+        {
+          "label": "Arkansas Department of Agriculture",
+          "url": "https://www.agriculture.arkansas.gov/"
+        },
+        {
+          "label": "Arkansas Grown",
+          "url": "https://www.agriculture.arkansas.gov/arkansas-grown/"
+        }
+      ],
+      "region_id": 22
+    },
+    {
+      "nickname": "The Pelican State",
+      "capital": "Baton Rouge",
+      "top_crops": [
+        "Crawfish",
+        "Sugar cane",
+        "Rice",
+        "Soybeans",
+        "Sweet potatoes",
+        "Alligators"
+      ],
+      "agricultural_highlights": "Louisiana marries Gulf seafood culture with sugarcane and rice deltas—crawfish season is a social calendar as much as an agricultural one.",
+      "fun_facts": [
+        "Louisiana leads the nation in crawfish and alligator farming.",
+        "Cajun and Creole cuisines tie closely to seasonal shellfish and greens."
+      ],
+      "resource_links": [
+        {
+          "label": "LSU AgCenter",
+          "url": "https://www.lsuagcenter.com/"
+        },
+        {
+          "label": "Louisiana Department of Agriculture",
+          "url": "https://www.ldaf.state.la.us/"
+        },
+        {
+          "label": "Louisiana Grown",
+          "url": "https://www.ldaf.state.la.us/louisiana-grown/"
+        }
+      ],
+      "region_id": 23
+    }
+  ]
+}

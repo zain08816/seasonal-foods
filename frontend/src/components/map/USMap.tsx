@@ -9,8 +9,21 @@ type RegionByState = Record<
     name: string
     usda_zones: string
     region_group_name: string
+    region_group_slug: string
   }
 >
+
+/** Base / hover / selected fills per macro-region slug (stable API keys from backend). */
+const REGION_PALETTE: Record<string, { fill: string; hover: string; active: string }> = {
+  northeast: { fill: '#40916C', hover: '#52B788', active: '#2D6A4F' },
+  southeast: { fill: '#E07A5F', hover: '#ED9A8A', active: '#C65D48' },
+  'south-central': { fill: '#BC6C25', hover: '#D4893D', active: '#955620' },
+  midwest: { fill: '#D4A574', hover: '#E3BC94', active: '#B8895E' },
+  'great-plains': { fill: '#7B9EB5', hover: '#9CB7C9', active: '#5E7F96' },
+  'pacific-northwest': { fill: '#457B9D', hover: '#6A9BC4', active: '#356189' },
+  'california-hawaii': { fill: '#6A4C93', hover: '#8B6FB5', active: '#523A75' },
+  'mountain-west': { fill: '#6B9080', hover: '#89B0A0', active: '#527A6C' },
+}
 
 const MAP_URL = 'https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json'
 
@@ -40,6 +53,27 @@ export default function USMap(props: {
   const [tooltip, setTooltip] = useState<{ x: number; y: number; stateCode: string; title: string; zones: string; group: string } | null>(null)
 
   const supported = useMemo(() => new Set(Object.keys(regionByState)), [regionByState])
+
+  const legendEntries = useMemo(() => {
+    const seen = new Map<string, string>()
+    for (const r of Object.values(regionByState)) {
+      const slug = r.region_group_slug
+      if (!slug || seen.has(slug)) continue
+      seen.set(slug, r.region_group_name || slug)
+    }
+    return [...seen.entries()]
+      .map(([slug, name]) => ({
+        slug,
+        name,
+        colors: REGION_PALETTE[slug] ?? REGION_PALETTE.northeast,
+      }))
+      .sort((a, b) => a.name.localeCompare(b.name))
+  }, [regionByState])
+
+  function paletteFor(stateCode: string) {
+    const slug = regionByState[stateCode]?.region_group_slug
+    return (slug && REGION_PALETTE[slug]) ? REGION_PALETTE[slug] : REGION_PALETTE.northeast
+  }
 
   function handleEnter(evt: MouseEvent<SVGPathElement>, stateCode: string, title: string) {
     const rect = containerRef.current?.getBoundingClientRect()
@@ -71,19 +105,35 @@ export default function USMap(props: {
               const supportedState = supported.has(stateCode)
               const title = String(geo.properties.name ?? stateCode)
 
-              const defaultFill = supportedState ? '#40916C' : '#E5E7EB'
-              const hoverFill = supportedState ? '#52B788' : '#E5E7EB'
+              const pal = supportedState ? paletteFor(stateCode) : null
+              const defaultFill = pal ? (activeStateCode === stateCode ? pal.active : pal.fill) : '#E5E7EB'
+              const hoverFill = pal?.hover ?? '#E5E7EB'
               const isActive = activeStateCode === stateCode
 
               return (
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  tabIndex={0}
+                  tabIndex={supportedState ? 0 : -1}
                   style={{
-                    default: { fill: isActive ? '#52B788' : defaultFill, stroke: '#FFFFFF', strokeWidth: 1 },
-                    hover: { fill: hoverFill, stroke: '#FFFFFF', strokeWidth: 1 },
-                    pressed: { fill: hoverFill, stroke: '#FFFFFF', strokeWidth: 1 },
+                    default: {
+                      fill: defaultFill,
+                      stroke: isActive ? '#1A1A2E' : '#FFFFFF',
+                      strokeWidth: isActive ? 1.5 : 1,
+                      outline: 'none',
+                    },
+                    hover: {
+                      fill: hoverFill,
+                      stroke: isActive ? '#1A1A2E' : '#FFFFFF',
+                      strokeWidth: isActive ? 1.5 : 1,
+                      outline: 'none',
+                    },
+                    pressed: {
+                      fill: hoverFill,
+                      stroke: isActive ? '#1A1A2E' : '#FFFFFF',
+                      strokeWidth: isActive ? 1.5 : 1,
+                      outline: 'none',
+                    },
                   }}
                   aria-label={`${title} (${stateCode})`}
                   onMouseEnter={(evt: MouseEvent<SVGPathElement>) => {
@@ -116,6 +166,22 @@ export default function USMap(props: {
           }
         </Geographies>
       </ComposableMap>
+
+      {legendEntries.length > 0 ? (
+        <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 border-t border-[#E5E7EB] pt-3 text-xs text-[#6B7280]">
+          <span className="font-medium text-[#1A1A2E]">Regions:</span>
+          {legendEntries.map(({ slug, name, colors }) => (
+            <span key={slug} className="inline-flex items-center gap-1.5">
+              <span
+                className="h-3.5 w-3.5 shrink-0 rounded-sm border border-black/10"
+                style={{ backgroundColor: colors.fill }}
+                aria-hidden
+              />
+              {name}
+            </span>
+          ))}
+        </div>
+      ) : null}
 
       {tooltip ? (
         <MapTooltip

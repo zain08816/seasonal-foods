@@ -1,0 +1,116 @@
+{
+  "state_profiles": [
+    {
+      "nickname": "The Evergreen State",
+      "capital": "Olympia",
+      "top_crops": [
+        "Apples",
+        "Sweet cherries",
+        "Hops",
+        "Spearmint",
+        "Blueberries",
+        "Wheat (east)"
+      ],
+      "agricultural_highlights": "Washington combines maritime perennial crops with interior dryland grains—Roza and Wenatchee districts set global fruit benchmarks.",
+      "fun_facts": [
+        "Washington produces the majority of U.S. apples most years.",
+        "Yakima Valley hops supply craft brewers worldwide."
+      ],
+      "resource_links": [
+        {
+          "label": "WSU Extension",
+          "url": "https://extension.wsu.edu/"
+        },
+        {
+          "label": "Washington Department of Agriculture",
+          "url": "https://agr.wa.gov/"
+        }
+      ],
+      "region_id": 38
+    },
+    {
+      "nickname": "The Beaver State",
+      "capital": "Salem",
+      "top_crops": [
+        "Greenhouse/nursery",
+        "Hay",
+        "Grass seed",
+        "Cattle",
+        "Pears",
+        "Blueberries"
+      ],
+      "agricultural_highlights": "Oregon exports grass seed and specialty seed crops while Willamette Valley berries rival Washington tonnage.",
+      "fun_facts": [
+        "Hood River fruit loop orchards draw tourists each pear and cherry season.",
+        "Oregon leads U.S. hazelnut acreage."
+      ],
+      "resource_links": [
+        {
+          "label": "OSU Extension",
+          "url": "https://extension.oregonstate.edu/"
+        },
+        {
+          "label": "Oregon Department of Agriculture",
+          "url": "https://www.oregon.gov/oda"
+        }
+      ],
+      "region_id": 39
+    },
+    {
+      "nickname": "The Gem State",
+      "capital": "Boise",
+      "top_crops": [
+        "Potatoes",
+        "Hay",
+        "Barley",
+        "Sugar beets",
+        "Cheese",
+        "Onions"
+      ],
+      "agricultural_highlights": "Idaho’s branded russets anchor global french fry supply chains; Magic Valley dairies support regional cheese.",
+      "fun_facts": [
+        "Idaho produces about a third of U.S. potatoes by weight.",
+        "Snake River irrigation lifts desert acres into intensive production."
+      ],
+      "resource_links": [
+        {
+          "label": "University of Idaho Extension",
+          "url": "https://www.uidaho.edu/extension"
+        },
+        {
+          "label": "Idaho State Department of Agriculture",
+          "url": "https://agri.idaho.gov/"
+        }
+      ],
+      "region_id": 40
+    },
+    {
+      "nickname": "The Last Frontier",
+      "capital": "Juneau",
+      "top_crops": [
+        "Salmon",
+        "Hay",
+        "Barley",
+        "Potatoes",
+        "Berries",
+        "Reindeer (domestic)"
+      ],
+      "agricultural_highlights": "Alaska’s farm sector is tiny by acreage but culturally vital—long daylight midsummer compresses growth into weeks.",
+      "fun_facts": [
+        "Giant cabbages at the Alaska State Fair exploit extreme photoperiods.",
+        "Subsistence fisheries remain central to rural food security."
+      ],
+      "resource_links": [
+        {
+          "label": "University of Alaska Fairbanks Extension",
+          "url": "https://www.uaf.edu/extension/"
+        },
+        {
+          "label": "Alaska Division of Agriculture",
+          "url": "http://dnr.alaska.gov/ag/"
+        }
+      ],
+      "region_id": 41
+    }
+  ]
+}

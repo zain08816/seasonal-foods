@@ -1,0 +1,93 @@
+{
+  "region_groups": [
+    {
+      "id": 4,
+      "name": "Midwest",
+      "slug": "midwest",
+      "description": "The Great Lakes and Corn Belt heartland—rich soils, continental seasons, and national-scale production of corn, soybeans, and dairy.",
+      "region_count": 8
+    }
+  ],
+  "regions": [
+    {
+      "id": 26,
+      "region_group_id": 4,
+      "name": "Ohio",
+      "state_code": "OH",
+      "usda_zones": "5b-6b",
+      "latitude": 40.3888,
+      "longitude": -82.7649,
+      "description": "Ohio’s lake-moderated north and warmer south support sweet corn, tomatoes, apples, and significant soybean and corn acreage."
+    },
+    {
+      "id": 27,
+      "region_group_id": 4,
+      "name": "Indiana",
+      "state_code": "IN",
+      "usda_zones": "5b-6b",
+      "latitude": 39.8494,
+      "longitude": -86.2583,
+      "description": "Indiana is classic Corn Belt—tomatoes and melons in summer, pumpkins and apples in fall, with consistent continental seasonality."
+    },
+    {
+      "id": 28,
+      "region_group_id": 4,
+      "name": "Illinois",
+      "state_code": "IL",
+      "usda_zones": "5a-6b",
+      "latitude": 40.6331,
+      "longitude": -89.3985,
+      "description": "Illinois leads in soybeans and produces vast corn; specialty farms near cities supply summer vegetables and fall squash."
+    },
+    {
+      "id": 29,
+      "region_group_id": 4,
+      "name": "Michigan",
+      "state_code": "MI",
+      "usda_zones": "4a-6b",
+      "latitude": 43.3266,
+      "longitude": -84.5361,
+      "description": "Michigan’s lakes moderate temperatures—nation-leading tart cherries, blueberries, apples, and asparagus with cool-climate fruit intensity."
+    },
+    {
+      "id": 30,
+      "region_group_id": 4,
+      "name": "Wisconsin",
+      "state_code": "WI",
+      "usda_zones": "3b-5b",
+      "latitude": 44.2685,
+      "longitude": -89.6165,
+      "description": "Wisconsin is America’s dairy core with strong snap beans, potatoes, cranberries, and ginseng—short warm season, crisp falls."
+    },
+    {
+      "id": 31,
+      "region_group_id": 4,
+      "name": "Minnesota",
+      "state_code": "MN",
+      "usda_zones": "3a-5a",
+      "latitude": 46.7296,
+      "longitude": -94.6859,
+      "description": "Minnesota’s cold winters and warm summers support sugar beets, peas, sweet corn, and wild rice—local season starts later than southern Midwest."
+    },
+    {
+      "id": 32,
+      "region_group_id": 4,
+      "name": "Iowa",
+      "state_code": "IA",
+      "usda_zones": "4b-6a",
+      "latitude": 41.878,
+      "longitude": -93.0977,
+      "description": "Iowa anchors corn and soy production; farmers’ markets still overflow with sweet corn, melons, and tomatoes in peak summer."
+    },
+    {
+      "id": 33,
+      "region_group_id": 4,
+      "name": "Missouri",
+      "state_code": "MO",
+      "usda_zones": "5b-7b",
+      "latitude": 38.5727,
+      "longitude": -92.1893,
+      "description": "Missouri bridges upper South and Midwest—soybeans, rice in the bootheel, Ozark orchards, and long summer vegetable markets."
+    }
+  ]
+}

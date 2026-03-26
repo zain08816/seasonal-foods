@@ -1,0 +1,116 @@
+{
+  "state_profiles": [
+    {
+      "nickname": "The Peace Garden State",
+      "capital": "Bismarck",
+      "top_crops": [
+        "Spring wheat",
+        "Durum",
+        "Soybeans",
+        "Sugar beets",
+        "Dry beans",
+        "Canola"
+      ],
+      "agricultural_highlights": "North Dakota rotates small grains and broadleaf crops across windy prairies—peak local vegetable season is short but intense.",
+      "fun_facts": [
+        "The state often ranks first in U.S. durum and spring wheat production.",
+        "Community-supported agriculture relies on hoop houses to stretch shoulder seasons."
+      ],
+      "resource_links": [
+        {
+          "label": "NDSU Extension",
+          "url": "https://www.ag.ndsu.edu/extension"
+        },
+        {
+          "label": "North Dakota Department of Agriculture",
+          "url": "https://www.nd.gov/ndda/"
+        }
+      ],
+      "region_id": 34
+    },
+    {
+      "nickname": "The Mount Rushmore State",
+      "capital": "Pierre",
+      "top_crops": [
+        "Corn",
+        "Soybeans",
+        "Cattle",
+        "Hogs",
+        "Wheat",
+        "Sunflowers"
+      ],
+      "agricultural_highlights": "South Dakota transitions from eastern row crops to western ranching—Custer County apples show mountain microclimates.",
+      "fun_facts": [
+        "South Dakota sunflower acres paint late-summer gold across the central state.",
+        "Buffalo herds on tribal lands tie culture to prairie protein cycles."
+      ],
+      "resource_links": [
+        {
+          "label": "SDSU Extension",
+          "url": "https://extension.sdstate.edu/"
+        },
+        {
+          "label": "South Dakota Department of Agriculture",
+          "url": "https://sdda.sd.gov/"
+        }
+      ],
+      "region_id": 35
+    },
+    {
+      "nickname": "The Cornhusker State",
+      "capital": "Lincoln",
+      "top_crops": [
+        "Corn",
+        "Cattle",
+        "Soybeans",
+        "Hogs",
+        "Wheat",
+        "Sugar beets"
+      ],
+      "agricultural_highlights": "Nebraska’s Platte valley irrigation feeds national beef finishing and ethanol corn; Panhandle dryland wheat contrasts with intense pivot circles.",
+      "fun_facts": [
+        "Nebraska markets itself as the Beef State with packed feedyard capacity.",
+        "Valentine melons became a famous hot-weather roadside crop."
+      ],
+      "resource_links": [
+        {
+          "label": "Nebraska Extension",
+          "url": "https://extension.unl.edu/"
+        },
+        {
+          "label": "Nebraska Department of Agriculture",
+          "url": "https://nda.nebraska.gov/"
+        }
+      ],
+      "region_id": 36
+    },
+    {
+      "nickname": "The Sunflower State",
+      "capital": "Topeka",
+      "top_crops": [
+        "Wheat",
+        "Sorghum",
+        "Cattle",
+        "Corn",
+        "Soybeans",
+        "Sunflowers"
+      ],
+      "agricultural_highlights": "Kansas grows hard red winter wheat on vast horizons—summer storms end wheat harvest and start fall planting rhythms.",
+      "fun_facts": [
+        "Kansas routinely harvests more wheat than any other state.",
+        "Community wheat branding programs tie bread flour to named varieties."
+      ],
+      "resource_links": [
+        {
+          "label": "K-State Research & Extension",
+          "url": "https://www.k-state.edu/extension/"
+        },
+        {
+          "label": "Kansas Department of Agriculture",
+          "url": "https://agriculture.ks.gov/"
+        }
+      ],
+      "region_id": 37
+    }
+  ]
+}
