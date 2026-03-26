@@ -718,5 +718,581 @@
     "description": "Large game animal with rich, dark meat; carefully regulated hunting season.",
     "image_url": null,
     "storage_tips": "Must be cooked to 160°F internal temperature. Freeze portions not used immediately."
+  },
+  {
+    "id": 91,
+    "name": "Persimmons",
+    "category": "fruit",
+    "description": "Sweet, honey-like fruit harvested in fall; American and Asian varieties thrive in warmer zones.",
+    "image_url": null,
+    "storage_tips": "Ripen at room temperature until very soft (Hachiya) or eat firm (Fuyu). Refrigerate when ripe."
+  },
+  {
+    "id": 92,
+    "name": "Pawpaw",
+    "category": "fruit",
+    "description": "North America's largest native fruit with tropical custard-like flesh, found in eastern forests.",
+    "image_url": null,
+    "storage_tips": "Extremely perishable. Eat within 2-3 days or freeze pulp for later use."
+  },
+  {
+    "id": 93,
+    "name": "Muscadine Grapes",
+    "category": "fruit",
+    "description": "Thick-skinned native grapes of the Southeast with intense, musky sweetness.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and use within a week. Squeeze flesh from skin to eat fresh."
+  },
+  {
+    "id": 94,
+    "name": "Oranges",
+    "category": "fruit",
+    "description": "Juicy citrus fruit grown commercially in Florida, California, and Texas.",
+    "image_url": null,
+    "storage_tips": "Store at room temperature for a week or refrigerate for up to 3 weeks."
+  },
+  {
+    "id": 95,
+    "name": "Grapefruit",
+    "category": "fruit",
+    "description": "Tart-sweet citrus at its best during winter months from Southern groves.",
+    "image_url": null,
+    "storage_tips": "Store at room temperature for a week or refrigerate for 2-3 weeks."
+  },
+  {
+    "id": 96,
+    "name": "Lemons",
+    "category": "fruit",
+    "description": "Bright, acidic citrus grown year-round in California and parts of the Gulf Coast.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a sealed bag for up to a month. Room temperature for a week."
+  },
+  {
+    "id": 97,
+    "name": "Mangoes",
+    "category": "fruit",
+    "description": "Tropical stone fruit with rich, sweet flesh grown in Hawaii and South Florida.",
+    "image_url": null,
+    "storage_tips": "Ripen at room temperature until fragrant and slightly soft. Refrigerate once ripe for 3-5 days."
+  },
+  {
+    "id": 98,
+    "name": "Pineapple",
+    "category": "fruit",
+    "description": "Sweet, tart tropical fruit commercially grown in Hawaii.",
+    "image_url": null,
+    "storage_tips": "Store whole at room temperature for 1-2 days. Refrigerate cut pineapple and use within 3-5 days."
+  },
+  {
+    "id": 99,
+    "name": "Huckleberries",
+    "category": "fruit",
+    "description": "Wild mountain berries with intense flavor, foraged in the Pacific Northwest and Northern Rockies.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and use within 3-5 days. Freeze well for long-term storage."
+  },
+  {
+    "id": 100,
+    "name": "Elderberries",
+    "category": "fruit",
+    "description": "Small, dark berries found wild across eastern forests; must be cooked before eating.",
+    "image_url": null,
+    "storage_tips": "Freeze on the stem, then strip berries. Cook before consuming. Raw berries are mildly toxic."
+  },
+  {
+    "id": 101,
+    "name": "Gooseberries",
+    "category": "fruit",
+    "description": "Tart, translucent berries used in jams, pies, and sauces; thrive in northern climates.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and use within a week. Freeze well for preserving."
+  },
+  {
+    "id": 102,
+    "name": "Apricots",
+    "category": "fruit",
+    "description": "Delicate stone fruit with velvety skin, primarily grown in California and parts of the Mountain West.",
+    "image_url": null,
+    "storage_tips": "Ripen at room temperature. Refrigerate when ripe and use within 2-3 days."
+  },
+  {
+    "id": 103,
+    "name": "Pomegranates",
+    "category": "fruit",
+    "description": "Jewel-toned arils inside a leathery skin, harvested in fall from California orchards.",
+    "image_url": null,
+    "storage_tips": "Store whole at room temperature for a week or refrigerate for up to 2 months."
+  },
+  {
+    "id": 104,
+    "name": "Avocados",
+    "category": "fruit",
+    "description": "Creamy, nutrient-rich fruit grown commercially in California and Hawaii.",
+    "image_url": null,
+    "storage_tips": "Ripen at room temperature. Refrigerate ripe avocados to slow browning. Use within 2-3 days once cut."
+  },
+  {
+    "id": 105,
+    "name": "Guava",
+    "category": "fruit",
+    "description": "Fragrant tropical fruit with pink or white flesh, grown in Hawaii and South Florida.",
+    "image_url": null,
+    "storage_tips": "Ripen at room temperature until fragrant. Refrigerate ripe fruit and use within 3-4 days."
+  },
+  {
+    "id": 106,
+    "name": "Okra",
+    "category": "vegetable",
+    "description": "Heat-loving pod vegetable essential to Southern cooking; best when young and tender.",
+    "image_url": null,
+    "storage_tips": "Refrigerate unwashed in a paper bag. Use within 2-3 days. Do not wash until ready to cook."
+  },
+  {
+    "id": 107,
+    "name": "Collard Greens",
+    "category": "vegetable",
+    "description": "Sturdy, large-leafed brassica central to Southern cuisine; sweetened by frost.",
+    "image_url": null,
+    "storage_tips": "Wrap in damp paper towels and refrigerate. Use within 4-5 days."
+  },
+  {
+    "id": 108,
+    "name": "Artichokes",
+    "category": "vegetable",
+    "description": "Thistle-family vegetable with edible heart and petals, grown almost exclusively in coastal California.",
+    "image_url": null,
+    "storage_tips": "Sprinkle with water, wrap in a plastic bag, and refrigerate. Use within 5-7 days."
+  },
+  {
+    "id": 109,
+    "name": "Arugula",
+    "category": "vegetable",
+    "description": "Peppery salad green that thrives in cool weather with a quick growth cycle.",
+    "image_url": null,
+    "storage_tips": "Store in a container lined with paper towels. Refrigerate and use within 3-5 days."
+  },
+  {
+    "id": 110,
+    "name": "Fennel",
+    "category": "vegetable",
+    "description": "Anise-flavored bulb vegetable popular in Mediterranean-style cooking.",
+    "image_url": null,
+    "storage_tips": "Wrap tightly and refrigerate. Use within 5-7 days. Fronds can be used as an herb."
+  },
+  {
+    "id": 111,
+    "name": "Tomatillos",
+    "category": "vegetable",
+    "description": "Tangy, husked fruit essential to Mexican green salsas; thrives in warm Southern climates.",
+    "image_url": null,
+    "storage_tips": "Remove husks only before use. Refrigerate in a paper bag for up to 2 weeks."
+  },
+  {
+    "id": 112,
+    "name": "Kohlrabi",
+    "category": "vegetable",
+    "description": "Mild, crunchy brassica bulb popular in Midwestern and German-American cooking.",
+    "image_url": null,
+    "storage_tips": "Remove leaves, wrap bulb, and refrigerate. Keeps 2-3 weeks."
+  },
+  {
+    "id": 113,
+    "name": "Rutabaga",
+    "category": "vegetable",
+    "description": "Sweet, dense root vegetable that thrives in cold northern soils; often waxed for storage.",
+    "image_url": null,
+    "storage_tips": "Store in a cool, dark place or refrigerate. Keeps 2-3 months."
+  },
+  {
+    "id": 114,
+    "name": "Sunchokes (Jerusalem Artichokes)",
+    "category": "vegetable",
+    "description": "Knobby tuber of a native sunflower with a nutty, slightly sweet flavor.",
+    "image_url": null,
+    "storage_tips": "Store unwashed in a paper bag in the fridge. Use within 1-2 weeks."
+  },
+  {
+    "id": 115,
+    "name": "Fiddlehead Ferns",
+    "category": "vegetable",
+    "description": "Tightly coiled young fern fronds foraged in spring along northeastern streams and wetlands.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a damp towel and use within 1-2 days. Must be thoroughly cooked before eating."
+  },
+  {
+    "id": 116,
+    "name": "Ramps (Wild Leeks)",
+    "category": "vegetable",
+    "description": "Pungent wild allium foraged in spring from rich Appalachian and northeastern forests.",
+    "image_url": null,
+    "storage_tips": "Wrap in damp paper towels and refrigerate. Use within 3-5 days. Pickle for longer storage."
+  },
+  {
+    "id": 117,
+    "name": "Chayote",
+    "category": "vegetable",
+    "description": "Mild, pear-shaped squash-family fruit used in Latin American and Southern cooking.",
+    "image_url": null,
+    "storage_tips": "Store at room temperature for a few days or refrigerate for up to 3 weeks."
+  },
+  {
+    "id": 118,
+    "name": "Bok Choy",
+    "category": "vegetable",
+    "description": "Mild, crunchy Asian green that thrives in cool weather.",
+    "image_url": null,
+    "storage_tips": "Wrap in a damp towel and refrigerate. Use within 3-5 days."
+  },
+  {
+    "id": 119,
+    "name": "Snap Peas",
+    "category": "vegetable",
+    "description": "Sweet, edible-pod pea variety best in cool spring and fall weather.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a bag and use within 3-5 days. Best eaten raw or lightly cooked."
+  },
+  {
+    "id": 120,
+    "name": "Taro",
+    "category": "vegetable",
+    "description": "Starchy tropical root central to Hawaiian and Pacific Islander cuisine.",
+    "image_url": null,
+    "storage_tips": "Store in a cool, dry, dark place. Use within a week. Must be cooked thoroughly before eating."
+  },
+  {
+    "id": 121,
+    "name": "Lemongrass",
+    "category": "herb",
+    "description": "Citrusy tropical grass used in Southeast Asian and Hawaiian cooking.",
+    "image_url": null,
+    "storage_tips": "Wrap tightly and refrigerate for up to 2 weeks. Freeze for longer storage."
+  },
+  {
+    "id": 122,
+    "name": "Tarragon",
+    "category": "herb",
+    "description": "Anise-scented herb essential to French cuisine; grows well in temperate climates.",
+    "image_url": null,
+    "storage_tips": "Wrap in a damp paper towel and refrigerate. Use within 4-5 days."
+  },
+  {
+    "id": 123,
+    "name": "Lavender",
+    "category": "herb",
+    "description": "Fragrant flowering herb used in baking and beverages; thrives in dry, warm climates.",
+    "image_url": null,
+    "storage_tips": "Dry by hanging bundles upside down. Dried lavender keeps for months in an airtight container."
+  },
+  {
+    "id": 124,
+    "name": "Epazote",
+    "category": "herb",
+    "description": "Pungent herb used in Mexican bean dishes and quesadillas; grows wild in the Southwest.",
+    "image_url": null,
+    "storage_tips": "Wrap loosely and refrigerate. Use within 3-4 days. Dries well."
+  },
+  {
+    "id": 125,
+    "name": "Sorrel",
+    "category": "herb",
+    "description": "Tangy, lemony perennial green used in soups and salads; one of spring's earliest harvests.",
+    "image_url": null,
+    "storage_tips": "Wrap in a damp paper towel and refrigerate. Use within 3-4 days."
+  },
+  {
+    "id": 126,
+    "name": "Marjoram",
+    "category": "herb",
+    "description": "Delicate, sweet cousin of oregano popular in Mediterranean and German cooking.",
+    "image_url": null,
+    "storage_tips": "Wrap in a damp paper towel and refrigerate. Use within 4-5 days."
+  },
+  {
+    "id": 127,
+    "name": "Bay Laurel",
+    "category": "herb",
+    "description": "Aromatic evergreen leaves used fresh or dried in soups, stews, and braises.",
+    "image_url": null,
+    "storage_tips": "Fresh leaves keep 1-2 weeks refrigerated. Dried leaves keep for a year in an airtight container."
+  },
+  {
+    "id": 128,
+    "name": "Matsutake",
+    "category": "fungus",
+    "description": "Prized aromatic mushroom found under conifers in the Pacific Northwest; spicy, pine-like scent.",
+    "image_url": null,
+    "storage_tips": "Wrap in paper towels and refrigerate. Use within 2-3 days. Do not wash until ready to cook."
+  },
+  {
+    "id": 129,
+    "name": "Lobster Mushroom",
+    "category": "fungus",
+    "description": "Parasitic fungus that transforms host mushrooms into red-orange, seafood-flavored specimens.",
+    "image_url": null,
+    "storage_tips": "Brush clean and refrigerate in a paper bag. Use within 3-5 days."
+  },
+  {
+    "id": 130,
+    "name": "Hedgehog Mushroom",
+    "category": "fungus",
+    "description": "Mild, sweet-tasting mushroom with tooth-like gills, found in Pacific Northwest forests.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a paper bag. Use within 4-5 days. Brush clean rather than washing."
+  },
+  {
+    "id": 131,
+    "name": "Candy Cap",
+    "category": "fungus",
+    "description": "Small mushroom with an intense maple-syrup aroma, found in California oak woodlands.",
+    "image_url": null,
+    "storage_tips": "Dry thoroughly—flavor intensifies when dried. Store dried in an airtight container for months."
+  },
+  {
+    "id": 132,
+    "name": "Shiitake",
+    "category": "fungus",
+    "description": "Richly savory cultivated mushroom grown on logs and sawdust blocks across many regions.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a paper bag. Use within a week. Dry extras for concentrated flavor."
+  },
+  {
+    "id": 133,
+    "name": "Oregon Black Truffle",
+    "category": "fungus",
+    "description": "Aromatic underground fungus found in Douglas fir forests of the Pacific Northwest.",
+    "image_url": null,
+    "storage_tips": "Wrap in paper towels in a sealed container and refrigerate. Use within 5-7 days."
+  },
+  {
+    "id": 134,
+    "name": "Wood Ear",
+    "category": "fungus",
+    "description": "Thin, gelatinous mushroom found on dead hardwood; valued for texture in Asian dishes.",
+    "image_url": null,
+    "storage_tips": "Refrigerate fresh for 3-4 days. Dried wood ears rehydrate well and keep for months."
+  },
+  {
+    "id": 135,
+    "name": "Dungeness Crab",
+    "category": "seafood",
+    "description": "Sweet, tender crab harvested along the Pacific Coast from Alaska to central California.",
+    "image_url": null,
+    "storage_tips": "Keep alive and cold until cooking. Cook same day. Picked meat keeps 1-2 days refrigerated."
+  },
+  {
+    "id": 136,
+    "name": "Salmon (Pacific)",
+    "category": "seafood",
+    "description": "Iconic Pacific fish—Chinook, Sockeye, Coho, and other runs define Northwest foodways.",
+    "image_url": null,
+    "storage_tips": "Keep very cold on ice. Cook within 1-2 days. Freezes well vacuum-sealed."
+  },
+  {
+    "id": 137,
+    "name": "Halibut (Pacific)",
+    "category": "seafood",
+    "description": "Firm, mild white flatfish caught from Alaska through Oregon.",
+    "image_url": null,
+    "storage_tips": "Keep cold on ice. Cook within 1-2 days. Dense flesh holds up well to grilling."
+  },
+  {
+    "id": 138,
+    "name": "Spot Prawns",
+    "category": "seafood",
+    "description": "Sweet, large shrimp harvested from deep Pacific waters; a West Coast delicacy.",
+    "image_url": null,
+    "storage_tips": "Keep alive on ice until cooking. Head-on prawns degrade quickly—cook same day."
+  },
+  {
+    "id": 139,
+    "name": "Shrimp (Gulf)",
+    "category": "seafood",
+    "description": "Wild-caught white, brown, and pink shrimp from the warm Gulf of Mexico waters.",
+    "image_url": null,
+    "storage_tips": "Keep cold on ice. Use within 1-2 days. Freeze promptly for longer storage."
+  },
+  {
+    "id": 140,
+    "name": "Red Snapper",
+    "category": "seafood",
+    "description": "Firm, sweet white fish prized in Gulf and South Atlantic fisheries.",
+    "image_url": null,
+    "storage_tips": "Keep cold on ice. Cook within 1-2 days. Whole fish stays fresher than fillets."
+  },
+  {
+    "id": 141,
+    "name": "Grouper",
+    "category": "seafood",
+    "description": "Mild, firm reef fish caught in warm Southeast and Gulf waters.",
+    "image_url": null,
+    "storage_tips": "Refrigerate on ice and cook within 1-2 days. Thick fillets hold up to grilling."
+  },
+  {
+    "id": 142,
+    "name": "Crawfish",
+    "category": "seafood",
+    "description": "Freshwater crustacean central to Cajun and Creole cuisine; farmed and wild-caught in Louisiana.",
+    "image_url": null,
+    "storage_tips": "Keep alive in a cool, ventilated container. Cook same day. Purge in salted water before boiling."
+  },
+  {
+    "id": 143,
+    "name": "Catfish (Wild)",
+    "category": "seafood",
+    "description": "Freshwater bottom-feeder found across Southern and Midwestern rivers and lakes.",
+    "image_url": null,
+    "storage_tips": "Clean and refrigerate promptly. Cook within 1-2 days. Mild flesh takes well to frying."
+  },
+  {
+    "id": 144,
+    "name": "Walleye",
+    "category": "seafood",
+    "description": "Prized freshwater game fish of the Great Lakes and northern rivers with mild, flaky flesh.",
+    "image_url": null,
+    "storage_tips": "Keep cold on ice. Cook within 1-2 days. Delicate flesh is best pan-fried."
+  },
+  {
+    "id": 145,
+    "name": "Trout (Rainbow)",
+    "category": "seafood",
+    "description": "Freshwater fish found in cold mountain streams and stocked lakes across the West.",
+    "image_url": null,
+    "storage_tips": "Keep cold and cook within 1-2 days. Whole trout grills beautifully."
+  },
+  {
+    "id": 146,
+    "name": "Redfish (Red Drum)",
+    "category": "seafood",
+    "description": "Firm, mild inshore fish iconic to Gulf Coast and Lowcountry cooking.",
+    "image_url": null,
+    "storage_tips": "Keep cold on ice. Cook within 1-2 days. Skin-on fillets are ideal for blackening."
+  },
+  {
+    "id": 147,
+    "name": "Stone Crab",
+    "category": "seafood",
+    "description": "Only the claws are harvested, then the crab is returned to regrow them; a Florida specialty.",
+    "image_url": null,
+    "storage_tips": "Claws are pre-cooked. Refrigerate and eat within 2 days. Serve chilled with mustard sauce."
+  },
+  {
+    "id": 148,
+    "name": "Soft-Shell Crab",
+    "category": "seafood",
+    "description": "Blue crabs harvested just after molting, eaten shell and all; a mid-Atlantic spring treat.",
+    "image_url": null,
+    "storage_tips": "Extremely perishable. Refrigerate on ice and cook within 1 day. Can be frozen."
+  },
+  {
+    "id": 149,
+    "name": "Razor Clams",
+    "category": "seafood",
+    "description": "Long, thin-shelled clams dug from Pacific Northwest surf beaches during limited seasons.",
+    "image_url": null,
+    "storage_tips": "Keep cold and cook within 1 day. Clean thoroughly to remove sand."
+  },
+  {
+    "id": 150,
+    "name": "Swordfish",
+    "category": "seafood",
+    "description": "Meaty, steak-like ocean fish caught offshore from New England through the Southeast.",
+    "image_url": null,
+    "storage_tips": "Keep cold on ice. Cook within 1-2 days. Dense flesh is ideal for grilling."
+  },
+  {
+    "id": 151,
+    "name": "Elk",
+    "category": "game",
+    "description": "Lean, rich-flavored large game hunted in the Mountain West and Pacific Northwest.",
+    "image_url": null,
+    "storage_tips": "Freeze in meal-sized portions. Very lean—avoid overcooking. Pairs well with bold sauces."
+  },
+  {
+    "id": 152,
+    "name": "Wild Boar",
+    "category": "game",
+    "description": "Feral hogs found across the South and South Central states; rich, slightly sweet meat.",
+    "image_url": null,
+    "storage_tips": "Must be cooked to 160°F. Refrigerate or freeze promptly. Braise tougher cuts."
+  },
+  {
+    "id": 153,
+    "name": "Pheasant",
+    "category": "game",
+    "description": "Upland game bird prized for its mild, slightly gamey flavor; abundant on the Great Plains.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and cook within 2-3 days. Brining helps retain moisture."
+  },
+  {
+    "id": 154,
+    "name": "Quail",
+    "category": "game",
+    "description": "Small upland game bird with delicate, tender meat; hunted across Southern and Western states.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and cook within 1-2 days. Small size means quick cooking—grill or pan-roast."
+  },
+  {
+    "id": 155,
+    "name": "Moose",
+    "category": "game",
+    "description": "Massive game animal yielding lean, intensely flavored meat; hunted in Alaska and Northern states.",
+    "image_url": null,
+    "storage_tips": "Freeze in portions. Very lean—add fat when cooking. Excellent for stews and roasts."
+  },
+  {
+    "id": 156,
+    "name": "Pronghorn (Antelope)",
+    "category": "game",
+    "description": "Swift prairie game with mild, sage-flavored meat; hunted across the Great Plains and Mountain West.",
+    "image_url": null,
+    "storage_tips": "Field-dress and cool quickly. Freeze in meal portions. Very lean—do not overcook."
+  },
+  {
+    "id": 157,
+    "name": "Bison",
+    "category": "game",
+    "description": "Iconic Great Plains animal with lean, rich meat; both hunted and ranch-raised.",
+    "image_url": null,
+    "storage_tips": "Leaner than beef—cook at lower temperatures. Refrigerate and use within 3-5 days or freeze."
+  },
+  {
+    "id": 158,
+    "name": "Dove (Mourning)",
+    "category": "game",
+    "description": "Small migratory game bird with dark, rich breast meat; widely hunted in Southern states.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and cook within 1-2 days. Wrap in bacon to add moisture. Do not overcook."
+  },
+  {
+    "id": 159,
+    "name": "Woodcock",
+    "category": "game",
+    "description": "Secretive forest bird with rich, dark meat prized by upland hunters in the East.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and cook within 1-2 days. Roast whole for traditional preparation."
+  },
+  {
+    "id": 160,
+    "name": "Javelina (Peccary)",
+    "category": "game",
+    "description": "Desert-dwelling pig-like animal hunted in the Southwest; mild but distinct flavor.",
+    "image_url": null,
+    "storage_tips": "Remove scent glands immediately during field dressing. Braise or slow-cook for best results."
+  },
+  {
+    "id": 161,
+    "name": "Chukar",
+    "category": "game",
+    "description": "Rocky-terrain partridge found in the Mountain West; mild, tender meat.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and cook within 1-2 days. Roast or grill whole birds."
+  },
+  {
+    "id": 162,
+    "name": "Caribou",
+    "category": "game",
+    "description": "Arctic and subarctic game hunted in Alaska; lean with a mild, venison-like flavor.",
+    "image_url": null,
+    "storage_tips": "Freeze in portions. Very lean—add fat when cooking. Excellent jerky and sausage meat."
   }
 ]
