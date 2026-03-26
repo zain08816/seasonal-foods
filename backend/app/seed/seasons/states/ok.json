@@ -1,0 +1,2212 @@
+{
+  "availability_templates": [
+    {
+      "food_id": 1,
+      "availability": "peak",
+      "months": [
+        6
+      ],
+      "notes": "Prime harvest time for fresh strawberries."
+    },
+    {
+      "food_id": 1,
+      "availability": "moderate",
+      "months": [
+        5
+      ],
+      "notes": "Peak-ish spring harvest window."
+    },
+    {
+      "food_id": 1,
+      "availability": "light",
+      "months": [
+        4
+      ],
+      "notes": "Early season berries."
+    },
+    {
+      "food_id": 2,
+      "availability": "peak",
+      "months": [
+        8
+      ],
+      "notes": "Midsummer blueberry peak."
+    },
+    {
+      "food_id": 2,
+      "availability": "moderate",
+      "months": [
+        7
+      ],
+      "notes": "Steady summer supply."
+    },
+    {
+      "food_id": 2,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "Early berry availability."
+    },
+    {
+      "food_id": 3,
+      "availability": "peak",
+      "months": [
+        8
+      ],
+      "notes": "Best flavor and sweetness."
+    },
+    {
+      "food_id": 3,
+      "availability": "moderate",
+      "months": [
+        7
+      ],
+      "notes": "Strong mid-summer peaches."
+    },
+    {
+      "food_id": 3,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "Starting to ripen in early summer."
+    },
+    {
+      "food_id": 4,
+      "availability": "peak",
+      "months": [
+        10,
+        11
+      ],
+      "notes": "Crisp peak harvest."
+    },
+    {
+      "food_id": 4,
+      "availability": "moderate",
+      "months": [
+        9
+      ],
+      "notes": "Main apple season window."
+    },
+    {
+      "food_id": 4,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Early fall picking begins."
+    },
+    {
+      "food_id": 5,
+      "availability": "peak",
+      "months": [
+        9,
+        10
+      ],
+      "notes": "Best texture and sweetness."
+    },
+    {
+      "food_id": 5,
+      "availability": "moderate",
+      "months": [
+        8
+      ],
+      "notes": "Solid mid-to-late summer into fall."
+    },
+    {
+      "food_id": 5,
+      "availability": "light",
+      "months": [
+        7
+      ],
+      "notes": "Early pears."
+    },
+    {
+      "food_id": 6,
+      "availability": "peak",
+      "months": [
+        6,
+        7
+      ],
+      "notes": "Summer peak for fresh cherries."
+    },
+    {
+      "food_id": 6,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Cherry season is ramping up."
+    },
+    {
+      "food_id": 7,
+      "availability": "peak",
+      "months": [
+        5
+      ],
+      "notes": "Asparagus peak availability."
+    },
+    {
+      "food_id": 7,
+      "availability": "moderate",
+      "months": [
+        3
+      ],
+      "notes": "Early spring harvest south of I-20."
+    },
+    {
+      "food_id": 7,
+      "availability": "moderate",
+      "months": [
+        4
+      ],
+      "notes": "Early stalks and transition into peak."
+    },
+    {
+      "food_id": 8,
+      "availability": "peak",
+      "months": [
+        5
+      ],
+      "notes": "Best tenderness."
+    },
+    {
+      "food_id": 8,
+      "availability": "moderate",
+      "months": [
+        4,
+        6
+      ],
+      "notes": "Most consistent spring window."
+    },
+    {
+      "food_id": 8,
+      "availability": "light",
+      "months": [
+        3,
+        7
+      ],
+      "notes": "Cool-weather start/end."
+    },
+    {
+      "food_id": 9,
+      "availability": "peak",
+      "months": [
+        4,
+        5
+      ],
+      "notes": "Crisp, flavorful peak."
+    },
+    {
+      "food_id": 9,
+      "availability": "moderate",
+      "months": [
+        3,
+        6
+      ],
+      "notes": "Good salad greens availability."
+    },
+    {
+      "food_id": 9,
+      "availability": "light",
+      "months": [
+        2,
+        8
+      ],
+      "notes": "Limited early/late supply."
+    },
+    {
+      "food_id": 10,
+      "availability": "peak",
+      "months": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "notes": "Long hot-season tomato production."
+    },
+    {
+      "food_id": 10,
+      "availability": "moderate",
+      "months": [
+        5,
+        9
+      ],
+      "notes": "Warming season and late fields."
+    },
+    {
+      "food_id": 10,
+      "availability": "light",
+      "months": [
+        4,
+        11
+      ],
+      "notes": "Tunnel and early transplant tomatoes."
+    },
+    {
+      "food_id": 11,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Sweet corn peak."
+    },
+    {
+      "food_id": 11,
+      "availability": "moderate",
+      "months": [
+        6
+      ],
+      "notes": "Early corn availability."
+    },
+    {
+      "food_id": 11,
+      "availability": "light",
+      "months": [
+        9,
+        10
+      ],
+      "notes": "Late-season corn."
+    },
+    {
+      "food_id": 12,
+      "availability": "peak",
+      "months": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "notes": "Chile and sweet peppers in southern basins."
+    },
+    {
+      "food_id": 12,
+      "availability": "moderate",
+      "months": [
+        5,
+        9
+      ],
+      "notes": "Shoulder months."
+    },
+    {
+      "food_id": 12,
+      "availability": "light",
+      "months": [
+        4,
+        11
+      ],
+      "notes": "Early and late peppers."
+    },
+    {
+      "food_id": 13,
+      "availability": "peak",
+      "months": [
+        8
+      ],
+      "notes": "Best crunchy peak period."
+    },
+    {
+      "food_id": 13,
+      "availability": "moderate",
+      "months": [
+        6,
+        7,
+        9
+      ],
+      "notes": "Steady summer cucumbers."
+    },
+    {
+      "food_id": 13,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Starting to ramp up."
+    },
+    {
+      "food_id": 14,
+      "availability": "peak",
+      "months": [
+        9,
+        10
+      ],
+      "notes": "Fall broccoli peak."
+    },
+    {
+      "food_id": 14,
+      "availability": "moderate",
+      "months": [
+        8
+      ],
+      "notes": "Strong late-summer availability."
+    },
+    {
+      "food_id": 14,
+      "availability": "light",
+      "months": [
+        7
+      ],
+      "notes": "Early florets."
+    },
+    {
+      "food_id": 15,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Warm-weather basil peak."
+    },
+    {
+      "food_id": 15,
+      "availability": "moderate",
+      "months": [
+        6,
+        9
+      ],
+      "notes": "Consistent basil supply."
+    },
+    {
+      "food_id": 15,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early herb growth in spring."
+    },
+    {
+      "food_id": 16,
+      "availability": "peak",
+      "months": [
+        5,
+        6
+      ],
+      "notes": "Fresh, aromatic peak."
+    },
+    {
+      "food_id": 16,
+      "availability": "moderate",
+      "months": [
+        4
+      ],
+      "notes": "Spring cilantro window."
+    },
+    {
+      "food_id": 16,
+      "availability": "light",
+      "months": [
+        3
+      ],
+      "notes": "Cilantro appears as cool weather returns."
+    },
+    {
+      "food_id": 17,
+      "availability": "peak",
+      "months": [
+        5,
+        9
+      ],
+      "notes": "Peak parsley flavor windows."
+    },
+    {
+      "food_id": 17,
+      "availability": "moderate",
+      "months": [
+        3,
+        4,
+        6,
+        10
+      ],
+      "notes": "Good parsley shelf time."
+    },
+    {
+      "food_id": 17,
+      "availability": "light",
+      "months": [
+        2,
+        11
+      ],
+      "notes": "Limited availability early/late."
+    },
+    {
+      "food_id": 18,
+      "availability": "peak",
+      "months": [
+        4,
+        5
+      ],
+      "notes": "Peak spring morels."
+    },
+    {
+      "food_id": 18,
+      "availability": "light",
+      "months": [
+        3
+      ],
+      "notes": "Sometimes pops early with the thaw."
+    },
+    {
+      "food_id": 19,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Chanterelle peak."
+    },
+    {
+      "food_id": 19,
+      "availability": "moderate",
+      "months": [
+        6
+      ],
+      "notes": "Midsummer foraging window."
+    },
+    {
+      "food_id": 19,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early chanterelles."
+    },
+    {
+      "food_id": 20,
+      "availability": "peak",
+      "months": [
+        5,
+        6
+      ],
+      "notes": "Warm-season oyster mushroom peak."
+    },
+    {
+      "food_id": 20,
+      "availability": "moderate",
+      "months": [
+        4,
+        9,
+        12
+      ],
+      "notes": "Consistent oyster mushroom months."
+    },
+    {
+      "food_id": 20,
+      "availability": "light",
+      "months": [
+        2,
+        3,
+        10,
+        11
+      ],
+      "notes": "Some early/late availability."
+    },
+    {
+      "food_id": 24,
+      "availability": "peak",
+      "months": [
+        1,
+        10,
+        11,
+        12
+      ],
+      "notes": "Primary fall/winter deer availability."
+    },
+    {
+      "food_id": 24,
+      "availability": "moderate",
+      "months": [
+        2,
+        9
+      ],
+      "notes": "Seasonal ramp."
+    },
+    {
+      "food_id": 24,
+      "availability": "light",
+      "months": [
+        3,
+        8
+      ],
+      "notes": "Cool-season start/end."
+    },
+    {
+      "food_id": 25,
+      "availability": "peak",
+      "months": [
+        11
+      ],
+      "notes": "Peak late fall window."
+    },
+    {
+      "food_id": 25,
+      "availability": "moderate",
+      "months": [
+        4,
+        5,
+        10
+      ],
+      "notes": "Spring and early fall availability."
+    },
+    {
+      "food_id": 25,
+      "availability": "light",
+      "months": [
+        3,
+        9,
+        12
+      ],
+      "notes": "Shoulder seasons."
+    },
+    {
+      "food_id": 26,
+      "availability": "peak",
+      "months": [
+        1,
+        2,
+        10,
+        11,
+        12
+      ],
+      "notes": "Best cool-season rabbit availability."
+    },
+    {
+      "food_id": 26,
+      "availability": "moderate",
+      "months": [
+        3,
+        9
+      ],
+      "notes": "Better cool-season coverage."
+    },
+    {
+      "food_id": 26,
+      "availability": "light",
+      "months": [
+        4,
+        8
+      ],
+      "notes": "Cool-season hints."
+    },
+    {
+      "food_id": 27,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Peak summer watermelon."
+    },
+    {
+      "food_id": 27,
+      "availability": "moderate",
+      "months": [
+        6,
+        9
+      ],
+      "notes": "High Plains and Rio Grande melon windows."
+    },
+    {
+      "food_id": 27,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early melons in South Texas."
+    },
+    {
+      "food_id": 28,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Peak fragrant melon season."
+    },
+    {
+      "food_id": 28,
+      "availability": "moderate",
+      "months": [
+        9
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 28,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "Early cantaloupe."
+    },
+    {
+      "food_id": 29,
+      "availability": "peak",
+      "months": [
+        6,
+        7
+      ],
+      "notes": "Peak raspberry harvest."
+    },
+    {
+      "food_id": 29,
+      "availability": "moderate",
+      "months": [
+        8
+      ],
+      "notes": "Fall-bearing varieties extend season."
+    },
+    {
+      "food_id": 29,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early season berries."
+    },
+    {
+      "food_id": 30,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Peak blackberry season."
+    },
+    {
+      "food_id": 30,
+      "availability": "moderate",
+      "months": [
+        9
+      ],
+      "notes": "Late wild blackberries."
+    },
+    {
+      "food_id": 30,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "Early berries."
+    },
+    {
+      "food_id": 31,
+      "availability": "peak",
+      "months": [
+        8,
+        9
+      ],
+      "notes": "Peak plum season."
+    },
+    {
+      "food_id": 31,
+      "availability": "moderate",
+      "months": [
+        10
+      ],
+      "notes": "Late Italian prune plums."
+    },
+    {
+      "food_id": 31,
+      "availability": "light",
+      "months": [
+        7
+      ],
+      "notes": "Early plums."
+    },
+    {
+      "food_id": 32,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Peak nectarine flavor."
+    },
+    {
+      "food_id": 32,
+      "availability": "moderate",
+      "months": [
+        9
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 32,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "Early nectarines."
+    },
+    {
+      "food_id": 34,
+      "availability": "peak",
+      "months": [
+        8,
+        9
+      ],
+      "notes": "Peak grape harvest."
+    },
+    {
+      "food_id": 34,
+      "availability": "moderate",
+      "months": [
+        10
+      ],
+      "notes": "Late Concord grapes."
+    },
+    {
+      "food_id": 34,
+      "availability": "light",
+      "months": [
+        7
+      ],
+      "notes": "Early table grapes."
+    },
+    {
+      "food_id": 36,
+      "availability": "peak",
+      "months": [
+        9
+      ],
+      "notes": "Peak fig season in warmer zones."
+    },
+    {
+      "food_id": 36,
+      "availability": "moderate",
+      "months": [
+        8
+      ],
+      "notes": "Early figs."
+    },
+    {
+      "food_id": 36,
+      "availability": "light",
+      "months": [
+        10
+      ],
+      "notes": "Late figs in mild falls."
+    },
+    {
+      "food_id": 37,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Peak zucchini\u2014abundant!"
+    },
+    {
+      "food_id": 37,
+      "availability": "moderate",
+      "months": [
+        6,
+        9
+      ],
+      "notes": "Good supply."
+    },
+    {
+      "food_id": 37,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early zucchini."
+    },
+    {
+      "food_id": 38,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Peak summer squash."
+    },
+    {
+      "food_id": 38,
+      "availability": "moderate",
+      "months": [
+        6,
+        9
+      ],
+      "notes": "Steady supply."
+    },
+    {
+      "food_id": 38,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early summer squash."
+    },
+    {
+      "food_id": 39,
+      "availability": "peak",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "notes": "Peak winter squash harvest."
+    },
+    {
+      "food_id": 39,
+      "availability": "moderate",
+      "months": [
+        1,
+        12
+      ],
+      "notes": "Stored squash available."
+    },
+    {
+      "food_id": 39,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Early hard squash."
+    },
+    {
+      "food_id": 40,
+      "availability": "peak",
+      "months": [
+        9,
+        10
+      ],
+      "notes": "Peak pumpkin season."
+    },
+    {
+      "food_id": 40,
+      "availability": "moderate",
+      "months": [
+        11
+      ],
+      "notes": "Post-Halloween cooking pumpkins."
+    },
+    {
+      "food_id": 40,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Early pumpkins."
+    },
+    {
+      "food_id": 41,
+      "availability": "peak",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "notes": "Peak eggplant season."
+    },
+    {
+      "food_id": 41,
+      "availability": "moderate",
+      "months": [
+        10
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 41,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "Early eggplant."
+    },
+    {
+      "food_id": 42,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Peak green bean season."
+    },
+    {
+      "food_id": 42,
+      "availability": "moderate",
+      "months": [
+        9
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 42,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "Early snap beans."
+    },
+    {
+      "food_id": 43,
+      "availability": "peak",
+      "months": [
+        5,
+        6
+      ],
+      "notes": "Peak spring pea season."
+    },
+    {
+      "food_id": 43,
+      "availability": "moderate",
+      "months": [
+        4,
+        7
+      ],
+      "notes": "Early and late peas."
+    },
+    {
+      "food_id": 43,
+      "availability": "light",
+      "months": [
+        3
+      ],
+      "notes": "Very early peas."
+    },
+    {
+      "food_id": 44,
+      "availability": "peak",
+      "months": [
+        6,
+        7,
+        10
+      ],
+      "notes": "Peak beet harvest."
+    },
+    {
+      "food_id": 44,
+      "availability": "moderate",
+      "months": [
+        8,
+        9,
+        11
+      ],
+      "notes": "Good availability."
+    },
+    {
+      "food_id": 44,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Spring beets."
+    },
+    {
+      "food_id": 45,
+      "availability": "peak",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "notes": "Peak fall carrot sweetness."
+    },
+    {
+      "food_id": 45,
+      "availability": "moderate",
+      "months": [
+        6,
+        7
+      ],
+      "notes": "Good mid-season supply."
+    },
+    {
+      "food_id": 45,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early spring carrots."
+    },
+    {
+      "food_id": 46,
+      "availability": "peak",
+      "months": [
+        4,
+        5
+      ],
+      "notes": "Peak spring radishes."
+    },
+    {
+      "food_id": 46,
+      "availability": "moderate",
+      "months": [
+        6,
+        9,
+        10
+      ],
+      "notes": "Second season in fall."
+    },
+    {
+      "food_id": 46,
+      "availability": "light",
+      "months": [
+        3
+      ],
+      "notes": "Very early radishes."
+    },
+    {
+      "food_id": 47,
+      "availability": "peak",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "notes": "Peak fall cabbage."
+    },
+    {
+      "food_id": 47,
+      "availability": "moderate",
+      "months": [
+        5,
+        6
+      ],
+      "notes": "Spring cabbage."
+    },
+    {
+      "food_id": 47,
+      "availability": "light",
+      "months": [
+        7,
+        12
+      ],
+      "notes": "Summer gap and late storage."
+    },
+    {
+      "food_id": 48,
+      "availability": "peak",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "notes": "Fall kale sweetened by frost."
+    },
+    {
+      "food_id": 48,
+      "availability": "moderate",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "notes": "Steady supply."
+    },
+    {
+      "food_id": 48,
+      "availability": "light",
+      "months": [
+        4
+      ],
+      "notes": "Early spring kale."
+    },
+    {
+      "food_id": 49,
+      "availability": "peak",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "notes": "Peak summer chard."
+    },
+    {
+      "food_id": 49,
+      "availability": "moderate",
+      "months": [
+        5,
+        9,
+        10
+      ],
+      "notes": "Spring and fall chard."
+    },
+    {
+      "food_id": 49,
+      "availability": "light",
+      "months": [
+        4
+      ],
+      "notes": "Early chard."
+    },
+    {
+      "food_id": 50,
+      "availability": "peak",
+      "months": [
+        9,
+        10
+      ],
+      "notes": "Peak fall cauliflower."
+    },
+    {
+      "food_id": 50,
+      "availability": "moderate",
+      "months": [
+        5,
+        6
+      ],
+      "notes": "Spring cauliflower."
+    },
+    {
+      "food_id": 50,
+      "availability": "light",
+      "months": [
+        11
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 51,
+      "availability": "peak",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "notes": "Peak potato harvest."
+    },
+    {
+      "food_id": 51,
+      "availability": "moderate",
+      "months": [
+        7
+      ],
+      "notes": "Harvest ramp-up."
+    },
+    {
+      "food_id": 51,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "New potatoes."
+    },
+    {
+      "food_id": 52,
+      "availability": "peak",
+      "months": [
+        9,
+        10
+      ],
+      "notes": "Peak sweet potato harvest."
+    },
+    {
+      "food_id": 52,
+      "availability": "moderate",
+      "months": [
+        11,
+        12
+      ],
+      "notes": "Stored sweet potatoes."
+    },
+    {
+      "food_id": 52,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Early sweet potatoes."
+    },
+    {
+      "food_id": 53,
+      "availability": "peak",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "notes": "Peak onion harvest."
+    },
+    {
+      "food_id": 53,
+      "availability": "moderate",
+      "months": [
+        6
+      ],
+      "notes": "Spring onions."
+    },
+    {
+      "food_id": 53,
+      "availability": "light",
+      "months": [
+        10,
+        11
+      ],
+      "notes": "Storage onions."
+    },
+    {
+      "food_id": 54,
+      "availability": "peak",
+      "months": [
+        6,
+        7
+      ],
+      "notes": "Peak fresh garlic harvest."
+    },
+    {
+      "food_id": 54,
+      "availability": "moderate",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "notes": "Cured garlic available."
+    },
+    {
+      "food_id": 54,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Green garlic / scapes."
+    },
+    {
+      "food_id": 55,
+      "availability": "peak",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "notes": "Peak fall/winter leeks."
+    },
+    {
+      "food_id": 55,
+      "availability": "moderate",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "notes": "Summer leeks."
+    },
+    {
+      "food_id": 55,
+      "availability": "light",
+      "months": [
+        4
+      ],
+      "notes": "Early leeks."
+    },
+    {
+      "food_id": 56,
+      "availability": "peak",
+      "months": [
+        10,
+        11
+      ],
+      "notes": "Peak fall turnips sweetened by frost."
+    },
+    {
+      "food_id": 56,
+      "availability": "moderate",
+      "months": [
+        4,
+        5
+      ],
+      "notes": "Spring turnips."
+    },
+    {
+      "food_id": 56,
+      "availability": "light",
+      "months": [
+        6,
+        12
+      ],
+      "notes": "Limited supply."
+    },
+    {
+      "food_id": 57,
+      "availability": "peak",
+      "months": [
+        10,
+        11,
+        12
+      ],
+      "notes": "Peak parsnips\u2014sweeter after frost."
+    },
+    {
+      "food_id": 57,
+      "availability": "moderate",
+      "months": [
+        1,
+        2,
+        3
+      ],
+      "notes": "Overwintered parsnips."
+    },
+    {
+      "food_id": 57,
+      "availability": "light",
+      "months": [
+        9
+      ],
+      "notes": "Early fall parsnips."
+    },
+    {
+      "food_id": 58,
+      "availability": "peak",
+      "months": [
+        10,
+        11
+      ],
+      "notes": "Peak after first frost."
+    },
+    {
+      "food_id": 58,
+      "availability": "moderate",
+      "months": [
+        9,
+        12
+      ],
+      "notes": "Good availability."
+    },
+    {
+      "food_id": 58,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Early Brussels sprouts."
+    },
+    {
+      "food_id": 59,
+      "availability": "peak",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "notes": "Peak celery harvest."
+    },
+    {
+      "food_id": 59,
+      "availability": "moderate",
+      "months": [
+        6
+      ],
+      "notes": "Early celery."
+    },
+    {
+      "food_id": 59,
+      "availability": "light",
+      "months": [
+        10
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 60,
+      "availability": "peak",
+      "months": [
+        5,
+        6,
+        7
+      ],
+      "notes": "Peak dill season."
+    },
+    {
+      "food_id": 60,
+      "availability": "moderate",
+      "months": [
+        8,
+        9
+      ],
+      "notes": "Late season, going to seed."
+    },
+    {
+      "food_id": 60,
+      "availability": "light",
+      "months": [
+        4
+      ],
+      "notes": "Early dill."
+    },
+    {
+      "food_id": 61,
+      "availability": "peak",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "notes": "Peak mint\u2014grows vigorously."
+    },
+    {
+      "food_id": 61,
+      "availability": "moderate",
+      "months": [
+        9,
+        10
+      ],
+      "notes": "Late season mint."
+    },
+    {
+      "food_id": 61,
+      "availability": "light",
+      "months": [
+        4
+      ],
+      "notes": "Early mint."
+    },
+    {
+      "food_id": 62,
+      "availability": "moderate",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "notes": "Available through growing season."
+    },
+    {
+      "food_id": 62,
+      "availability": "light",
+      "months": [
+        3,
+        4,
+        11,
+        12
+      ],
+      "notes": "Some availability in milder zones."
+    },
+    {
+      "food_id": 63,
+      "availability": "peak",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "notes": "Peak thyme season."
+    },
+    {
+      "food_id": 63,
+      "availability": "moderate",
+      "months": [
+        9,
+        10
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 63,
+      "availability": "light",
+      "months": [
+        4
+      ],
+      "notes": "Early thyme."
+    },
+    {
+      "food_id": 64,
+      "availability": "peak",
+      "months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "notes": "Peak sage harvest."
+    },
+    {
+      "food_id": 64,
+      "availability": "moderate",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "notes": "Sage holds up well into fall."
+    },
+    {
+      "food_id": 64,
+      "availability": "light",
+      "months": [
+        4
+      ],
+      "notes": "Early sage."
+    },
+    {
+      "food_id": 65,
+      "availability": "peak",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "notes": "Peak chive season."
+    },
+    {
+      "food_id": 65,
+      "availability": "moderate",
+      "months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "notes": "Available through growing season."
+    },
+    {
+      "food_id": 65,
+      "availability": "light",
+      "months": [
+        3
+      ],
+      "notes": "Very early spring chives."
+    },
+    {
+      "food_id": 66,
+      "availability": "peak",
+      "months": [
+        6,
+        7,
+        8
+      ],
+      "notes": "Peak oregano\u2014best flavor in heat."
+    },
+    {
+      "food_id": 66,
+      "availability": "moderate",
+      "months": [
+        9,
+        10
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 66,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early oregano."
+    },
+    {
+      "food_id": 67,
+      "availability": "peak",
+      "months": [
+        9,
+        10
+      ],
+      "notes": "Peak fall maitake season."
+    },
+    {
+      "food_id": 67,
+      "availability": "moderate",
+      "months": [
+        11
+      ],
+      "notes": "Late season before hard frost."
+    },
+    {
+      "food_id": 67,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Early maitake sightings."
+    },
+    {
+      "food_id": 68,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Peak chicken of the woods."
+    },
+    {
+      "food_id": 68,
+      "availability": "moderate",
+      "months": [
+        6,
+        9
+      ],
+      "notes": "Consistent finds."
+    },
+    {
+      "food_id": 68,
+      "availability": "light",
+      "months": [
+        5
+      ],
+      "notes": "Early shelf fungi."
+    },
+    {
+      "food_id": 69,
+      "availability": "peak",
+      "months": [
+        8,
+        9,
+        10
+      ],
+      "notes": "Peak fall lion's mane season."
+    },
+    {
+      "food_id": 69,
+      "availability": "moderate",
+      "months": [
+        11
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 69,
+      "availability": "light",
+      "months": [
+        7
+      ],
+      "notes": "Early lion's mane."
+    },
+    {
+      "food_id": 70,
+      "availability": "peak",
+      "months": [
+        7,
+        8
+      ],
+      "notes": "Peak black trumpet season."
+    },
+    {
+      "food_id": 70,
+      "availability": "moderate",
+      "months": [
+        9
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 70,
+      "availability": "light",
+      "months": [
+        6
+      ],
+      "notes": "Early black trumpets."
+    },
+    {
+      "food_id": 71,
+      "availability": "peak",
+      "months": [
+        8,
+        9
+      ],
+      "notes": "Peak late-summer porcini."
+    },
+    {
+      "food_id": 71,
+      "availability": "moderate",
+      "months": [
+        10
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 71,
+      "availability": "light",
+      "months": [
+        7
+      ],
+      "notes": "Early porcini."
+    },
+    {
+      "food_id": 72,
+      "availability": "peak",
+      "months": [
+        8,
+        9
+      ],
+      "notes": "Peak giant puffball season."
+    },
+    {
+      "food_id": 72,
+      "availability": "moderate",
+      "months": [
+        7
+      ],
+      "notes": "Early puffballs."
+    },
+    {
+      "food_id": 72,
+      "availability": "light",
+      "months": [
+        10
+      ],
+      "notes": "Late finds."
+    },
+    {
+      "food_id": 86,
+      "availability": "peak",
+      "months": [
+        10,
+        11,
+        12
+      ],
+      "notes": "Peak duck hunting season."
+    },
+    {
+      "food_id": 86,
+      "availability": "moderate",
+      "months": [
+        1
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 86,
+      "availability": "light",
+      "months": [
+        9
+      ],
+      "notes": "Early waterfowl season."
+    },
+    {
+      "food_id": 87,
+      "availability": "peak",
+      "months": [
+        10,
+        11,
+        12
+      ],
+      "notes": "Peak goose hunting season."
+    },
+    {
+      "food_id": 87,
+      "availability": "moderate",
+      "months": [
+        1,
+        2
+      ],
+      "notes": "Late winter season."
+    },
+    {
+      "food_id": 87,
+      "availability": "light",
+      "months": [
+        9
+      ],
+      "notes": "Early season."
+    },
+    {
+      "food_id": 88,
+      "availability": "peak",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "notes": "Peak squirrel season."
+    },
+    {
+      "food_id": 88,
+      "availability": "moderate",
+      "months": [
+        1,
+        12
+      ],
+      "notes": "Late season."
+    },
+    {
+      "food_id": 88,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Early season."
+    },
+    {
+      "food_id": 91,
+      "availability": "peak",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "notes": "Texas persimmons"
+    },
+    {
+      "food_id": 91,
+      "availability": "moderate",
+      "months": [
+        12
+      ],
+      "notes": "Texas persimmons"
+    },
+    {
+      "food_id": 91,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Texas persimmons"
+    },
+    {
+      "food_id": 106,
+      "availability": "peak",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "notes": "Long Texas growing season"
+    },
+    {
+      "food_id": 106,
+      "availability": "moderate",
+      "months": [
+        10
+      ],
+      "notes": "Long Texas growing season"
+    },
+    {
+      "food_id": 106,
+      "availability": "light",
+      "months": [
+        4
+      ],
+      "notes": "Long Texas growing season"
+    },
+    {
+      "food_id": 107,
+      "availability": "peak",
+      "months": [
+        10,
+        11,
+        12
+      ],
+      "notes": "Cool season green"
+    },
+    {
+      "food_id": 107,
+      "availability": "moderate",
+      "months": [
+        3,
+        4
+      ],
+      "notes": "Cool season green"
+    },
+    {
+      "food_id": 107,
+      "availability": "light",
+      "months": [
+        1,
+        2
+      ],
+      "notes": "Cool season green"
+    },
+    {
+      "food_id": 109,
+      "availability": "peak",
+      "months": [
+        4,
+        5
+      ],
+      "notes": "Cool weather"
+    },
+    {
+      "food_id": 109,
+      "availability": "moderate",
+      "months": [
+        3,
+        10
+      ],
+      "notes": "Cool weather"
+    },
+    {
+      "food_id": 109,
+      "availability": "light",
+      "months": [
+        2,
+        11
+      ],
+      "notes": "Cool weather"
+    },
+    {
+      "food_id": 114,
+      "availability": "peak",
+      "months": [
+        10,
+        11
+      ],
+      "notes": "Native tuber"
+    },
+    {
+      "food_id": 114,
+      "availability": "moderate",
+      "months": [
+        1,
+        12
+      ],
+      "notes": "Native tuber"
+    },
+    {
+      "food_id": 114,
+      "availability": "light",
+      "months": [
+        9
+      ],
+      "notes": "Native tuber"
+    },
+    {
+      "food_id": 119,
+      "availability": "peak",
+      "months": [
+        3,
+        4
+      ],
+      "notes": "Cool-season crop"
+    },
+    {
+      "food_id": 119,
+      "availability": "moderate",
+      "months": [
+        5
+      ],
+      "notes": "Cool-season crop"
+    },
+    {
+      "food_id": 119,
+      "availability": "light",
+      "months": [
+        2
+      ],
+      "notes": "Cool-season crop"
+    },
+    {
+      "food_id": 125,
+      "availability": "peak",
+      "months": [
+        3,
+        4
+      ],
+      "notes": "Cool weather herb"
+    },
+    {
+      "food_id": 125,
+      "availability": "moderate",
+      "months": [
+        5,
+        10,
+        11
+      ],
+      "notes": "Cool weather herb"
+    },
+    {
+      "food_id": 125,
+      "availability": "light",
+      "months": [
+        2
+      ],
+      "notes": "Cool weather herb"
+    },
+    {
+      "food_id": 126,
+      "availability": "peak",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "notes": "Long growing season"
+    },
+    {
+      "food_id": 126,
+      "availability": "moderate",
+      "months": [
+        10
+      ],
+      "notes": "Long growing season"
+    },
+    {
+      "food_id": 126,
+      "availability": "light",
+      "months": [
+        3
+      ],
+      "notes": "Long growing season"
+    },
+    {
+      "food_id": 127,
+      "availability": "moderate",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "notes": "Evergreen in mild climate"
+    },
+    {
+      "food_id": 132,
+      "availability": "moderate",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "notes": "Cultivated"
+    },
+    {
+      "food_id": 132,
+      "availability": "light",
+      "months": [
+        2,
+        11
+      ],
+      "notes": "Cultivated"
+    },
+    {
+      "food_id": 134,
+      "availability": "moderate",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "notes": "Warm humid months"
+    },
+    {
+      "food_id": 134,
+      "availability": "light",
+      "months": [
+        3,
+        10
+      ],
+      "notes": "Warm humid months"
+    },
+    {
+      "food_id": 143,
+      "availability": "peak",
+      "months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "notes": "Year-round Southern"
+    },
+    {
+      "food_id": 143,
+      "availability": "moderate",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ],
+      "notes": "Year-round Southern"
+    },
+    {
+      "food_id": 152,
+      "availability": "moderate",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "notes": "Year-round feral hog"
+    },
+    {
+      "food_id": 154,
+      "availability": "peak",
+      "months": [
+        1,
+        10,
+        11,
+        12
+      ],
+      "notes": "Texas quail season"
+    },
+    {
+      "food_id": 154,
+      "availability": "moderate",
+      "months": [
+        2
+      ],
+      "notes": "Texas quail season"
+    },
+    {
+      "food_id": 154,
+      "availability": "light",
+      "months": [
+        9
+      ],
+      "notes": "Texas quail season"
+    },
+    {
+      "food_id": 158,
+      "availability": "peak",
+      "months": [
+        9,
+        10,
+        11
+      ],
+      "notes": "Dove capital of US"
+    },
+    {
+      "food_id": 158,
+      "availability": "moderate",
+      "months": [
+        1,
+        12
+      ],
+      "notes": "Dove capital of US"
+    },
+    {
+      "food_id": 158,
+      "availability": "light",
+      "months": [
+        8
+      ],
+      "notes": "Dove capital of US"
+    }
+  ]
+}

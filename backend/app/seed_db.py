@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Any, Iterable
+from typing import Any
 
 from sqlalchemy.orm import Session
 
@@ -70,29 +70,27 @@ def _seed_foods(db: Session, foods_path: Path) -> None:
     db.commit()
 
 
-def _seed_seasons(db: Session, seasons_path: Path, region_ids: Iterable[int]) -> None:
+def _seed_seasons(db: Session, seasons_path: Path, region_id: int) -> None:
     seasons_data = _load_json(seasons_path)
     templates = seasons_data.get("availability_templates", [])
 
     avail_rank = {"peak": 0, "moderate": 1, "light": 2}
-    resolved: dict[tuple[int, int, int], dict[str, Any]] = {}
+    resolved: dict[tuple[int, int], dict[str, Any]] = {}
 
-    region_ids_list = list(region_ids)
-    for region_id in region_ids_list:
-        for template in templates:
-            food_id = int(template["food_id"])
-            availability = str(template["availability"])
-            months = template.get("months", [])
-            notes = template.get("notes")
+    for template in templates:
+        food_id = int(template["food_id"])
+        availability = str(template["availability"])
+        months = template.get("months", [])
+        notes = template.get("notes")
 
-            for month_num in months:
-                m = int(month_num)
-                key = (food_id, region_id, m)
-                current = resolved.get(key)
-                if current is None or avail_rank[availability] < avail_rank[current["availability"]]:
-                    resolved[key] = {"availability": availability, "notes": notes}
+        for month_num in months:
+            m = int(month_num)
+            key = (food_id, m)
+            current = resolved.get(key)
+            if current is None or avail_rank[availability] < avail_rank[current["availability"]]:
+                resolved[key] = {"availability": availability, "notes": notes}
 
-    for (food_id, region_id, month_num), payload in resolved.items():
+    for (food_id, month_num), payload in resolved.items():
         existing = (
             db.query(SeasonalAvailability)
             .filter(
@@ -156,26 +154,18 @@ def seed_database_if_empty() -> None:
             _seed_foods(db, foods_path)
 
             regions_dir = seed_dir / "regions"
-            seasons_dir = seed_dir / "seasons"
+            state_seasons_dir = seed_dir / "seasons" / "states"
 
             for region_file in sorted(regions_dir.glob("*.json")):
                 region_data = _load_json(region_file)
                 _seed_region_groups(db, region_data)
                 _seed_regions(db, region_data)
 
-                region_group_ids = [
-                    rg["id"] for rg in region_data.get("region_groups", [])
-                ]
-                region_ids = [
-                    r.id
-                    for r in db.query(Region.id)
-                    .filter(Region.region_group_id.in_(region_group_ids))
-                    .all()
-                ]
-
-                season_file = seasons_dir / region_file.name
-                if season_file.exists():
-                    _seed_seasons(db, season_file, region_ids=region_ids)
+                for state in region_data.get("regions", []):
+                    state_code = state["state_code"].lower()
+                    season_file = state_seasons_dir / f"{state_code}.json"
+                    if season_file.exists():
+                        _seed_seasons(db, season_file, region_id=state["id"])
 
         if not has_state_profiles and state_profiles_dir.is_dir():
             for profile_file in sorted(state_profiles_dir.glob("*.json")):
