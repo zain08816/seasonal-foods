@@ -1,0 +1,253 @@
+{
+  "state_profiles": [
+    {
+      "region_id": 1,
+      "nickname": "The Garden State",
+      "capital": "Trenton",
+      "top_crops": [
+        "Blueberries",
+        "Cranberries",
+        "Peaches",
+        "Tomatoes",
+        "Bell peppers",
+        "Sweet corn"
+      ],
+      "agricultural_highlights": "New Jersey's agriculture is strongly shaped by its mixed coastal and inland conditions, with thriving specialty fruit and vegetable production. Berries and greenhouse-to-field vegetables play a major role, supported by a long growing season in many areas.",
+      "fun_facts": [
+        "New Jersey is one of the top U.S. producers of blueberries and cranberries, grown in the sandy Pine Barrens soils.",
+        "Greenhouse production helps extend availability for fresh vegetables well beyond the outdoor growing season."
+      ],
+      "resource_links": [
+        { "label": "Rutgers Cooperative Extension", "url": "https://njaes.rutgers.edu/" },
+        { "label": "Jersey Fresh", "url": "https://jerseyfresh.com/" },
+        { "label": "NJ Department of Agriculture", "url": "https://www.nj.gov/agriculture/" }
+      ]
+    },
+    {
+      "region_id": 2,
+      "nickname": "The Empire State",
+      "capital": "Albany",
+      "top_crops": [
+        "Apples",
+        "Grapes",
+        "Cherries",
+        "Cabbage",
+        "Maple syrup",
+        "Dairy"
+      ],
+      "agricultural_highlights": "From upstate orchards to the vineyards of the Finger Lakes, New York's crop industries are shaped by strong regional variety. The state is the second-largest apple producer in the U.S. and a major wine-grape grower. Harvest timing and crop choices vary widely with latitude, elevation, and proximity to water.",
+      "fun_facts": [
+        "New York is the second-largest apple-producing state, behind Washington.",
+        "The Finger Lakes region is one of the premier cool-climate wine-growing areas in the world."
+      ],
+      "resource_links": [
+        { "label": "Cornell Cooperative Extension", "url": "https://cce.cornell.edu/" },
+        { "label": "NY Dept. of Agriculture & Markets", "url": "https://agriculture.ny.gov/" },
+        { "label": "USDA NASS (New York)", "url": "https://www.nass.usda.gov/" }
+      ]
+    },
+    {
+      "region_id": 3,
+      "nickname": "The Keystone State",
+      "capital": "Harrisburg",
+      "top_crops": [
+        "Mushrooms",
+        "Apples",
+        "Peaches",
+        "Sweet corn",
+        "Christmas trees",
+        "Soybeans"
+      ],
+      "agricultural_highlights": "Pennsylvania leads the nation in mushroom production, accounting for roughly 60% of U.S. supply from the Kennett Square area. The state also has a strong orchard tradition with apples and peaches, and its diverse terrain supports both large-scale field crops and specialty agriculture.",
+      "fun_facts": [
+        "Chester County's Kennett Square area is known as the 'Mushroom Capital of the World.'",
+        "Pennsylvania ranks among the top states for Christmas tree production."
+      ],
+      "resource_links": [
+        { "label": "Penn State Extension", "url": "https://extension.psu.edu/" },
+        { "label": "PA Department of Agriculture", "url": "https://www.agriculture.pa.gov/" },
+        { "label": "PA Preferred", "url": "https://www.papreferred.com/" }
+      ]
+    },
+    {
+      "region_id": 4,
+      "nickname": "The Constitution State",
+      "capital": "Hartford",
+      "top_crops": [
+        "Apples",
+        "Pears",
+        "Sweet corn",
+        "Tobacco (shade-grown)",
+        "Nursery and greenhouse plants"
+      ],
+      "agricultural_highlights": "Connecticut's agriculture blends small-scale orchard and vegetable production with a strong greenhouse and nursery industry. The Connecticut River Valley has a long history of shade-grown wrapper tobacco. Coastal and inland microclimates support a steady flow of specialty crops through much of the growing season.",
+      "fun_facts": [
+        "The Connecticut River Valley is one of the only places in the U.S. with a tradition of shade-grown wrapper tobacco.",
+        "Many Connecticut farms operate direct-to-consumer through farm stands and farmers' markets."
+      ],
+      "resource_links": [
+        { "label": "UConn Extension", "url": "https://extension.uconn.edu/" },
+        { "label": "CT Department of Agriculture", "url": "https://portal.ct.gov/DOAG" },
+        { "label": "CT Grown", "url": "https://www.ct.gov/doag/cwp/view.asp?a=3260&q=399016" }
+      ]
+    },
+    {
+      "region_id": 5,
+      "nickname": "The Bay State",
+      "capital": "Boston",
+      "top_crops": [
+        "Cranberries",
+        "Apples",
+        "Pumpkins",
+        "Sweet corn",
+        "Maple syrup",
+        "Shellfish"
+      ],
+      "agricultural_highlights": "Massachusetts is the second-largest cranberry producer in the nation, with bogs concentrated in the southeastern part of the state. Apple orchards, pumpkin patches, and maple sugaring are fixtures of the agricultural calendar, while coastal waters support a significant shellfish industry.",
+      "fun_facts": [
+        "Massachusetts produces roughly a third of the nation's cranberry crop, centered around Plymouth County.",
+        "The state's cranberry harvest in autumn is both an agricultural event and a tourist attraction."
+      ],
+      "resource_links": [
+        { "label": "UMass Extension", "url": "https://ag.umass.edu/" },
+        { "label": "MA Dept. of Agricultural Resources", "url": "https://www.mass.gov/orgs/department-of-agricultural-resources" },
+        { "label": "MA Farm Bureau", "url": "https://www.mafb.org/" }
+      ]
+    },
+    {
+      "region_id": 6,
+      "nickname": "The Pine Tree State",
+      "capital": "Augusta",
+      "top_crops": [
+        "Wild blueberries",
+        "Potatoes",
+        "Apples",
+        "Maple syrup",
+        "Broccoli",
+        "Lobster"
+      ],
+      "agricultural_highlights": "Maine's colder winters and shorter growing season shape crop choices toward hardy vegetables, root crops, and durable perennial systems. The state produces nearly all of the nation's wild blueberry crop, and Aroostook County remains a major potato-growing region. Maple syrup and cool-weather staples are central to the seasonal agricultural rhythm.",
+      "fun_facts": [
+        "Maine produces about 99% of all wild blueberries in the United States.",
+        "Aroostook County was once one of the largest potato-producing regions in the country and remains a major source."
+      ],
+      "resource_links": [
+        { "label": "UMaine Cooperative Extension", "url": "https://extension.umaine.edu/" },
+        { "label": "ME Dept. of Agriculture, Conservation & Forestry", "url": "https://www.maine.gov/dacf/" },
+        { "label": "MOFGA (Maine Organic Farmers & Gardeners)", "url": "https://mofga.org/" }
+      ]
+    },
+    {
+      "region_id": 7,
+      "nickname": "The Granite State",
+      "capital": "Concord",
+      "top_crops": [
+        "Apples",
+        "Maple syrup",
+        "Pumpkins",
+        "Sweet corn",
+        "Hay and forage"
+      ],
+      "agricultural_highlights": "New Hampshire's crop industries reflect strong seasonality and a mix of hillside and valley growing environments. Apple orchards and maple sugaring operations are especially important, while pumpkin and sweet corn production supply local markets through the fall. Dairy and forage crops round out the agricultural economy.",
+      "fun_facts": [
+        "New Hampshire ranks among the top maple syrup producing states in New England.",
+        "Apple orchards and pick-your-own farms are a major fall agritourism draw."
+      ],
+      "resource_links": [
+        { "label": "UNH Cooperative Extension", "url": "https://extension.unh.edu/" },
+        { "label": "NH Dept. of Agriculture, Markets & Food", "url": "https://www.agriculture.nh.gov/" },
+        { "label": "NH Made", "url": "https://www.nhmade.com/" }
+      ]
+    },
+    {
+      "region_id": 8,
+      "nickname": "The Green Mountain State",
+      "capital": "Montpelier",
+      "top_crops": [
+        "Maple syrup",
+        "Apples",
+        "Hay",
+        "Berries",
+        "Pumpkins"
+      ],
+      "agricultural_highlights": "Vermont is the largest maple syrup producer in the United States, accounting for roughly half of the national supply. Its mountainous geography and strong cold-season dynamics shape agriculture toward hardy crops, orchard fruit, and grazing. Many farms combine forage production and seasonal fruits and vegetables to serve local markets.",
+      "fun_facts": [
+        "Vermont produces more maple syrup than any other U.S. state, roughly half of the national total.",
+        "The average Vermont dairy farm is significantly smaller than the national average, reflecting a tradition of small-scale agriculture."
+      ],
+      "resource_links": [
+        { "label": "UVM Extension", "url": "https://www.uvm.edu/extension" },
+        { "label": "Vermont Agency of Agriculture", "url": "https://agriculture.vermont.gov/" },
+        { "label": "Vermont Fresh Network", "url": "https://www.vermontfresh.net/" }
+      ]
+    },
+    {
+      "region_id": 9,
+      "nickname": "The Ocean State",
+      "capital": "Providence",
+      "top_crops": [
+        "Turf and sod",
+        "Sweet corn",
+        "Apples",
+        "Greenhouse vegetables",
+        "Shellfish"
+      ],
+      "agricultural_highlights": "Rhode Island's coastal moderation and strong local-market culture support a blend of greenhouse production, turf farming, and market vegetables alongside seafood and shellfish industries. Despite its small size, the state has a dense network of farms, many prioritizing seasonal consistency and direct-to-consumer sales.",
+      "fun_facts": [
+        "Rhode Island's turf and sod industry is one of its largest agricultural sectors by value.",
+        "The state's Narragansett Bay supports a thriving quahog (hard clam) fishery."
+      ],
+      "resource_links": [
+        { "label": "URI Cooperative Extension", "url": "https://web.uri.edu/coopext/" },
+        { "label": "RI Division of Agriculture", "url": "https://dem.ri.gov/agriculture" },
+        { "label": "Farm Fresh RI", "url": "https://www.farmfreshri.org/" }
+      ]
+    },
+    {
+      "region_id": 10,
+      "nickname": "The First State",
+      "capital": "Dover",
+      "top_crops": [
+        "Broiler chickens",
+        "Soybeans",
+        "Corn (grain)",
+        "Watermelons",
+        "Sweet corn",
+        "Lima beans"
+      ],
+      "agricultural_highlights": "Delaware's warmer, longer growing season supports both large-scale field crops and market gardening, with crops often reaching maturity earlier than in colder Northeast areas. Poultry is by far the state's largest agricultural sector, while Sussex County is a major producer of watermelons and other warm-season produce.",
+      "fun_facts": [
+        "Delaware's poultry industry produces hundreds of times more chickens annually than the state's human population.",
+        "Sussex County is sometimes called the 'Watermelon Capital' of the Delmarva Peninsula."
+      ],
+      "resource_links": [
+        { "label": "UD Cooperative Extension", "url": "https://www.udel.edu/canr/cooperative-extension/" },
+        { "label": "Delaware Department of Agriculture", "url": "https://agriculture.delaware.gov/" },
+        { "label": "Delaware Farm Bureau", "url": "https://www.delawarefb.org/" }
+      ]
+    },
+    {
+      "region_id": 11,
+      "nickname": "The Old Line State",
+      "capital": "Annapolis",
+      "top_crops": [
+        "Broiler chickens",
+        "Corn (grain)",
+        "Soybeans",
+        "Tomatoes",
+        "Sweet corn",
+        "Blue crabs"
+      ],
+      "agricultural_highlights": "Maryland's agriculture spans coastal and inland conditions, with the Eastern Shore dominated by poultry and grain operations while central and western regions focus more on dairy, orchards, and vegetables. The Chesapeake Bay is central to the state's seafood identity, supporting blue crab, oyster, and rockfish industries.",
+      "fun_facts": [
+        "The Chesapeake Bay blue crab fishery is one of the most iconic in the United States.",
+        "Maryland's Eastern Shore produces the vast majority of the state's broiler chickens and field crops."
+      ],
+      "resource_links": [
+        { "label": "University of Maryland Extension", "url": "https://extension.umd.edu/" },
+        { "label": "Maryland Department of Agriculture", "url": "https://mda.maryland.gov/" },
+        { "label": "Maryland's Best", "url": "https://marylandsbest.maryland.gov/" }
+      ]
+    }
+  ]
+}

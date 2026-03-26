@@ -1,0 +1,722 @@
+[
+  {
+    "id": 1,
+    "name": "Strawberries",
+    "category": "fruit",
+    "description": "Sweet, juicy berries at their best from late spring into early summer.",
+    "image_url": null,
+    "storage_tips": "Store unwashed in a breathable container. Keep chilled and use within 2-4 days."
+  },
+  {
+    "id": 2,
+    "name": "Blueberries",
+    "category": "fruit",
+    "description": "Bright, aromatic berries that peak through midsummer.",
+    "image_url": null,
+    "storage_tips": "Keep refrigerated and dry. Use within 3-7 days for best flavor."
+  },
+  {
+    "id": 3,
+    "name": "Peaches",
+    "category": "fruit",
+    "description": "Stone fruit with fragrant flavor, best from summer's warm stretch.",
+    "image_url": null,
+    "storage_tips": "Ripen at room temperature, then refrigerate. Use within 3-5 days after ripening."
+  },
+  {
+    "id": 4,
+    "name": "Apples",
+    "category": "fruit",
+    "description": "Crisp, storage-friendly fruit that shines in early fall.",
+    "image_url": null,
+    "storage_tips": "Store cool and dry. Many varieties keep 4-8 weeks in the fridge."
+  },
+  {
+    "id": 5,
+    "name": "Pears",
+    "category": "fruit",
+    "description": "Sweet-tart fruit with a gentle texture, commonly best in early to mid fall.",
+    "image_url": null,
+    "storage_tips": "Ripen at room temperature, then refrigerate. Eat when slightly soft to the touch."
+  },
+  {
+    "id": 6,
+    "name": "Cherries",
+    "category": "fruit",
+    "description": "Rich, tangy fruit that arrives in summer and fades quickly.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a single layer when possible. Use within 2-5 days."
+  },
+  {
+    "id": 7,
+    "name": "Asparagus",
+    "category": "vegetable",
+    "description": "Tender spring spears; best when they're young and crisp.",
+    "image_url": null,
+    "storage_tips": "Store upright with a little water in the fridge. Use within 3-5 days."
+  },
+  {
+    "id": 8,
+    "name": "Spinach",
+    "category": "vegetable",
+    "description": "Cool-weather leafy green with a mild, sweet taste early in the season.",
+    "image_url": null,
+    "storage_tips": "Store wrapped (or in a container) with a paper towel to absorb moisture. Use within 5-7 days."
+  },
+  {
+    "id": 9,
+    "name": "Lettuce",
+    "category": "vegetable",
+    "description": "Crunchy salad greens that tend to be most flavorful in spring.",
+    "image_url": null,
+    "storage_tips": "Keep cold and slightly dry. Store in a breathable container and use within a week."
+  },
+  {
+    "id": 10,
+    "name": "Tomatoes",
+    "category": "vegetable",
+    "description": "Juicy summer fruit (botanically) at peak flavor in midsummer through early fall.",
+    "image_url": null,
+    "storage_tips": "Ripen at room temperature, then refrigerate if needed. Avoid chilling unripe tomatoes."
+  },
+  {
+    "id": 11,
+    "name": "Sweet Corn",
+    "category": "vegetable",
+    "description": "Fresh, sweet kernels best right after harvest.",
+    "image_url": null,
+    "storage_tips": "Refrigerate promptly and use within 1-3 days. Keep the husks on for freshness."
+  },
+  {
+    "id": 12,
+    "name": "Peppers",
+    "category": "vegetable",
+    "description": "From mild to spicy—best when warm-season crops are thriving.",
+    "image_url": null,
+    "storage_tips": "Store in the crisper drawer. Use within 5-10 days for best texture."
+  },
+  {
+    "id": 13,
+    "name": "Cucumbers",
+    "category": "vegetable",
+    "description": "Refreshing crunch most commonly available in peak summer months.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a breathable bag. Use within 3-7 days."
+  },
+  {
+    "id": 14,
+    "name": "Broccoli",
+    "category": "vegetable",
+    "description": "Tender florets that often peak from late summer into fall.",
+    "image_url": null,
+    "storage_tips": "Store unwashed wrapped in a bag. Use within 4-7 days."
+  },
+  {
+    "id": 15,
+    "name": "Basil",
+    "category": "herb",
+    "description": "Aromatic herb that thrives in warm weather.",
+    "image_url": null,
+    "storage_tips": "Treat like fresh flowers (trim ends, add a little water) or store loosely wrapped in the fridge. Use within 3-5 days."
+  },
+  {
+    "id": 16,
+    "name": "Cilantro",
+    "category": "herb",
+    "description": "Bright, citrusy herb best fresh during the growing season.",
+    "image_url": null,
+    "storage_tips": "Store stems down in a jar with a bit of water, loosely covered. Use within 3-7 days."
+  },
+  {
+    "id": 17,
+    "name": "Parsley",
+    "category": "herb",
+    "description": "Versatile herb that stays useful from spring through early fall.",
+    "image_url": null,
+    "storage_tips": "Store like cilantro (jar + water) or wrap lightly and refrigerate. Use within 5-10 days."
+  },
+  {
+    "id": 18,
+    "name": "Morel Mushrooms",
+    "category": "fungus",
+    "description": "Prized spring wild mushrooms—high season is short and temperature-driven.",
+    "image_url": null,
+    "storage_tips": "Clean gently (don't soak). Cook soon after purchase; refrigerate briefly if needed."
+  },
+  {
+    "id": 19,
+    "name": "Chanterelles",
+    "category": "fungus",
+    "description": "Golden forest mushrooms with a savory, fruity aroma, common in midsummer.",
+    "image_url": null,
+    "storage_tips": "Brush clean and refrigerate in a breathable container. Use within 2-4 days."
+  },
+  {
+    "id": 20,
+    "name": "Oyster Mushrooms",
+    "category": "fungus",
+    "description": "Tender mushrooms with a mild flavor that can appear in multiple warm periods.",
+    "image_url": null,
+    "storage_tips": "Keep dry in the fridge and cook within a few days for best texture."
+  },
+  {
+    "id": 21,
+    "name": "Oysters",
+    "category": "seafood",
+    "description": "Cold-water bivalves; availability is seasonal in many coastal regions.",
+    "image_url": null,
+    "storage_tips": "Keep refrigerated and on ice if possible. Consume quickly after purchase."
+  },
+  {
+    "id": 22,
+    "name": "Bluefish",
+    "category": "seafood",
+    "description": "Bold-flavored fish that often shows up in warmer-month landings.",
+    "image_url": null,
+    "storage_tips": "Keep cold immediately. Cook soon after purchase for best flavor."
+  },
+  {
+    "id": 23,
+    "name": "Fluke",
+    "category": "seafood",
+    "description": "A flatfish that's commonly available across late winter into spring.",
+    "image_url": null,
+    "storage_tips": "Store cold and cook within 1-2 days. Check for clean, mild ocean smell."
+  },
+  {
+    "id": 24,
+    "name": "Venison (Deer)",
+    "category": "game",
+    "description": "Lean, flavorful game meat that's commonly available in fall and winter seasons.",
+    "image_url": null,
+    "storage_tips": "Keep frozen or refrigerated short-term. Cook to a safe internal temperature; rest briefly before slicing."
+  },
+  {
+    "id": 25,
+    "name": "Wild Turkey",
+    "category": "game",
+    "description": "Game bird availability often varies by spring and fall seasons.",
+    "image_url": null,
+    "storage_tips": "Store cold promptly. Roast or braise for tenderness; avoid overcooking."
+  },
+  {
+    "id": 26,
+    "name": "Rabbit",
+    "category": "game",
+    "description": "A tender game meat that tends to show up most in cool seasons.",
+    "image_url": null,
+    "storage_tips": "Keep refrigerated and cook soon (or freeze). Braise can help keep it moist."
+  },
+  {
+    "id": 27,
+    "name": "Watermelon",
+    "category": "fruit",
+    "description": "Large, refreshing summer melon at its sweetest in July and August.",
+    "image_url": null,
+    "storage_tips": "Store whole at room temperature. Once cut, refrigerate and use within 3-5 days."
+  },
+  {
+    "id": 28,
+    "name": "Cantaloupe",
+    "category": "fruit",
+    "description": "Fragrant melon with soft orange flesh, best in mid-to-late summer.",
+    "image_url": null,
+    "storage_tips": "Ripen at room temperature until fragrant. Refrigerate once cut and use within 3 days."
+  },
+  {
+    "id": 29,
+    "name": "Raspberries",
+    "category": "fruit",
+    "description": "Delicate berries with intense flavor, peaking in early to midsummer.",
+    "image_url": null,
+    "storage_tips": "Handle gently. Refrigerate and eat within 1-3 days. Do not wash until ready to eat."
+  },
+  {
+    "id": 30,
+    "name": "Blackberries",
+    "category": "fruit",
+    "description": "Dark, bold-flavored berries that thrive in summer heat.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a single layer. Use within 2-3 days for best quality."
+  },
+  {
+    "id": 31,
+    "name": "Plums",
+    "category": "fruit",
+    "description": "Sweet-tart stone fruit available through midsummer into early fall.",
+    "image_url": null,
+    "storage_tips": "Ripen at room temperature, then refrigerate. Use within 3-5 days once ripe."
+  },
+  {
+    "id": 32,
+    "name": "Nectarines",
+    "category": "fruit",
+    "description": "Smooth-skinned stone fruit with juicy flavor similar to peaches.",
+    "image_url": null,
+    "storage_tips": "Ripen at room temperature, then refrigerate. Use within 3-5 days after ripening."
+  },
+  {
+    "id": 33,
+    "name": "Cranberries",
+    "category": "fruit",
+    "description": "Tart, ruby-red berries harvested in fall bogs.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in their original bag. Fresh cranberries keep 3-4 weeks; freeze for longer storage."
+  },
+  {
+    "id": 34,
+    "name": "Grapes",
+    "category": "fruit",
+    "description": "Table and wine grapes at their best from late summer through early fall.",
+    "image_url": null,
+    "storage_tips": "Refrigerate unwashed in a ventilated bag. Use within 1-2 weeks."
+  },
+  {
+    "id": 35,
+    "name": "Rhubarb",
+    "category": "fruit",
+    "description": "Tart stalks used in pies and preserves, harvested in spring.",
+    "image_url": null,
+    "storage_tips": "Wrap stalks in foil or plastic and refrigerate. Use within 1-2 weeks."
+  },
+  {
+    "id": 36,
+    "name": "Figs",
+    "category": "fruit",
+    "description": "Soft, honey-sweet fruit with a short late-summer harvest window.",
+    "image_url": null,
+    "storage_tips": "Extremely perishable. Refrigerate and eat within 1-2 days of purchase."
+  },
+  {
+    "id": 37,
+    "name": "Zucchini",
+    "category": "vegetable",
+    "description": "Prolific summer squash that's best when small and tender.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a plastic bag. Use within 4-5 days."
+  },
+  {
+    "id": 38,
+    "name": "Summer Squash",
+    "category": "vegetable",
+    "description": "Tender-skinned squashes abundant from midsummer through early fall.",
+    "image_url": null,
+    "storage_tips": "Store in the crisper drawer. Use within 4-5 days while still firm."
+  },
+  {
+    "id": 39,
+    "name": "Winter Squash",
+    "category": "vegetable",
+    "description": "Hard-skinned squash varieties (butternut, acorn, etc.) harvested in fall.",
+    "image_url": null,
+    "storage_tips": "Store in a cool, dry place. Keeps 1-3 months depending on variety."
+  },
+  {
+    "id": 40,
+    "name": "Pumpkins",
+    "category": "vegetable",
+    "description": "Iconic fall harvest, used for both cooking and decoration.",
+    "image_url": null,
+    "storage_tips": "Store in a cool, dry place away from direct sunlight. Keeps 2-3 months."
+  },
+  {
+    "id": 41,
+    "name": "Eggplant",
+    "category": "vegetable",
+    "description": "Warm-season nightshade with rich, meaty flesh when grilled or roasted.",
+    "image_url": null,
+    "storage_tips": "Store at room temperature if using soon, or refrigerate for up to a week."
+  },
+  {
+    "id": 42,
+    "name": "Green Beans",
+    "category": "vegetable",
+    "description": "Crisp snap beans abundant from midsummer through early fall.",
+    "image_url": null,
+    "storage_tips": "Refrigerate unwashed in a bag. Use within 5-7 days."
+  },
+  {
+    "id": 43,
+    "name": "Peas",
+    "category": "vegetable",
+    "description": "Sweet spring legume best eaten soon after picking.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in their pods and use within 2-3 days. Sugar converts to starch quickly."
+  },
+  {
+    "id": 44,
+    "name": "Beets",
+    "category": "vegetable",
+    "description": "Earthy root vegetable with two harvest windows: spring and fall.",
+    "image_url": null,
+    "storage_tips": "Remove greens, store roots in a bag in the fridge. Keeps 2-4 weeks."
+  },
+  {
+    "id": 45,
+    "name": "Carrots",
+    "category": "vegetable",
+    "description": "Sweet, crunchy root vegetable best from late summer through fall frost.",
+    "image_url": null,
+    "storage_tips": "Remove greens, store in a bag in the fridge. Keeps 3-4 weeks."
+  },
+  {
+    "id": 46,
+    "name": "Radishes",
+    "category": "vegetable",
+    "description": "Peppery spring root ready in just a few weeks from planting.",
+    "image_url": null,
+    "storage_tips": "Remove greens, store in a bag in the fridge. Use within 1-2 weeks."
+  },
+  {
+    "id": 47,
+    "name": "Cabbage",
+    "category": "vegetable",
+    "description": "Hardy brassica with spring and fall harvest windows.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a plastic bag. Keeps 1-2 months."
+  },
+  {
+    "id": 48,
+    "name": "Kale",
+    "category": "vegetable",
+    "description": "Hardy green that thrives in cool weather and sweetens after frost.",
+    "image_url": null,
+    "storage_tips": "Wrap in a damp towel, refrigerate. Use within 5-7 days."
+  },
+  {
+    "id": 49,
+    "name": "Swiss Chard",
+    "category": "vegetable",
+    "description": "Colorful leafy green available from late spring through fall.",
+    "image_url": null,
+    "storage_tips": "Store in a bag with a damp paper towel. Use within 3-5 days."
+  },
+  {
+    "id": 50,
+    "name": "Cauliflower",
+    "category": "vegetable",
+    "description": "Mild brassica best in cool weather—spring and fall harvests.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a loosely sealed bag. Use within 4-7 days."
+  },
+  {
+    "id": 51,
+    "name": "Potatoes",
+    "category": "vegetable",
+    "description": "Versatile tuber harvested from midsummer through fall; stores well.",
+    "image_url": null,
+    "storage_tips": "Store in a cool, dark, dry place. Keep away from onions. Lasts several weeks to months."
+  },
+  {
+    "id": 52,
+    "name": "Sweet Potatoes",
+    "category": "vegetable",
+    "description": "Warm-weather tuber harvested in fall before first frost.",
+    "image_url": null,
+    "storage_tips": "Store in a cool, dark place (not the fridge). Keeps 1-2 months after curing."
+  },
+  {
+    "id": 53,
+    "name": "Onions",
+    "category": "vegetable",
+    "description": "Foundation vegetable harvested in summer; cured bulbs store through winter.",
+    "image_url": null,
+    "storage_tips": "Store in a cool, dry, well-ventilated spot. Keeps 1-3 months depending on variety."
+  },
+  {
+    "id": 54,
+    "name": "Garlic",
+    "category": "vegetable",
+    "description": "Planted in fall, harvested midsummer. Fresh garlic has a milder bite.",
+    "image_url": null,
+    "storage_tips": "Store in a cool, dry place with good airflow. Cured garlic keeps 3-6 months."
+  },
+  {
+    "id": 55,
+    "name": "Leeks",
+    "category": "vegetable",
+    "description": "Mild allium that thrives in cool weather with a long harvest window.",
+    "image_url": null,
+    "storage_tips": "Wrap in a damp paper towel and refrigerate. Use within 1-2 weeks."
+  },
+  {
+    "id": 56,
+    "name": "Turnips",
+    "category": "vegetable",
+    "description": "Mild root vegetable at its best in spring and fall.",
+    "image_url": null,
+    "storage_tips": "Remove greens, refrigerate roots in a bag. Keeps 2-3 weeks."
+  },
+  {
+    "id": 57,
+    "name": "Parsnips",
+    "category": "vegetable",
+    "description": "Sweet, starchy root that improves after frost.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a bag. Keeps 2-4 weeks. Sweetens with cold storage."
+  },
+  {
+    "id": 58,
+    "name": "Brussels Sprouts",
+    "category": "vegetable",
+    "description": "Nutty mini-cabbages that sweeten dramatically after fall frost.",
+    "image_url": null,
+    "storage_tips": "Refrigerate unwashed in a bag. Use within 3-5 days for best flavor."
+  },
+  {
+    "id": 59,
+    "name": "Celery",
+    "category": "vegetable",
+    "description": "Crisp stalks harvested from midsummer through fall.",
+    "image_url": null,
+    "storage_tips": "Wrap in foil and refrigerate. Keeps 1-2 weeks."
+  },
+  {
+    "id": 60,
+    "name": "Dill",
+    "category": "herb",
+    "description": "Feathery herb with a fresh, anise-like flavor popular with fish and pickles.",
+    "image_url": null,
+    "storage_tips": "Wrap in a damp paper towel and refrigerate. Use within 3-5 days."
+  },
+  {
+    "id": 61,
+    "name": "Mint",
+    "category": "herb",
+    "description": "Vigorous herb available fresh throughout the growing season.",
+    "image_url": null,
+    "storage_tips": "Store stems in a glass of water at room temperature or loosely wrap and refrigerate. Use within a week."
+  },
+  {
+    "id": 62,
+    "name": "Rosemary",
+    "category": "herb",
+    "description": "Woody, aromatic evergreen herb that can be harvested year-round in milder areas.",
+    "image_url": null,
+    "storage_tips": "Wrap in a damp paper towel and refrigerate. Keeps 1-2 weeks."
+  },
+  {
+    "id": 63,
+    "name": "Thyme",
+    "category": "herb",
+    "description": "Earthy, savory herb available fresh from late spring through fall.",
+    "image_url": null,
+    "storage_tips": "Refrigerate loosely wrapped. Use within 1-2 weeks."
+  },
+  {
+    "id": 64,
+    "name": "Sage",
+    "category": "herb",
+    "description": "Earthy, savory herb with velvety leaves, harvest peaks in summer.",
+    "image_url": null,
+    "storage_tips": "Wrap in a damp paper towel and refrigerate. Use within a week."
+  },
+  {
+    "id": 65,
+    "name": "Chives",
+    "category": "herb",
+    "description": "Mild onion-flavored herb, one of the first to appear in spring.",
+    "image_url": null,
+    "storage_tips": "Wrap in a damp paper towel and refrigerate. Use within a week."
+  },
+  {
+    "id": 66,
+    "name": "Oregano",
+    "category": "herb",
+    "description": "Mediterranean herb that intensifies in flavor during warm months.",
+    "image_url": null,
+    "storage_tips": "Refrigerate fresh sprigs wrapped loosely. Use within 4-7 days."
+  },
+  {
+    "id": 67,
+    "name": "Maitake (Hen of the Woods)",
+    "category": "fungus",
+    "description": "Large, clustered fall mushroom found at the base of oak trees.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a paper bag. Use within 3-5 days. Tear into pieces rather than cutting."
+  },
+  {
+    "id": 68,
+    "name": "Chicken of the Woods",
+    "category": "fungus",
+    "description": "Bright orange shelf fungus with a meaty texture, found in summer and fall.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and use within 2-3 days. Best when young and tender at the edges."
+  },
+  {
+    "id": 69,
+    "name": "Lion's Mane",
+    "category": "fungus",
+    "description": "Shaggy white mushroom with a crabmeat-like flavor, found in late summer and fall.",
+    "image_url": null,
+    "storage_tips": "Refrigerate in a paper bag. Use within 3-5 days. Sauté until golden."
+  },
+  {
+    "id": 70,
+    "name": "Black Trumpet",
+    "category": "fungus",
+    "description": "Dark, thin-fleshed forest mushroom with an intensely earthy, smoky flavor.",
+    "image_url": null,
+    "storage_tips": "Brush clean gently. Refrigerate and use within 3-4 days. Dries exceptionally well."
+  },
+  {
+    "id": 71,
+    "name": "Porcini",
+    "category": "fungus",
+    "description": "Prized bolete with rich, nutty flavor found in late summer and fall forests.",
+    "image_url": null,
+    "storage_tips": "Use quickly (within 1-2 days). Brush clean, don't soak. Slice thin to check for worms."
+  },
+  {
+    "id": 72,
+    "name": "Giant Puffball",
+    "category": "fungus",
+    "description": "Massive round mushroom found in meadows and forest edges in late summer.",
+    "image_url": null,
+    "storage_tips": "Use within 1-2 days. Slice and cook; interior should be pure white when fresh."
+  },
+  {
+    "id": 73,
+    "name": "Blue Crab",
+    "category": "seafood",
+    "description": "Sweet, succulent crab abundant along the mid-Atlantic coast in summer.",
+    "image_url": null,
+    "storage_tips": "Keep alive and cold until cooking. Cook same day as purchase if possible."
+  },
+  {
+    "id": 74,
+    "name": "Lobster",
+    "category": "seafood",
+    "description": "Premium crustacean with peak catches in summer along New England coasts.",
+    "image_url": null,
+    "storage_tips": "Keep alive in the fridge covered with a damp towel. Cook the same day."
+  },
+  {
+    "id": 75,
+    "name": "Clams",
+    "category": "seafood",
+    "description": "Hard-shell and soft-shell varieties available in cooler months along the coast.",
+    "image_url": null,
+    "storage_tips": "Store in the fridge in a bowl covered with a damp cloth. Use within 1-2 days."
+  },
+  {
+    "id": 76,
+    "name": "Scallops (Sea)",
+    "category": "seafood",
+    "description": "Sweet, tender bivalve harvested in cooler months from Atlantic waters.",
+    "image_url": null,
+    "storage_tips": "Refrigerate on ice and use within 1-2 days. Pat dry before searing."
+  },
+  {
+    "id": 77,
+    "name": "Mussels",
+    "category": "seafood",
+    "description": "Affordable bivalve available year-round but best in colder months.",
+    "image_url": null,
+    "storage_tips": "Store in the fridge in an open container with a damp cloth. Use within 1-2 days."
+  },
+  {
+    "id": 78,
+    "name": "Striped Bass",
+    "category": "seafood",
+    "description": "Prized game fish with flaky white flesh, migrating along the coast spring through fall.",
+    "image_url": null,
+    "storage_tips": "Keep cold on ice. Cook within 1-2 days of purchase."
+  },
+  {
+    "id": 79,
+    "name": "Flounder",
+    "category": "seafood",
+    "description": "Mild, delicate flatfish available through much of the year in the Northeast.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and cook within 1-2 days. Very delicate; handle gently."
+  },
+  {
+    "id": 80,
+    "name": "Squid",
+    "category": "seafood",
+    "description": "Versatile cephalopod caught in warmer months along the Atlantic.",
+    "image_url": null,
+    "storage_tips": "Clean and cook the same day, or freeze immediately. Cook quickly (under 2 min) or braise long."
+  },
+  {
+    "id": 81,
+    "name": "Black Sea Bass",
+    "category": "seafood",
+    "description": "Firm, white-fleshed fish found along the mid-Atlantic coast in warmer months.",
+    "image_url": null,
+    "storage_tips": "Refrigerate on ice and cook within 1-2 days."
+  },
+  {
+    "id": 82,
+    "name": "Cod",
+    "category": "seafood",
+    "description": "Cold-water whitefish traditionally important in New England fisheries.",
+    "image_url": null,
+    "storage_tips": "Keep very cold. Cook within 1-2 days. Firm flesh holds up well to baking and frying."
+  },
+  {
+    "id": 83,
+    "name": "Tautog (Blackfish)",
+    "category": "seafood",
+    "description": "Reef-dwelling fish with firm, white flesh, caught in spring and fall.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and cook within 1-2 days."
+  },
+  {
+    "id": 84,
+    "name": "Scallops (Bay)",
+    "category": "seafood",
+    "description": "Small, sweet scallops harvested in fall and winter from bays and estuaries.",
+    "image_url": null,
+    "storage_tips": "Refrigerate on ice. Use within 1-2 days. Best pan-seared or eaten raw."
+  },
+  {
+    "id": 85,
+    "name": "Tuna",
+    "category": "seafood",
+    "description": "Large pelagic fish caught offshore in warmer months.",
+    "image_url": null,
+    "storage_tips": "Keep very cold on ice. Sushi-grade should be consumed same day; cook-grade within 1-2 days."
+  },
+  {
+    "id": 86,
+    "name": "Duck (Wild)",
+    "category": "game",
+    "description": "Waterfowl available during fall and winter hunting seasons.",
+    "image_url": null,
+    "storage_tips": "Refrigerate or freeze promptly. Rich flavor pairs well with fruit-based sauces."
+  },
+  {
+    "id": 87,
+    "name": "Goose (Wild)",
+    "category": "game",
+    "description": "Waterfowl hunted primarily in fall and winter migratory seasons.",
+    "image_url": null,
+    "storage_tips": "Freeze if not cooking within a day. Roast low and slow to render fat."
+  },
+  {
+    "id": 88,
+    "name": "Squirrel",
+    "category": "game",
+    "description": "Small game animal hunted in fall with mild, lean meat.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and cook promptly. Braise or stew for tenderness."
+  },
+  {
+    "id": 89,
+    "name": "Ruffed Grouse",
+    "category": "game",
+    "description": "Woodland game bird with delicate white meat, hunted in fall.",
+    "image_url": null,
+    "storage_tips": "Refrigerate and cook within 1-2 days. Gentle cooking preserves moisture."
+  },
+  {
+    "id": 90,
+    "name": "Black Bear",
+    "category": "game",
+    "description": "Large game animal with rich, dark meat; carefully regulated hunting season.",
+    "image_url": null,
+    "storage_tips": "Must be cooked to 160°F internal temperature. Freeze portions not used immediately."
+  }
+]

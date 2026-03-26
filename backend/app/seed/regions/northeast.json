@@ -1,0 +1,124 @@
+{
+  "region_groups": [
+    {
+      "id": 1,
+      "name": "Northeast",
+      "slug": "northeast",
+      "description": "The northeastern United States, spanning diverse climates from Maine’s colder winters to the milder Mid-Atlantic coasts.",
+      "region_count": 11
+    }
+  ],
+  "regions": [
+    {
+      "id": 1,
+      "region_group_id": 1,
+      "name": "New Jersey",
+      "state_code": "NJ",
+      "usda_zones": "6b-8a",
+      "latitude": 40.0583,
+      "longitude": -74.4057,
+      "description": "New Jersey spans four USDA hardiness zones, from the cooler Appalachian northwest to the milder Atlantic coast. The Garden State’s long warm season supports tomatoes, peaches, berries, and sweet corn, while the coast offers seasonal seafood like oysters and fluke."
+    },
+    {
+      "id": 2,
+      "region_group_id": 1,
+      "name": "New York",
+      "state_code": "NY",
+      "usda_zones": "3b-7b",
+      "latitude": 42.1657,
+      "longitude": -74.9481,
+      "description": "New York stretches from cold northern climates to more moderate southern areas, creating a broad seasonal range. Many crops align with Northeast patterns, with harvest timing shifting based on zone and latitude."
+    },
+    {
+      "id": 3,
+      "region_group_id": 1,
+      "name": "Pennsylvania",
+      "state_code": "PA",
+      "usda_zones": "5a-7b",
+      "latitude": 41.2033,
+      "longitude": -77.1945,
+      "description": "Pennsylvania’s seasons vary across elevations and regions, but many fruits and vegetables follow consistent Northeast harvest rhythms. Warm-season produce is typically strongest mid-to-late summer."
+    },
+    {
+      "id": 4,
+      "region_group_id": 1,
+      "name": "Connecticut",
+      "state_code": "CT",
+      "usda_zones": "5b-7a",
+      "latitude": 41.6032,
+      "longitude": -72.7554,
+      "description": "Connecticut sits within a moderate range of USDA hardiness zones. Its coastal influence and temperate summers support a steady supply of garden vegetables and berries."
+    },
+    {
+      "id": 5,
+      "region_group_id": 1,
+      "name": "Massachusetts",
+      "state_code": "MA",
+      "usda_zones": "5b-7a",
+      "latitude": 42.4072,
+      "longitude": -71.3824,
+      "description": "Massachusetts spans cooler inland conditions and milder coastal areas. Seasonal produce and foraged fungi commonly peak during warm late-spring through early-fall windows."
+    },
+    {
+      "id": 6,
+      "region_group_id": 1,
+      "name": "Maine",
+      "state_code": "ME",
+      "usda_zones": "3b-6a",
+      "latitude": 45.2538,
+      "longitude": -69.4455,
+      "description": "Maine’s colder winters and shorter warm season shift harvests later relative to more southern Northeast states. Cool-weather greens and fall crops are especially important for many gardeners and farms."
+    },
+    {
+      "id": 7,
+      "region_group_id": 1,
+      "name": "New Hampshire",
+      "state_code": "NH",
+      "usda_zones": "4a-6a",
+      "latitude": 43.1939,
+      "longitude": -71.5724,
+      "description": "New Hampshire’s USDA zones vary across the state, affecting when crops reach peak availability. Expect strong seasonality for cool-weather vegetables and a seasonal ramp into summer."
+    },
+    {
+      "id": 8,
+      "region_group_id": 1,
+      "name": "Vermont",
+      "state_code": "VT",
+      "usda_zones": "4a-6b",
+      "latitude": 44.5588,
+      "longitude": -72.5778,
+      "description": "Vermont’s cooler climate emphasizes cool-season crops and harvest timing driven by local conditions. Many fruits and vegetables follow Northeast seasonal rhythms with zone-based shifts."
+    },
+    {
+      "id": 9,
+      "region_group_id": 1,
+      "name": "Rhode Island",
+      "state_code": "RI",
+      "usda_zones": "6a-8a",
+      "latitude": 41.6809,
+      "longitude": -71.5118,
+      "description": "Rhode Island’s coastal moderation supports a reliable growing season. This makes it a strong region for berries, summer vegetables, and coastal seafood."
+    },
+    {
+      "id": 10,
+      "region_group_id": 1,
+      "name": "Delaware",
+      "state_code": "DE",
+      "usda_zones": "7a-8a",
+      "latitude": 38.9108,
+      "longitude": -75.5277,
+      "description": "Delaware sits in a milder USDA range with a longer warm season. Garden favorites like tomatoes, peppers, and summer fruit often reach peak availability earlier."
+    },
+    {
+      "id": 11,
+      "region_group_id": 1,
+      "name": "Maryland",
+      "state_code": "MD",
+      "usda_zones": "5a-8a",
+      "latitude": 39.0458,
+      "longitude": -76.6413,
+      "description": "Maryland spans multiple USDA hardiness zones, from cooler inland areas to milder eastern coasts. This creates a broad seasonal window for vegetables, fruits, and seafood."
+    }
+  ]
+}
+
