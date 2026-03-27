@@ -18,17 +18,17 @@ export const AVAIL_META: Record<
 > = {
   peak: {
     label: 'Peak Season',
-    className: 'text-[#2D6A4F]',
-    bgClass: 'bg-[#D8F3DC]',
+    className: 'text-[var(--peak-text)]',
+    bgClass: 'bg-[var(--peak-bg)]',
   },
   moderate: {
     label: 'Moderate',
-    className: 'text-[#7A4A00]',
-    bgClass: 'bg-[#FFF3CD]',
+    className: 'text-[var(--moderate-text)]',
+    bgClass: 'bg-[var(--moderate-bg)]',
   },
   light: {
     label: 'Limited',
-    className: 'text-[#111827]',
-    bgClass: 'bg-[#F3F4F6]',
+    className: 'text-[var(--limited-text)]',
+    bgClass: 'bg-[var(--limited-bg)]',
   },
 }

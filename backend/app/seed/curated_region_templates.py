@@ -62,13 +62,23 @@ def replace_food(
 
 def _git_show_region(region_file: str) -> dict[str, Any]:
     rel = f"backend/app/seed/seasons/{region_file}.json"
-    out = subprocess.run(
-        ["git", "-C", str(REPO_ROOT), "show", f"HEAD:{rel}"],
+    revs = subprocess.run(
+        ["git", "-C", str(REPO_ROOT), "log", "--format=%H", "--", rel],
         capture_output=True,
         text=True,
         check=True,
-    )
-    return json.loads(out.stdout)
+    ).stdout.splitlines()
+    if not revs:
+        raise FileNotFoundError(f"No git history found for region file: {rel}")
+    for rev in revs:
+        out = subprocess.run(
+            ["git", "-C", str(REPO_ROOT), "show", f"{rev}:{rel}"],
+            capture_output=True,
+            text=True,
+        )
+        if out.returncode == 0:
+            return json.loads(out.stdout)
+    raise FileNotFoundError(f"Region file not found in reachable commits: {rel}")
 
 
 def curated_great_plains() -> list[dict[str, Any]]:

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import { AVAIL_META, CATEGORY_META } from '../components/categoryMeta'
 import FoodDetailModal from '../components/FoodDetailModal'
 import Header from '../components/Header'
-import RegionSelector from '../components/RegionSelector'
 import USMap from '../components/map/USMap'
 import USDAZoneGuide from '../components/USDAZoneGuide'
 import { useRegions } from '../hooks/useRegions'
@@ -74,6 +73,11 @@ export default function HomePage() {
   }, [teaserQuery.data])
 
   const totalCount = teaserQuery.data?.total_count ?? 0
+  const stateOptions = useMemo(() => {
+    return Object.entries(regionByState)
+      .map(([code, region]) => ({ code, name: region.name }))
+      .sort((a, b) => a.name.localeCompare(b.name))
+  }, [regionByState])
 
   return (
     <div className="w-full">
@@ -81,15 +85,34 @@ export default function HomePage() {
 
       <main className="mx-auto max-w-5xl px-4">
         <div className="mt-2">
-          <h2 className="text-2xl font-semibold text-[#1A1A2E]">Explore what&apos;s in season</h2>
-          <p className="mt-1 text-sm text-[#6B7280]">
+          <h2 className="text-2xl font-semibold text-[var(--text)]">Explore what&apos;s in season</h2>
+          <p className="mt-1 text-sm text-[var(--text-muted)]">
             Click a state to see seasonal fruits, vegetables, seafood, and more.
           </p>
         </div>
 
-        <div className="mt-4 rounded-2xl border border-[#E5E7EB] bg-white p-4">
+        <div className="mt-4 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4">
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <label htmlFor="state-quick-select" className="text-xs font-medium text-[var(--text-muted)]">
+              State quick select
+            </label>
+            <select
+              id="state-quick-select"
+              value={effectiveSelected}
+              onChange={(e) => setSelectedStateCode(e.target.value)}
+              className="h-8 max-w-[220px] rounded-full border border-[var(--border)] bg-[var(--surface)] px-3 text-xs text-[var(--text)]"
+              aria-label="Select a state"
+            >
+              {stateOptions.map((state) => (
+                <option key={state.code} value={state.code}>
+                  {state.name}
+                </option>
+              ))}
+            </select>
+          </div>
+
           {regionsLoading ? (
-            <div className="text-sm text-[#6B7280]">Loading map…</div>
+            <div className="text-sm text-[var(--text-muted)]">Loading map…</div>
           ) : (
             <USMap
               regionByState={regionByState}
@@ -100,19 +123,15 @@ export default function HomePage() {
           )}
         </div>
 
-        <div className="mt-4 md:hidden">
-          <RegionSelector valueStateCode={effectiveSelected} onChange={setSelectedStateCode} />
-        </div>
-
         <div className="mt-4">
           <USDAZoneGuide highlightZones={regionByState[teaserState]?.usda_zones} />
         </div>
 
-        <div className="mt-4 rounded-2xl border border-[#E5E7EB] bg-white p-4">
+        <div className="mt-4 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4">
           <div className="flex items-start justify-between gap-3">
             <div>
-              <div className="text-sm font-semibold text-[#1A1A2E]">In season now</div>
-              <div className="text-xs text-[#6B7280] mt-1">
+              <div className="text-sm font-semibold text-[var(--text)]">In season now</div>
+              <div className="mt-1 text-xs text-[var(--text-muted)]">
                 <span className="font-medium">{totalCount}</span> items for{' '}
                 <span className="font-medium">{regionByState[teaserState]?.name ?? teaserState}</span>{' '}
                 in {teaserQuery.data?.month_name ?? dateISO}
@@ -120,7 +139,7 @@ export default function HomePage() {
             </div>
             <Link
               to={`/state/${teaserState.toLowerCase()}`}
-              className="shrink-0 rounded-full bg-[#40916C] px-3.5 py-1.5 text-xs font-semibold text-white shadow-sm transition-colors hover:bg-[#2D6A4F]"
+              className="shrink-0 rounded-full bg-[var(--accent)] px-3.5 py-1.5 text-xs font-semibold text-white shadow-sm transition-colors hover:bg-[var(--accent-hover)]"
             >
               View {regionByState[teaserState]?.name ?? teaserState} →
             </Link>
@@ -136,12 +155,12 @@ export default function HomePage() {
                   <div className="flex items-center gap-2 mb-1.5">
                     <span
                       className="inline-block h-2 w-2 rounded-full"
-                      style={{ backgroundColor: tier === 'peak' ? '#2D6A4F' : tier === 'moderate' ? '#B8860B' : '#9CA3AF' }}
+                      style={{ backgroundColor: tier === 'peak' ? 'var(--peak-dot)' : tier === 'moderate' ? 'var(--moderate-dot)' : 'var(--limited-dot)' }}
                     />
                     <span className={`text-xs font-semibold ${meta.className}`}>
                       {meta.label}
                     </span>
-                    <span className="text-xs text-[#9CA3AF]">({items.length})</span>
+                    <span className="text-xs text-[var(--text-muted)]">({items.length})</span>
                   </div>
                   <div className="flex flex-wrap gap-1.5">
                     {items.map((it) => {

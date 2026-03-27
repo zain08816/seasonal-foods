@@ -56,18 +56,18 @@ export default function StatePage() {
       <Header dateISO={dateISO} onDateChange={setDateISO} />
 
       <main className="mx-auto max-w-5xl px-4 pb-12">
-        <div className="mt-2 text-sm text-[#6B7280]">
-          <Link to="/" className="text-[#40916C] hover:underline">
+        <div className="mt-2 text-sm text-[var(--text-muted)]">
+          <Link to="/" className="text-[var(--accent)] hover:underline">
             {region?.region_group?.name ?? 'Home'}
           </Link>
           <span className="mx-2">/</span>
-          <span className="text-[#1A1A2E] font-semibold">{region?.name ?? code}</span>
+          <span className="font-semibold text-[var(--text)]">{region?.name ?? code}</span>
         </div>
 
         {regionError ? (
-          <div role="alert" className="mt-6 rounded-2xl border border-[#FECACA] bg-[#FEF2F2] p-5 text-sm text-[#991B1B]">
-            No region is configured for “{code}”.{' '}
-            <Link to="/" className="font-medium text-[#40916C] underline">
+          <div role="alert" className="mt-6 rounded-2xl border border-[var(--error-border)] bg-[var(--error-bg)] p-5 text-sm text-[var(--error-text)]">
+            No region is configured for &ldquo;{code}&rdquo;.{' '}
+            <Link to="/" className="font-medium text-[var(--accent)] underline">
               Return home
             </Link>{' '}
             to choose a supported state.
@@ -81,7 +81,7 @@ export default function StatePage() {
                 onChange={(next) => navigate(`/state/${next.toLowerCase()}`)}
               />
               {regionLoading ? (
-                <div className="rounded-2xl border border-[#E5E7EB] bg-white p-5">Loading area…</div>
+                <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">Loading area…</div>
               ) : region ? (
                 <>
                   <RegionInfoPanel region={region} />
@@ -105,11 +105,11 @@ export default function StatePage() {
           </div>
 
           <section>
-            <div className="rounded-2xl border border-[#E5E7EB] bg-white p-4">
+            <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4">
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <div className="text-sm text-[#6B7280]">Results</div>
-                  <div className="text-xl font-semibold text-[#1A1A2E]">{totalCount} items in season</div>
+                  <div className="text-sm text-[var(--text-muted)]">Results</div>
+                  <div className="text-xl font-semibold text-[var(--text)]">{totalCount} items in season</div>
                 </div>
               </div>
 
@@ -121,16 +121,16 @@ export default function StatePage() {
                     onSelect={(next) => setSelectedCategory(next)}
                   />
                 ) : (
-                  <div className="text-sm text-[#6B7280]">Loading categories…</div>
+                  <div className="text-sm text-[var(--text-muted)]">Loading categories…</div>
                 )}
               </div>
             </div>
 
             <div className="mt-4">
               {seasonal.isLoading ? (
-                <div className="text-sm text-[#6B7280]">Loading seasonal foods…</div>
+                <div className="text-sm text-[var(--text-muted)]">Loading seasonal foods…</div>
               ) : items.length === 0 ? (
-                <div className="rounded-2xl border border-[#E5E7EB] bg-white p-5 text-sm text-[#6B7280]">
+                <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5 text-sm text-[var(--text-muted)]">
                   No in-season items found for this date.
                 </div>
               ) : (

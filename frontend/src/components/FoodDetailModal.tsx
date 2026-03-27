@@ -47,15 +47,15 @@ export default function FoodDetailModal(props: {
   const content = (
     <>
       {isLoading ? (
-        <div className="text-sm text-[#6B7280]">Loading...</div>
+        <div className="text-sm text-[var(--text-muted)]">Loading...</div>
       ) : (
         <>
-          <div className="text-sm text-[#6B7280]">{data?.description}</div>
+          <div className="text-sm text-[var(--text-muted)]">{data?.description}</div>
           <SeasonIndicator monthAvailability={monthAvailability} />
           {data?.storage_tips ? (
             <div className="mt-4">
-              <div className="text-sm font-semibold text-[#1A1A2E]">Storage tips</div>
-              <div className="mt-1 text-sm text-[#6B7280]">{data.storage_tips}</div>
+              <div className="text-sm font-semibold text-[var(--text)]">Storage tips</div>
+              <div className="mt-1 text-sm text-[var(--text-muted)]">{data.storage_tips}</div>
             </div>
           ) : null}
         </>
@@ -64,11 +64,11 @@ export default function FoodDetailModal(props: {
   )
 
   const header = (
-    <div className="flex items-start justify-between gap-4 px-5 py-4 border-b border-[#E5E7EB]">
+    <div className="flex items-start justify-between gap-4 px-5 py-4 border-b border-[var(--border)]">
       <div>
-        <div className="text-lg font-semibold text-[#1A1A2E]">{data?.name ?? (foodId ? `Food #${foodId}` : 'Food')}</div>
+        <div className="text-lg font-semibold text-[var(--text)]">{data?.name ?? (foodId ? `Food #${foodId}` : 'Food')}</div>
         {data ? (
-          <div className="mt-1 text-sm text-[#6B7280]">
+          <div className="mt-1 text-sm text-[var(--text-muted)]">
             Category: <span className="font-medium capitalize">{data.category}</span>
           </div>
         ) : null}
@@ -76,7 +76,7 @@ export default function FoodDetailModal(props: {
       <button
         type="button"
         onClick={onClose}
-        className="flex h-10 w-10 items-center justify-center rounded-full border border-[#E5E7EB] bg-white hover:bg-[#F3F4F6] transition-colors"
+        className="flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] hover:bg-[var(--surface-alt)] transition-colors"
         aria-label="Close"
       >
         ✕
@@ -95,7 +95,7 @@ export default function FoodDetailModal(props: {
           if (e.target === e.currentTarget) onClose()
         }}
       >
-        <div className="w-full max-w-xl rounded-2xl bg-white shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-150">
+        <div className="w-full max-w-xl rounded-2xl bg-[var(--surface)] shadow-xl overflow-hidden animate-in fade-in zoom-in-95 duration-150">
           {header}
           <div className="px-5 py-4 max-h-[70vh] overflow-y-auto">
             {content}
@@ -106,7 +106,7 @@ export default function FoodDetailModal(props: {
       {/* Mobile bottom sheet */}
       <div className="md:hidden fixed inset-0 z-50">
         <button type="button" onClick={onClose} className="absolute inset-0 bg-black/30" aria-label="Close overlay" />
-        <div className="absolute left-0 right-0 bottom-0 rounded-t-2xl bg-white shadow-xl max-h-[78vh] overflow-y-auto">
+        <div className="absolute left-0 right-0 bottom-0 rounded-t-2xl bg-[var(--surface)] shadow-xl max-h-[78vh] overflow-y-auto">
           {header}
           <div className="px-5 py-4 pb-8">
             {content}

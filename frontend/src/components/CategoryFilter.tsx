@@ -18,8 +18,8 @@ export default function CategoryFilter(props: {
         type="button"
         className={
           selected === 'all'
-            ? 'h-10 rounded-full bg-[#40916C] px-4 text-sm font-medium text-white'
-            : 'h-10 rounded-full border border-[#D1D5DB] bg-white px-4 text-sm font-medium text-[#1A1A2E] hover:bg-[#F3F4F6]'
+            ? 'h-10 rounded-full bg-[var(--accent)] px-4 text-sm font-medium text-white'
+            : 'h-10 rounded-full border border-[var(--border)] bg-[var(--surface)] px-4 text-sm font-medium text-[var(--text)] hover:bg-[var(--surface-alt)]'
         }
         onClick={() => onSelect('all')}
       >
@@ -35,7 +35,7 @@ export default function CategoryFilter(props: {
             className={
               selected === c.slug
                 ? `h-10 rounded-full px-4 text-sm font-medium text-white ${meta.selectedBgClass}`
-                : 'h-10 rounded-full border border-[#D1D5DB] bg-white px-4 text-sm font-medium text-[#1A1A2E] hover:bg-[#F3F4F6]'
+                : 'h-10 rounded-full border border-[var(--border)] bg-[var(--surface)] px-4 text-sm font-medium text-[var(--text)] hover:bg-[var(--surface-alt)]'
             }
             onClick={() => onSelect(c.slug)}
           >
@@ -49,4 +49,3 @@ export default function CategoryFilter(props: {
     </div>
   )
 }
-

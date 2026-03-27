@@ -11,12 +11,12 @@ export default function FoodCard(props: { item: SeasonalFoodItemOut; onClick: ()
     <button
       type="button"
       onClick={onClick}
-      className="w-full rounded-xl border border-[#E5E7EB] bg-white p-4 text-left shadow-sm hover:shadow-md transition-shadow"
+      className="w-full rounded-xl border border-[var(--border)] bg-[var(--surface)] p-4 text-left shadow-sm hover:shadow-md transition-shadow"
     >
       <div className="flex items-start justify-between gap-3">
         <div className="flex flex-col">
-          <div className="text-[15px] font-semibold text-[#1A1A2E]">{item.name}</div>
-          <div className="mt-1 flex items-center gap-2 text-xs text-[#6B7280]">
+          <div className="text-[15px] font-semibold text-[var(--text)]">{item.name}</div>
+          <div className="mt-1 flex items-center gap-2 text-xs text-[var(--text-muted)]">
             <span className={`h-2 w-2 rounded-full ${category.dotClass}`} aria-hidden="true" />
             <span>{category.label}</span>
           </div>
@@ -26,8 +26,7 @@ export default function FoodCard(props: { item: SeasonalFoodItemOut; onClick: ()
         </span>
       </div>
 
-      <div className="mt-2 text-sm text-[#6B7280] line-clamp-2">{item.description}</div>
+      <div className="mt-2 text-sm text-[var(--text-muted)] line-clamp-2">{item.description}</div>
     </button>
   )
 }
-

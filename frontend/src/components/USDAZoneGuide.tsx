@@ -28,13 +28,13 @@ function TemperatureScale(props: { range: { start: number; end: number } | null;
   const { range, zones, open } = props
 
   return (
-    <div className="rounded-xl border border-[#E5E7EB] bg-[#F9FAFB] px-3 py-2 transition-shadow hover:shadow-md cursor-pointer">
+    <div className="rounded-xl border border-[var(--border)] bg-[var(--surface-alt)] px-3 py-2 transition-shadow hover:shadow-md cursor-pointer">
       <div className="flex items-center justify-between">
-        <div className="text-[10px] font-semibold text-[#1A1A2E]">
+        <div className="text-[10px] font-semibold text-[var(--text)]">
           USDA Hardiness Zones{zones ? ` (${zones})` : ''}
         </div>
         <svg
-          className={`h-3.5 w-3.5 text-[#9CA3AF] transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+          className={`h-3.5 w-3.5 text-[var(--text-muted)] transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
           viewBox="0 0 20 20"
           fill="currentColor"
           aria-hidden="true"
@@ -48,7 +48,7 @@ function TemperatureScale(props: { range: { start: number; end: number } | null;
       </div>
 
       <div className="mt-1.5 flex items-center gap-2">
-        <div className="text-[10px] text-[#9CA3AF] w-8 shrink-0">Cold</div>
+        <div className="text-[10px] text-[var(--text-muted)] w-8 shrink-0">Cold</div>
         <div className="flex-1 flex h-2 rounded-full overflow-hidden">
           {Array.from({ length: 13 }, (_, i) => {
             const zone = i + 1
@@ -66,10 +66,10 @@ function TemperatureScale(props: { range: { start: number; end: number } | null;
             )
           })}
         </div>
-        <div className="text-[10px] text-[#9CA3AF] w-8 shrink-0 text-right">Warm</div>
+        <div className="text-[10px] text-[var(--text-muted)] w-8 shrink-0 text-right">Warm</div>
       </div>
 
-      <div className="mt-1 flex justify-between text-[9px] text-[#9CA3AF]">
+      <div className="mt-1 flex justify-between text-[9px] text-[var(--text-muted)]">
         <span>Zone 1 (-60 F)</span>
         <span>Zone 13 (70 F)</span>
       </div>
@@ -80,8 +80,8 @@ function TemperatureScale(props: { range: { start: number; end: number } | null;
 function TextBlock(props: { title: string; children: ReactNode }) {
   return (
     <div>
-      <div className="text-xs font-semibold text-[#1A1A2E]">{props.title}</div>
-      <div className="mt-0.5 text-xs text-[#6B7280] leading-relaxed">{props.children}</div>
+      <div className="text-xs font-semibold text-[var(--text)]">{props.title}</div>
+      <div className="mt-0.5 text-xs text-[var(--text-muted)] leading-relaxed">{props.children}</div>
     </div>
   )
 }
@@ -103,7 +103,7 @@ export default function USDAZoneGuide(props: { highlightZones?: string }) {
       </button>
 
       {open && (
-        <div className="mt-2 rounded-xl border border-[#E5E7EB] bg-white p-3 space-y-2.5">
+        <div className="mt-2 rounded-xl border border-[var(--border)] bg-[var(--surface)] p-3 space-y-2.5">
           <TextBlock title="What are these zones?">
             USDA Plant Hardiness Zones divide the US into 13 zones based on the average annual minimum winter
             temperature. They indicate what can survive winter in a given area.

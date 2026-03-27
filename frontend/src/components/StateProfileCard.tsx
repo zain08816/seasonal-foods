@@ -7,14 +7,14 @@ export default function StateProfileCard(props: { region: RegionOut }) {
   if (!profile) return null
 
   return (
-    <div className="rounded-2xl border border-[#E5E7EB] bg-white p-5">
-      <div className="text-xl font-semibold text-[#1A1A2E]">{profile.nickname}</div>
-      <div className="mt-1 text-sm text-[#6B7280]">
-        Capital: <span className="font-medium text-[#1A1A2E]">{profile.capital}</span>
+    <div className="rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">
+      <div className="text-xl font-semibold text-[var(--text)]">{profile.nickname}</div>
+      <div className="mt-1 text-sm text-[var(--text-muted)]">
+        Capital: <span className="font-medium text-[var(--text)]">{profile.capital}</span>
       </div>
 
       <div className="mt-4">
-        <div className="text-xs font-semibold text-[#6B7280] uppercase tracking-wide">Top crops</div>
+        <div className="text-xs font-semibold text-[var(--text-muted)] uppercase tracking-wide">Top crops</div>
         <div className="mt-2 flex flex-wrap gap-1.5">
           {profile.top_crops.map((c) => (
             <span
@@ -28,13 +28,13 @@ export default function StateProfileCard(props: { region: RegionOut }) {
       </div>
 
       <div className="mt-4">
-        <div className="text-xs font-semibold text-[#6B7280] uppercase tracking-wide">Agricultural highlights</div>
-        <p className="mt-2 text-sm text-[#6B7280] leading-relaxed">{profile.agricultural_highlights}</p>
+        <div className="text-xs font-semibold text-[var(--text-muted)] uppercase tracking-wide">Agricultural highlights</div>
+        <p className="mt-2 text-sm text-[var(--text-muted)] leading-relaxed">{profile.agricultural_highlights}</p>
       </div>
 
       <div className="mt-4">
-        <div className="text-xs font-semibold text-[#6B7280] uppercase tracking-wide">Did you know?</div>
-        <ul className="mt-2 list-disc pl-5 text-sm text-[#6B7280] space-y-1">
+        <div className="text-xs font-semibold text-[var(--text-muted)] uppercase tracking-wide">Did you know?</div>
+        <ul className="mt-2 list-disc pl-5 text-sm text-[var(--text-muted)] space-y-1">
           {profile.fun_facts.map((f, i) => (
             <li key={i}>{f}</li>
           ))}
@@ -42,7 +42,7 @@ export default function StateProfileCard(props: { region: RegionOut }) {
       </div>
 
       <div className="mt-4">
-        <div className="text-xs font-semibold text-[#6B7280] uppercase tracking-wide">Learn more</div>
+        <div className="text-xs font-semibold text-[var(--text-muted)] uppercase tracking-wide">Learn more</div>
         <div className="mt-2 flex flex-col gap-1.5">
           {profile.resource_links.map((l) => (
             <a
@@ -50,7 +50,7 @@ export default function StateProfileCard(props: { region: RegionOut }) {
               href={l.url}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-[#40916C] hover:underline"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--accent)] hover:underline"
             >
               {l.label}
               <svg className="h-3.5 w-3.5 shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -63,4 +63,3 @@ export default function StateProfileCard(props: { region: RegionOut }) {
     </div>
   )
 }
-

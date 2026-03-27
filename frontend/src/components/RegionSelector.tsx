@@ -38,7 +38,7 @@ export default function RegionSelector(props: { valueStateCode: string; onChange
 
   if (isLoading) {
     return (
-      <div className="w-full rounded-2xl border border-[#E5E7EB] bg-white p-4">
+      <div className="w-full rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4">
         Loading regions…
       </div>
     )
@@ -46,15 +46,15 @@ export default function RegionSelector(props: { valueStateCode: string; onChange
 
   if (error) {
     return (
-      <div className="w-full rounded-2xl border border-[#E5E7EB] bg-white p-4 text-sm text-[#6B7280]">
+      <div className="w-full rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4 text-sm text-[var(--text-muted)]">
         Failed to load regions.
       </div>
     )
   }
 
   return (
-    <div className="w-full rounded-2xl border border-[#E5E7EB] bg-white p-4">
-      <div className="text-sm font-semibold text-[#1A1A2E]">Region</div>
+    <div className="w-full rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4">
+      <div className="text-sm font-semibold text-[var(--text)]">Region</div>
       <div className="mt-3 grid grid-cols-2 gap-3">
         <select
           value={inferredGroupSlug}
@@ -63,7 +63,7 @@ export default function RegionSelector(props: { valueStateCode: string; onChange
             const first = regions.find((r) => r.region_group.slug === e.target.value)
             if (first) onChange(first.state_code)
           }}
-          className="h-10 w-full rounded-full border border-[#E5E7EB] bg-white px-3 text-sm"
+          className="h-10 w-full rounded-full border border-[var(--border)] bg-[var(--surface)] px-3 text-sm text-[var(--text)]"
           aria-label="Select region group"
         >
           {regionGroupsSorted.map((g) => (
@@ -76,7 +76,7 @@ export default function RegionSelector(props: { valueStateCode: string; onChange
         <select
           value={stateCodeUpper}
           onChange={(e) => onChange(e.target.value)}
-          className="h-10 w-full rounded-full border border-[#E5E7EB] bg-white px-3 text-sm"
+          className="h-10 w-full rounded-full border border-[var(--border)] bg-[var(--surface)] px-3 text-sm text-[var(--text)]"
           aria-label="Select state"
         >
           {filteredStates
@@ -92,4 +92,3 @@ export default function RegionSelector(props: { valueStateCode: string; onChange
     </div>
   )
 }
-

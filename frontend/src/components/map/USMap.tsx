@@ -1,7 +1,5 @@
-import { useMemo, useRef, useState, type MouseEvent } from 'react'
+import { useMemo, useState } from 'react'
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps'
-
-import MapTooltip from './MapTooltip'
 
 type RegionByState = Record<
   string,
@@ -49,8 +47,7 @@ export default function USMap(props: {
 }) {
   const { regionByState, onSelect, onHoverState, activeStateCode } = props
 
-  const containerRef = useRef<HTMLDivElement | null>(null)
-  const [tooltip, setTooltip] = useState<{ x: number; y: number; stateCode: string; title: string; zones: string; group: string } | null>(null)
+  const [hoveredState, setHoveredState] = useState<string | null>(null)
 
   const supported = useMemo(() => new Set(Object.keys(regionByState)), [regionByState])
 
@@ -70,33 +67,29 @@ export default function USMap(props: {
       .sort((a, b) => a.name.localeCompare(b.name))
   }, [regionByState])
 
+  const displayStateCode = hoveredState ?? activeStateCode ?? null
+  const displayRegion = displayStateCode ? regionByState[displayStateCode] : null
+  const displayPalette = displayStateCode
+    ? REGION_PALETTE[displayRegion?.region_group_slug ?? ''] ?? REGION_PALETTE.northeast
+    : null
+
   function paletteFor(stateCode: string) {
     const slug = regionByState[stateCode]?.region_group_slug
     return (slug && REGION_PALETTE[slug]) ? REGION_PALETTE[slug] : REGION_PALETTE.northeast
   }
 
-  function handleEnter(evt: MouseEvent<SVGPathElement>, stateCode: string, title: string) {
-    const rect = containerRef.current?.getBoundingClientRect()
-    const x = evt.clientX - (rect?.left ?? 0)
-    const y = evt.clientY - (rect?.top ?? 0)
-    setTooltip({
-      x,
-      y,
-      stateCode,
-      title,
-      zones: regionByState[stateCode]?.usda_zones ?? '',
-      group: regionByState[stateCode]?.region_group_name ?? '',
-    })
+  function handleEnter(stateCode: string) {
+    setHoveredState(stateCode)
     onHoverState?.(stateCode)
   }
 
   function handleLeave() {
-    setTooltip(null)
+    setHoveredState(null)
     onHoverState?.(null)
   }
 
   return (
-    <div ref={containerRef} className="relative w-full">
+    <div className="w-full">
       <ComposableMap projection="geoAlbersUsa" width={950} height={520} className="mx-auto">
         <Geographies geography={MAP_URL}>
           {({ geographies }: { geographies: unknown[] }) =>
@@ -106,9 +99,10 @@ export default function USMap(props: {
               const title = String(geo.properties.name ?? stateCode)
 
               const pal = supportedState ? paletteFor(stateCode) : null
-              const defaultFill = pal ? (activeStateCode === stateCode ? pal.active : pal.fill) : '#E5E7EB'
-              const hoverFill = pal?.hover ?? '#E5E7EB'
+              const defaultFill = pal ? (activeStateCode === stateCode ? pal.active : pal.fill) : 'var(--border)'
+              const hoverFill = pal?.hover ?? 'var(--border)'
               const isActive = activeStateCode === stateCode
+              const strokeColor = isActive ? 'var(--text)' : 'var(--map-stroke)'
 
               return (
                 <Geography
@@ -118,42 +112,30 @@ export default function USMap(props: {
                   style={{
                     default: {
                       fill: defaultFill,
-                      stroke: isActive ? '#1A1A2E' : '#FFFFFF',
+                      stroke: strokeColor,
                       strokeWidth: isActive ? 1.5 : 1,
                       outline: 'none',
                     },
                     hover: {
                       fill: hoverFill,
-                      stroke: isActive ? '#1A1A2E' : '#FFFFFF',
+                      stroke: strokeColor,
                       strokeWidth: isActive ? 1.5 : 1,
                       outline: 'none',
                     },
                     pressed: {
                       fill: hoverFill,
-                      stroke: isActive ? '#1A1A2E' : '#FFFFFF',
+                      stroke: strokeColor,
                       strokeWidth: isActive ? 1.5 : 1,
                       outline: 'none',
                     },
                   }}
                   aria-label={`${title} (${stateCode})`}
-                  onMouseEnter={(evt: MouseEvent<SVGPathElement>) => {
-                    if (!supportedState) return
-                    handleEnter(evt, stateCode, title)
+                  onMouseEnter={() => {
+                    if (supportedState) handleEnter(stateCode)
                   }}
                   onMouseLeave={() => handleLeave()}
                   onFocus={() => {
-                    if (!supportedState) return
-                    // Keyboard: show tooltip at the center-ish of the state using mouse event is unavailable.
-                    const region = regionByState[stateCode]
-                    setTooltip({
-                      x: 120,
-                      y: 80,
-                      stateCode,
-                      title,
-                      zones: region?.usda_zones ?? '',
-                      group: region?.region_group_name ?? '',
-                    })
-                    onHoverState?.(stateCode)
+                    if (supportedState) handleEnter(stateCode)
                   }}
                   onBlur={() => handleLeave()}
                   onClick={() => {
@@ -167,31 +149,51 @@ export default function USMap(props: {
         </Geographies>
       </ComposableMap>
 
-      {legendEntries.length > 0 ? (
-        <div className="mt-4 flex flex-wrap gap-x-4 gap-y-2 border-t border-[#E5E7EB] pt-3 text-xs text-[#6B7280]">
-          <span className="font-medium text-[#1A1A2E]">Regions:</span>
-          {legendEntries.map(({ slug, name, colors }) => (
-            <span key={slug} className="inline-flex items-center gap-1.5">
+      <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between border-t border-[var(--border)] pt-3">
+        <div className="flex items-center gap-3 min-h-[2.25rem]">
+          {displayRegion && displayPalette ? (
+            <>
               <span
-                className="h-3.5 w-3.5 shrink-0 rounded-sm border border-black/10"
-                style={{ backgroundColor: colors.fill }}
+                className="h-5 w-5 shrink-0 rounded-md border border-black/10"
+                style={{ backgroundColor: displayPalette.fill }}
                 aria-hidden
               />
-              {name}
+              <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                <span className="text-sm font-semibold text-[var(--text)]">
+                  {displayRegion.name}
+                </span>
+                <span className="text-xs text-[var(--text-muted)]">
+                  {displayRegion.region_group_name}
+                </span>
+                {displayRegion.usda_zones ? (
+                  <span className="text-xs font-medium text-[#2D6A4F]">
+                    USDA {displayRegion.usda_zones}
+                  </span>
+                ) : null}
+              </div>
+            </>
+          ) : (
+            <span className="text-xs text-[var(--text-muted)]">
+              Hover or tap a state to see details
             </span>
-          ))}
+          )}
         </div>
-      ) : null}
 
-      {tooltip ? (
-        <MapTooltip
-          x={tooltip.x}
-          y={tooltip.y}
-          title={`${tooltip.title}`}
-          subtitle={tooltip.group}
-          zones={tooltip.zones}
-        />
-      ) : null}
+        {legendEntries.length > 0 ? (
+          <div className="flex flex-wrap gap-x-3 gap-y-1.5 text-xs text-[var(--text-muted)]">
+            {legendEntries.map(({ slug, name, colors }) => (
+              <span key={slug} className="inline-flex items-center gap-1.5">
+                <span
+                  className="h-3 w-3 shrink-0 rounded-sm border border-black/10"
+                  style={{ backgroundColor: colors.fill }}
+                  aria-hidden
+                />
+                {name}
+              </span>
+            ))}
+          </div>
+        ) : null}
+      </div>
     </div>
   )
 }

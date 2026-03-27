@@ -25,7 +25,7 @@ export default function DatePicker(props: {
       <button
         type="button"
         aria-label="Previous month"
-        className="h-10 w-10 rounded-full border border-[#E5E7EB] bg-white hover:bg-[#F3F4F6]"
+        className="h-10 w-10 rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] hover:bg-[var(--surface-alt)]"
         onClick={() => onChange(shiftMonth(valueISO, -1))}
       >
         ‹
@@ -36,13 +36,13 @@ export default function DatePicker(props: {
         aria-label={ariaLabel ?? label}
         value={valueISO}
         onChange={(e) => onChange(e.target.value)}
-        className="h-10 rounded-full border border-[#E5E7EB] bg-white px-4 text-sm text-[#1A1A2E] shadow-sm"
+        className="h-10 rounded-full border border-[var(--border)] bg-[var(--surface)] px-4 text-sm text-[var(--text)] shadow-sm"
       />
 
       <button
         type="button"
         aria-label="Next month"
-        className="h-10 w-10 rounded-full border border-[#E5E7EB] bg-white hover:bg-[#F3F4F6]"
+        className="h-10 w-10 rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] hover:bg-[var(--surface-alt)]"
         onClick={() => onChange(shiftMonth(valueISO, 1))}
       >
         ›
@@ -50,4 +50,3 @@ export default function DatePicker(props: {
     </div>
   )
 }
-
