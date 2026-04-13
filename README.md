@@ -52,13 +52,13 @@ uv run uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 
 ```bash
 cd frontend
-npm install
+pnpm install
 ```
 
 ### Run
 
 ```bash
-VITE_API_BASE_URL=http://127.0.0.1:8000 npm run dev
+VITE_API_BASE_URL=http://127.0.0.1:8000 pnpm dev
 ```
 
 Open: http://127.0.0.1:5173
