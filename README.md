@@ -17,6 +17,32 @@ Start both the backend and frontend with a single command:
 
 This launches uvicorn (port 8000) and Vite (port 5173) together. Press `Ctrl+C` to stop both.
 
+## Docker
+
+The repo includes separate Dockerfiles for the backend and frontend.
+
+### Backend image
+
+```bash
+docker build -f Dockerfile.backend -t seasonal-foods-backend .
+docker run --rm -p 8000:8000 -v seasonal-foods-data:/app/data seasonal-foods-backend
+```
+
+The backend image installs dependencies with `uv` from `backend/pyproject.toml` and `backend/uv.lock`.
+
+API docs: http://127.0.0.1:8000/docs
+
+### Frontend image
+
+Build the frontend with the backend API URL baked in:
+
+```bash
+docker build -f Dockerfile.frontend --build-arg VITE_API_BASE_URL=http://127.0.0.1:8000 -t seasonal-foods-frontend .
+docker run --rm -p 8080:80 seasonal-foods-frontend
+```
+
+Open: http://127.0.0.1:8080
+
 ## Backend
 
 ### Setup
