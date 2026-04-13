@@ -23,14 +23,13 @@ This launches uvicorn (port 8000) and Vite (port 5173) together. Press `Ctrl+C` 
 
 ```bash
 cd backend
-python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
+uv sync
 ```
 
 ### Run
 
 ```bash
-.venv/bin/uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+uv run uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 Swagger docs: http://127.0.0.1:8000/docs
@@ -43,7 +42,8 @@ To re-seed after adding new data, delete the SQLite file and restart:
 
 ```bash
 rm backend/seasonal_food_finder.sqlite3
-.venv/bin/uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+cd backend
+uv run uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 ## Frontend
