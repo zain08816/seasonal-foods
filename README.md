@@ -17,20 +17,45 @@ Start both the backend and frontend with a single command:
 
 This launches uvicorn (port 8000) and Vite (port 5173) together. Press `Ctrl+C` to stop both.
 
+## Docker
+
+The repo includes separate Dockerfiles for the backend and frontend.
+
+### Backend image
+
+```bash
+docker build -f Dockerfile.backend -t seasonal-foods-backend .
+docker run --rm -p 8000:8000 -v seasonal-foods-data:/app/data seasonal-foods-backend
+```
+
+The backend image installs dependencies with `uv` from `backend/pyproject.toml` and `backend/uv.lock`.
+
+API docs: http://127.0.0.1:8000/docs
+
+### Frontend image
+
+Build the frontend with the backend API URL baked in:
+
+```bash
+docker build -f Dockerfile.frontend --build-arg VITE_API_BASE_URL=http://127.0.0.1:8000 -t seasonal-foods-frontend .
+docker run --rm -p 8080:80 seasonal-foods-frontend
+```
+
+Open: http://127.0.0.1:8080
+
 ## Backend
 
 ### Setup
 
 ```bash
 cd backend
-python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
+uv sync
 ```
 
 ### Run
 
 ```bash
-.venv/bin/uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+uv run uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 Swagger docs: http://127.0.0.1:8000/docs
@@ -43,7 +68,8 @@ To re-seed after adding new data, delete the SQLite file and restart:
 
 ```bash
 rm backend/seasonal_food_finder.sqlite3
-.venv/bin/uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+cd backend
+uv run uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 ## Frontend
@@ -52,13 +78,13 @@ rm backend/seasonal_food_finder.sqlite3
 
 ```bash
 cd frontend
-npm install
+pnpm install
 ```
 
 ### Run
 
 ```bash
-VITE_API_BASE_URL=http://127.0.0.1:8000 npm run dev
+VITE_API_BASE_URL=http://127.0.0.1:8000 pnpm dev
 ```
 
 Open: http://127.0.0.1:5173
